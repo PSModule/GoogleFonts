@@ -1,17 +1,20 @@
-# PSModuleTemplate
+# GoogleFonts
 
 Add a short description about the module and the project.
 
 ## Prerequisites
 
-List any prerequisites needed to use the module, such as PowerShell versions, additional modules, or permissions.
+The following prerequisites are required for the module to function:
+
+- The [Fonts](https://psmodule.io/Fonts) module is required to install the fonts.
 
 ## Installation
 
 Provide step-by-step instructions on how to install the module, including any InstallModule commands or manual installation steps.
 
 ```powershell
-Install-Module -Name YourModuleName
+Install-Module -Name GoogleFonts
+Import-Module -Name GoogleFonts
 ```
 
 ## Usage
@@ -19,33 +22,21 @@ Install-Module -Name YourModuleName
 Here is a list of example that are typical use cases for the module.
 This section should provide a good overview of the module's capabilities.
 
-### Example 1
+### Install a Google Font
 
-Provide examples for typical commands that a user would like to do with the module.
-
-```powershell
-Import-Module -Name PSModuleTemplate
-```
-
-### Example 2
-
-Provide examples for typical commands that a user would like to do with the module.
+This example shows how to install a Google Font using the module.
 
 ```powershell
-Import-Module -Name PSModuleTemplate
+Install-GoogleFont -FontName 'RobotoMono'
 ```
 
-### Find more examples
+### Install all Google Fonts for all users
 
-To find more examples of how to use the module, please refer to the [examples](examples) folder.
+This example shows how to install all Google Fonts for all users on the machine.
 
-Alternatively, you can use the Get-Command -Module 'This module' to find more commands that are available in the module.
-To find examples of each of the commands you can use Get-Help -Examples 'CommandName'.
-
-## Documentation
-
-Link to further documentation if available, or describe where in the repository users can find more detailed documentation about
-the module's functions and features.
+```powershell
+Install-GoogleFont -All -Scope AllUsers
+```
 
 ## Contributing
 
@@ -65,3 +56,7 @@ You can either help by picking up an existing issue or submit a new one if you h
 ## Acknowledgements
 
 Here is a list of people and projects that helped this project in some way.
+
+## Sources
+
+- Google Fonts | [Web](https://fonts.google.com/) | [GitHub](https://github.com/google/fonts)
