@@ -1,4 +1,5 @@
-﻿#Requires -Modules Admin, Fonts
+﻿#Requires -Modules @{ ModuleName = 'Admin'; RequiredVersion = '1.1.1' }
+#Requires -Modules @{ ModuleName = 'Fonts'; RequiredVersion = '1.1.11' }
 
 function Install-GoogleFont {
     <#
