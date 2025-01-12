@@ -73,10 +73,16 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         } else {
             $fontList = @()
             foreach ($fontName in $Name) {
-                $fontList += $script:GoogleFonts | Where-Object { $_.Name -EQ $fontName }
+                Write-Verbose "[$fontName] - Searching for font"
+                $filteredFonts = $script:GoogleFonts | Where-Object { $_.Name -like $fontName }
+                Write-Verbose "[$fontName] - Found [$($filteredFonts.count)] fonts"
+                $fontList += $filteredFonts
             }
             foreach ($fontVariant in $Variant) {
-                $GoogleFontsToInstall += $fontList | Where-Object { $_.Variant -EQ $fontVariant }
+                Write-Verbose "[$fontVariant] - Searching for variant"
+                $filteredFonts = $fontList | Where-Object { $_.Variant -like $fontVariant }
+                Write-Verbose "[$fontVariant] - Found [$($filteredFonts.count)] fonts"
+                $GoogleFontsToInstall += $filteredFonts
             }
         }
 
@@ -85,7 +91,9 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         foreach ($GoogleFont in $GoogleFontsToInstall) {
             $URL = $GoogleFont.URL
             $fontName = $GoogleFont.Name
-            $downloadPath = Join-Path -Path $tempPath -ChildPath "$FontName"
+            $fontVariant = $GoogleFont.Variant
+            $fileName = "$fontName-$fontVariant.ttf"
+            $downloadPath = Join-Path -Path $tempPath -ChildPath "$fileName"
 
             Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
             if ($PSCmdlet.ShouldProcess($fontName, "Download $fontName")) {
