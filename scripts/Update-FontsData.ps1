@@ -6,8 +6,9 @@ foreach ($fontFamily in $fontFamilies) {
     $variants = $fontFamily.files.PSObject.Properties
     foreach ($variant in $variants) {
         $fonts += @{
-            Name = "$($fontFamily.family)-$($variant.Name)"
-            URL  = $variant.Value
+            Name    = $fontFamily.family
+            Variant = $variant.Name
+            URL     = $variant.Value
         }
     }
 }
