@@ -100,6 +100,9 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
     end {
         Write-Verbose "Remove folder [$tempPath]"
+    }
+
+    clean {
         Remove-Item -Path $tempPath -Force
     }
 }
