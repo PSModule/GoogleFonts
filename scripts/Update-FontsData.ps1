@@ -13,14 +13,8 @@ foreach ($fontFamily in $fontFamilies) {
     }
 }
 
-$variableContent = @(
-    "[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidLongLines', '', Justification = 'Long paths')]",
-    '$script:GoogleFonts = @''',
-    ($fonts | ConvertTo-Json),
-    "'@ | ConvertFrom-Json"
-)
-New-Item -Path 'src/variables/private/GoogleFonts.ps1' -ItemType File -Force
-$variableContent | Set-Content -Path 'src/variables/private/GoogleFonts.ps1' -Encoding utf8BOM -Force
+New-Item -Path 'data/GoogleFonts.json' -ItemType File -Force
+$fonts | ConvertTo-Json | Set-Content -Path 'data/GoogleFonts.json' -Encoding utf8BOM -Force
 
 git add .
 git commit -m 'Update-FontsData'

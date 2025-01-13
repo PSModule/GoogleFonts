@@ -31,4 +31,3 @@ jobs:
     with:
       Verbose: true
       Debug: true
-      SkipTests: SourceCode
