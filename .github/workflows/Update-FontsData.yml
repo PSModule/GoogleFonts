@@ -1,4 +1,4 @@
-name: Update GoogleFonts Data
+name: Update fonts data
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update GoogleFonts Data
+      - name: Update fonts data
         uses: PSModule/GitHub-Script@v1
         with:
-          Script: . .scripts\Update-GoogleFontsData.ps1
+          Script: . .scripts\Update-FontsData.ps1
