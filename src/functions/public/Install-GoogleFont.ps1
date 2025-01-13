@@ -98,7 +98,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
             Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
             if ($PSCmdlet.ShouldProcess($fontName, "Download $fontName")) {
-                Invoke-WebRequest -Uri $URL -OutFile $downloadPath -Verbose:$false
+                Invoke-WebRequest -Uri $URL -OutFile $downloadPath -Verbose:$false -RetryIntervalSec 5 -MaximumRetryCount 5
             }
 
             Write-Verbose "[$fontName] - Install to [$Scope]"
