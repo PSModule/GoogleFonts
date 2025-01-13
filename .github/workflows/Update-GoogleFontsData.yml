@@ -1,0 +1,21 @@
+name: Update GoogleFonts Data
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  Update-Coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update GoogleFonts Data
+        uses: PSModule/GitHub-Script@v1
+        with:
+          Script: . .scripts\Update-GoogleFontsData.ps1

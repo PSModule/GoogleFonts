@@ -1,38 +1,51 @@
 # GoogleFonts
 
-Add a short description about the module and the project.
+This is a PowerShell module for installing GoogleFonts on your system. This module and repository does not contain the fonts themselves,
+but rather a way to install them on your system.
+
+🎉 Kudos to the GoogleFonts community for keeping the library going! 🎉
+For any issues with the fonts themselves, please refer to the [GoogleFonts](https://github.com/google/fonts) repository.
 
 ## Prerequisites
 
-The following prerequisites are required for the module to function:
-
-- The [Fonts](https://psmodule.io/Fonts) module is required to install the fonts.
+This module depends on the [Fonts](https://psmodule.io/Fonts) module to manage fonts on the system.
 
 ## Installation
 
-Provide step-by-step instructions on how to install the module, including any InstallModule commands or manual installation steps.
+To install the module simply run the following command in a PowerShell terminal.
 
 ```powershell
-Install-Module -Name GoogleFonts
+Install-PSResource -Name GoogleFonts
 Import-Module -Name GoogleFonts
 ```
 
 ## Usage
 
-Here is a list of example that are typical use cases for the module.
-This section should provide a good overview of the module's capabilities.
+### Install a GoogleFont
 
-### Install a Google Font
-
-This example shows how to install a Google Font using the module.
+To install a GoogleFont on the system you can use the following command.
 
 ```powershell
-Install-GoogleFont -FontName 'RobotoMono'
+Install-GoogleFont -Name 'Roboto' # Tab completion works on name
 ```
 
-### Install all Google Fonts for all users
+To download the font from the GoogleFonts repository and install it on the system, run the following command.
 
-This example shows how to install all Google Fonts for all users on the machine.
+```powershell
+Install-GoogleFont -Name 'Roboto' -Scope AllUsers #Tab completion works on Scope too
+```
+
+### Install all GoogleFonts
+
+To install all GoogleFonts on the system you can use the following command.
+
+This will download and install all GoogleFonts to the current user.
+```powershell
+Install-GoogleFont -All
+```
+
+To install all GoogleFonts on the system for all users, run the following command.
+This requires the shell to run in an elevated context (sudo or run as administrator).
 
 ```powershell
 Install-GoogleFont -All -Scope AllUsers
@@ -53,10 +66,6 @@ Please see the issues tab on this project and submit a new issue that matches yo
 If you do code, we'd love to have your contributions. Please read the [Contribution guidelines](CONTRIBUTING.md) for more information.
 You can either help by picking up an existing issue or submit a new one if you have an idea for a new feature or improvement.
 
-## Acknowledgements
+## Links
 
-Here is a list of people and projects that helped this project in some way.
-
-## Sources
-
-- Google Fonts | [Web](https://fonts.google.com/) | [GitHub](https://github.com/google/fonts)
+- GoogleFonts | [GitHub](https://github.com/google/fonts) | [Web](https://fonts.google.com/)
