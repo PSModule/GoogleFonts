@@ -21,4 +21,4 @@ jobs:
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
         with:
-          Script: . 'scripts\Update-FontsData.ps1'
+          Script: . 'scripts/Update-FontsData.ps1'
