@@ -68,12 +68,11 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         if ($All) {
             $GoogleFontsToInstall = $script:GoogleFonts
         } else {
-            $fontList = @()
             foreach ($fontName in $Name) {
                 Write-Verbose "[$fontName] - Searching for font"
                 $filteredFonts = $script:GoogleFonts | Where-Object { $_.Name -like $fontName }
                 Write-Verbose "[$fontName] - Found [$($filteredFonts.count)] fonts"
-                $fontList += $filteredFonts
+                $GoogleFontsToInstall += $filteredFonts
             }
         }
 
