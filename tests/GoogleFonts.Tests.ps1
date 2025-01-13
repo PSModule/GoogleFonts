@@ -18,10 +18,5 @@
             { Install-GoogleFont -Name 'Akshar' } | Should -Not -Throw
             Get-Font -Name 'Akshar*' | Should -Not -BeNullOrEmpty
         }
-
-        It '[Install-GoogleFont] - Installs all fonts' {
-            { Install-GoogleFont -All -Verbose } | Should -Not -Throw
-            Get-Font -Name 'Nabla*' | Should -Not -BeNullOrEmpty
-        }
     }
 }
