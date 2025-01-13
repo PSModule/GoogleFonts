@@ -9,7 +9,8 @@ permissions:
   contents: write
 
 jobs:
-  Update-fonts-data:
+  update:
+    name: Update fonts data
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -20,4 +21,4 @@ jobs:
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
         with:
-          Script: scripts\Update-FontsData.ps1
+          Script: . scripts\Update-FontsData.ps1
