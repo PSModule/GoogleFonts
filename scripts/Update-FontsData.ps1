@@ -13,9 +13,9 @@ foreach ($fontFamily in $fontFamilies) {
     }
 }
 
-New-Item -Path 'data\GoogleFonts.json' -ItemType File -Force
-$fonts | ConvertTo-Json | Set-Content -Path 'data\GoogleFonts.json' -Force
+New-Item -Path 'data\FontsData.json' -ItemType File -Force
+$fonts | ConvertTo-Json | Set-Content -Path 'data\FontsData.json' -Force
 
 git add .
-git commit -m 'Update-GoogleFonts'
+git commit -m 'Update-FontsData'
 git push

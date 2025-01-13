@@ -1,4 +1,4 @@
-name: Update fonts data
+name: Update-FontsData
 
 on:
   push:
@@ -9,14 +9,14 @@ permissions:
   contents: write
 
 jobs:
-  update:
-    name: Update fonts data
+  Update-FontsData:
+    name: Update-FontsData
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update fonts data
+      - name: Update-FontsData
         uses: PSModule/GitHub-Script@v1
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
