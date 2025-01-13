@@ -7,14 +7,14 @@
         Get GoogleFonts asset list, filtered by name, from the latest release.
 
         .EXAMPLE
+        Get-GoogleFonts
+
+        Get all the GoogleFonts.
+
+        .EXAMPLE
         Get-GoogleFonts -Name 'Roboto'
 
         Get the GoogleFont asset with the name 'Roboto'.
-
-        .EXAMPLE
-        Get-GoogleFonts -Name 'Roboto' -Variant 'regular'
-
-        Get the GoogleFont asset with the name 'Roboto' and the variant 'regular'.
 
         .EXAMPLE
         Get-GoogleFonts -Name 'Noto*'
@@ -27,16 +27,10 @@
         # Name of the GoogleFont to get
         [Parameter()]
         [SupportsWildcards()]
-        [string] $Name = '*',
-
-        # Variant of the font to get
-        [Parameter()]
-        [SupportsWildcards()]
-        [string] $Variant = '*'
+        [string] $Name = '*'
     )
 
     Write-Verbose 'Selecting assets by:'
     Write-Verbose "Name:    [$Name]"
-    Write-Verbose "Variant: [$Variant]"
-    $script:GoogleFonts | Where-Object { $_.Name -like $Name -and $_.Variant -like $Variant }
+    $script:GoogleFonts | Where-Object { $_.Name -like $Name }
 }

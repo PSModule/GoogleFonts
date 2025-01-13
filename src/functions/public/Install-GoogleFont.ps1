@@ -79,12 +79,6 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 Write-Verbose "[$fontName] - Found [$($filteredFonts.count)] fonts"
                 $fontList += $filteredFonts
             }
-            foreach ($fontVariant in $Variant) {
-                Write-Verbose "[$fontVariant] - Searching for variant"
-                $filteredFonts = $fontList | Where-Object { $_.Variant -like $fontVariant }
-                Write-Verbose "[$fontVariant] - Found [$($filteredFonts.count)] fonts"
-                $GoogleFontsToInstall += $filteredFonts
-            }
         }
 
         Write-Verbose "[$Scope] - Installing [$($GoogleFontsToInstall.count)] fonts"
