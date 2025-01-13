@@ -13,8 +13,9 @@ foreach ($fontFamily in $fontFamilies) {
     }
 }
 
-New-Item -Path 'data\FontsData.json' -ItemType File -Force
-$fonts | ConvertTo-Json | Set-Content -Path 'data\FontsData.json' -Force
+$variableContent = '$script:GoogleFonts = @''', ($fonts | ConvertTo-Json), "'@ | ConvertFrom-Json"
+New-Item -Path 'src/variables/private/GoogleFonts.ps1' -ItemType File -Force
+$variableContent | Set-Content -Path 'src/variables/private/GoogleFonts.ps1' -Encoding utf8BOM -Force
 
 git add .
 git commit -m 'Update-FontsData'
