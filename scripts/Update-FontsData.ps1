@@ -13,8 +13,12 @@ foreach ($fontFamily in $fontFamilies) {
     }
 }
 
-$variableContent = "[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidLongLines', '', Justification = 'Long paths')]"
-$variableContent += '$script:GoogleFonts = @''', ($fonts | ConvertTo-Json), "'@ | ConvertFrom-Json"
+$variableContent = @(
+    "[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidLongLines', '', Justification = 'Long paths')]",
+    '$script:GoogleFonts = @''',
+    ($fonts | ConvertTo-Json),
+    "'@ | ConvertFrom-Json"
+)
 New-Item -Path 'src/variables/private/GoogleFonts.ps1' -ItemType File -Force
 $variableContent | Set-Content -Path 'src/variables/private/GoogleFonts.ps1' -Encoding utf8BOM -Force
 
