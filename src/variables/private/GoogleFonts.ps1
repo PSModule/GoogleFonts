@@ -1,5 +1,4 @@
-﻿$script:GoogleFonts = @'
-[
+﻿[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidLongLines', '', Justification = 'Long paths')]$script:GoogleFonts = @' [
   {
     "Name": "ABeeZee",
     "Variant": "regular",
@@ -33850,5 +33849,4 @@
     "Variant": "700",
     "URL": "https://fonts.gstatic.com/s/zillaslabhighlight/v19/gNMUW2BrTpK8-inLtBJgMMfbm6uNVDvRxiP0TET4YmVF0Mb6.ttf"
   }
-]
-'@ | ConvertFrom-Json
+] '@ | ConvertFrom-Json
