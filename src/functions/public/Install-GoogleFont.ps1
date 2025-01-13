@@ -37,10 +37,6 @@ function Install-GoogleFont {
         )]
         [string[]] $Name,
 
-        # Specify the variant of the Google Font(s) to install.
-        [Parameter(ParameterSetName = 'Name')]
-        [string[]] $Variant = '*',
-
         # Specify to install all Google Font(s).
         [Parameter(ParameterSetName = 'All', Mandatory)]
         [switch] $All,
@@ -60,11 +56,11 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         }
         $GoogleFontsToInstall = @()
 
-        $tempPath = Join-Path -Path $HOME -ChildPath '.googlefonts'
+        $guid = (New-Guid).Guid
+        $tempPath = Join-Path -Path $HOME -ChildPath "GoogleFonts-$guid"
         if (-not (Test-Path -Path $tempPath -PathType Container)) {
             Write-Verbose "Create folder [$tempPath]"
             $null = New-Item -Path $tempPath -ItemType Directory
-            $tempFolderCreated = $true
         }
     }
 
@@ -72,17 +68,10 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         if ($All) {
             $GoogleFontsToInstall = $script:GoogleFonts
         } else {
-            $fontList = @()
             foreach ($fontName in $Name) {
                 Write-Verbose "[$fontName] - Searching for font"
                 $filteredFonts = $script:GoogleFonts | Where-Object { $_.Name -like $fontName }
                 Write-Verbose "[$fontName] - Found [$($filteredFonts.count)] fonts"
-                $fontList += $filteredFonts
-            }
-            foreach ($fontVariant in $Variant) {
-                Write-Verbose "[$fontVariant] - Searching for variant"
-                $filteredFonts = $fontList | Where-Object { $_.Variant -like $fontVariant }
-                Write-Verbose "[$fontVariant] - Found [$($filteredFonts.count)] fonts"
                 $GoogleFontsToInstall += $filteredFonts
             }
         }
@@ -110,9 +99,10 @@ Please run the command again with elevated rights (Run as Administrator) or prov
     }
 
     end {
-        if ($tempFolderCreated) {
-            Write-Verbose "Remove folder [$tempPath]"
-            Remove-Item -Path $tempPath -Force
-        }
+        Write-Verbose "Remove folder [$tempPath]"
+    }
+
+    clean {
+        Remove-Item -Path $tempPath -Force
     }
 }
