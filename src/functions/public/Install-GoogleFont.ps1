@@ -92,7 +92,9 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         foreach ($googleFont in $googleFontsToInstall) {
             $URL = $googleFont.URL
             $fontName = $googleFont.Name
-            $downloadFileName = Split-Path -Path $URL -Leaf
+            $fontVariant = $GoogleFont.Variant
+            $fileExtension = $URL.Split('.')[-1]
+            $downloadFileName = "$fontName-$fontVariant.$fileExtension"
             $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
 
             Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
