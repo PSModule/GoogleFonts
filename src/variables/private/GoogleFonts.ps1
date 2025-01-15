@@ -1,1 +1,1 @@
-﻿$script:GoogleFonts = Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/PSModule/GoogleFonts/refs/heads/main/data/GoogleFonts.json'
+﻿$script:GoogleFonts = Get-Content -Path (Join-Path -Path $PSScriptRoot -ChildPath 'FontsData.json') | ConvertFrom-Json
