@@ -1,10 +1,10 @@
 ﻿function Get-GoogleFont {
     <#
         .SYNOPSIS
-        Get GoogleFonts asset list
+        Get GoogleFonts list
 
         .DESCRIPTION
-        Get GoogleFonts asset list, filtered by name, from the latest release.
+        Get GoogleFonts list, filtered by name, from the latest release.
 
         .EXAMPLE
         Get-GoogleFonts
@@ -14,14 +14,15 @@
         .EXAMPLE
         Get-GoogleFonts -Name 'Roboto'
 
-        Get the GoogleFont asset with the name 'Roboto'.
+        Get the GoogleFont with the name 'Roboto'.
 
         .EXAMPLE
         Get-GoogleFonts -Name 'Noto*'
 
-        Get the GoogleFont asset with the name starting with 'Noto'.
+        Get the GoogleFont with the name starting with 'Noto'.
     #>
     [Alias('Get-GoogleFonts')]
+    [OutputType([System.Object[]])]
     [CmdletBinding()]
     param (
         # Name of the GoogleFont to get
