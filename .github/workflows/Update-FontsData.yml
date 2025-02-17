@@ -22,4 +22,6 @@ jobs:
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
         with:
+          ClientID: ${{ secrets.PSMODULE_CLIENT_ID }}
+          PrivateKey: ${{ secrets.PSMODULE_PRIVATE_KEY }}
           Script: scripts/Update-FontsData.ps1
