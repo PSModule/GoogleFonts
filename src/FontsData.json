@@ -1,5 +1,35 @@
 [
   {
+    "Name": "42dot Sans",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRiHYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjrYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRgHZUNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRg-ZUNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRhZZUNScXgiTCI-.ttf"
+  },
+  {
     "Name": "ABeeZee",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN6tKukbcHCpE.ttf"
