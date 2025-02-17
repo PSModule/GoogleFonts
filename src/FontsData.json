@@ -1,5 +1,35 @@
 [
   {
+    "Name": "42dot Sans",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRiHYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjZYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRjrYkNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRgHZUNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRg-ZUNScXgiTCI-.ttf"
+  },
+  {
+    "Name": "42dot Sans",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/42dotsans/v1/BXR7vFK-2v7FnQ1xTYUJy2T9rRBKbpqjqRhZZUNScXgiTCI-.ttf"
+  },
+  {
     "Name": "ABeeZee",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN6tKukbcHCpE.ttf"
@@ -11332,72 +11362,72 @@
   {
     "Name": "IBM Plex Sans",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKjbLeEKxIedbzDw.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "100italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX8KVElMYYaJe8bpLHnCwDKhdTmdKZMW9PjD3N8.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6lhzAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjR7_MIZmdd_qFmo.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "200italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idscf3vBmpl8A.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDallzAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8MIZmdd_qFmo.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRscf3vBmpl8A.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDtFlzAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYXgKVElMYYaJe8bpLHnCwDKtdbUFI5NadY.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX-KVElMYYaJe8bpLHnCwDKhdTeEKxIedbzDw.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llzAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVscf3vBmpl8A.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD2FlzAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76MIZmdd_qFmo.ttf"
-  },
-  {
-    "Name": "IBM Plex Sans",
-    "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJscf3vBmpl8A.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDNF5zAKI5loa26g.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAKI5loa26g.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "100italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQqg9tIOm6vje.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "200italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhobQ6g9tIOm6vje.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhrFQ6g9tIOm6vje.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqbQ6g9tIOm6vje.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhqpQ6g9tIOm6vje.ttf"
+  },
+  {
+    "Name": "IBM Plex Sans",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhpFRKg9tIOm6vje.ttf"
   },
   {
     "Name": "IBM Plex Sans",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v19/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINscf3vBmpl8A.ttf"
+    "URL": "https://fonts.gstatic.com/s/ibmplexsans/v21/zYXEKVElMYYaJe8bpLHnCwDKhdTEG46kmUZQCX598fQbM4jw8V78x9OWIhp8RKg9tIOm6vje.ttf"
   },
   {
     "Name": "IBM Plex Sans Arabic",
@@ -11966,13 +11996,53 @@
   },
   {
     "Name": "Inclusive Sans",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk8C9biPuwflXcJ46P4PGWE08T-gfZusL0kQqtfLhtN7mxtc0bIsQ.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/inclusivesans/v1/0nkxC9biPuwflXcJ46P4PGWE0971owa2LB4i.ttf"
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk8C9biPuwflXcJ46P4PGWE08T-gfZusL0kQqtfcBtN7mxtc0bIsQ.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk8C9biPuwflXcJ46P4PGWE08T-gfZusL0kQqtfQhtN7mxtc0bIsQ.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk8C9biPuwflXcJ46P4PGWE08T-gfZusL0kQqtfrhxN7mxtc0bIsQ.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk8C9biPuwflXcJ46P4PGWE08T-gfZusL0kQqtflxxN7mxtc0bIsQ.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk-C9biPuwflXcJ46P4PGWE0-73swm22da-7KxKuFj7rWZpUUPYsTVx.ttf"
   },
   {
     "Name": "Inclusive Sans",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/inclusivesans/v1/0nkzC9biPuwflXcJ46P4PGWE0-73qQKUKQ4iT6o.ttf"
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk-C9biPuwflXcJ46P4PGWE0-73swm22da-7KxKuFilrWZpUUPYsTVx.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk-C9biPuwflXcJ46P4PGWE0-73swm22da-7KxKuFiXrWZpUUPYsTVx.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk-C9biPuwflXcJ46P4PGWE0-73swm22da-7KxKuFh7qmZpUUPYsTVx.ttf"
+  },
+  {
+    "Name": "Inclusive Sans",
+    "Variant": "700italic",
+    "URL": "https://fonts.gstatic.com/s/inclusivesans/v2/0nk-C9biPuwflXcJ46P4PGWE0-73swm22da-7KxKuFhCqmZpUUPYsTVx.ttf"
   },
   {
     "Name": "Inconsolata",
@@ -12417,32 +12487,32 @@
   {
     "Name": "Jacquard 12",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquard12/v6/vm8ydRLuXETEweL79J4rGc3JUnr34c9-.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquard12/v7/vm8ydRLuXETEweL79J4rGc3JUnr34c9-.ttf"
   },
   {
     "Name": "Jacquard 12 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquard12charted/v2/i7dWIE97bzCOB9Q_Up6PQmYfKDPIb2HwT3StZ9jetKY.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquard12charted/v3/i7dWIE97bzCOB9Q_Up6PQmYfKDPIb2HwT3StZ9jetKY.ttf"
   },
   {
     "Name": "Jacquard 24",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquard24/v2/jVyO7nf_B2zO5jVpUGU8lgQEdchf9xXp.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquard24/v3/jVyO7nf_B2zO5jVpUGU8lgQEdchf9xXp.ttf"
   },
   {
     "Name": "Jacquard 24 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquard24charted/v3/mtGm4-dNK6HaudrE9VVKhENTsEXEYish0iRrMYJ_K-4.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquard24charted/v4/mtGm4-dNK6HaudrE9VVKhENTsEXEYish0iRrMYJ_K-4.ttf"
   },
   {
     "Name": "Jacquarda Bastarda 9",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquardabastarda9/v4/f0Xp0fWr_8t6WFtKQJfOhaC0hcZ1HYAMAbwD1TB_JHHY.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquardabastarda9/v5/f0Xp0fWr_8t6WFtKQJfOhaC0hcZ1HYAMAbwD1TB_JHHY.ttf"
   },
   {
     "Name": "Jacquarda Bastarda 9 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jacquardabastarda9charted/v2/Yq6D-KaMUyfq4qLgx19A_ocp43FeLd9m0vDxm-yf8JPuf0cPaL8pmQg.ttf"
+    "URL": "https://fonts.gstatic.com/s/jacquardabastarda9charted/v3/Yq6D-KaMUyfq4qLgx19A_ocp43FeLd9m0vDxm-yf8JPuf0cPaL8pmQg.ttf"
   },
   {
     "Name": "Jacques Francois",
@@ -12482,37 +12552,37 @@
   {
     "Name": "Jersey 10",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey10/v2/GftH7vZKsggXMf9n_J5X-JLgy1wtSw.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey10/v3/GftH7vZKsggXMf9n_J5X-JLgy1wtSw.ttf"
   },
   {
     "Name": "Jersey 10 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey10charted/v2/oY1E8fPFr6XiNWqEp90XSbwUGfF8SnedKmeBvEYs.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey10charted/v3/oY1E8fPFr6XiNWqEp90XSbwUGfF8SnedKmeBvEYs.ttf"
   },
   {
     "Name": "Jersey 15",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey15/v2/_6_9EDzuROGsUuk2TWjSYoohsCkvSQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey15/v3/_6_9EDzuROGsUuk2TWjSYoohsCkvSQ.ttf"
   },
   {
     "Name": "Jersey 15 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey15charted/v2/nuFjD-rCQIjoVp1Sva2ToCTudGbLeRv4r2024gxi.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey15charted/v3/nuFjD-rCQIjoVp1Sva2ToCTudGbLeRv4r2024gxi.ttf"
   },
   {
     "Name": "Jersey 20",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey20/v2/ZgNRjP1ON6jeW4D12z3crE_qP4mXuQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey20/v3/ZgNRjP1ON6jeW4D12z3crE_qP4mXuQ.ttf"
   },
   {
     "Name": "Jersey 20 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey20charted/v2/JTUNjJMy9DKq5FzVaj9tpgYgvHqGn_Z1ji-rqnQ_.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey20charted/v3/JTUNjJMy9DKq5FzVaj9tpgYgvHqGn_Z1ji-rqnQ_.ttf"
   },
   {
     "Name": "Jersey 25",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/jersey25/v2/ll8-K2eeXj2tAs6F9BXIJ4AMng8ChA.ttf"
+    "URL": "https://fonts.gstatic.com/s/jersey25/v3/ll8-K2eeXj2tAs6F9BXIJ4AMng8ChA.ttf"
   },
   {
     "Name": "Jersey 25 Charted",
@@ -15220,6 +15290,11 @@
     "URL": "https://fonts.gstatic.com/s/lisubosa/v2/3XFzErkv240fsdmJRJQflXliQtzc9vhCblye.ttf"
   },
   {
+    "Name": "Liter",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/liter/v1/SLXGc1nX4GQ4d2ImRJqExst1.ttf"
+  },
+  {
     "Name": "Literata",
     "Variant": "200",
     "URL": "https://fonts.gstatic.com/s/literata/v35/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbJG_F_bcTWCWp8g.ttf"
@@ -15972,7 +16047,7 @@
   {
     "Name": "Maname",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/maname/v1/gNMFW3J8RpCx9my42FkGGI6q_Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/maname/v2/gNMFW3J8RpCx9my42FkGGI6q_Q.ttf"
   },
   {
     "Name": "Mandali",
@@ -16347,107 +16422,107 @@
   {
     "Name": "Material Symbols Outlined",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v226/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v222/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v226/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v218/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v222/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Maven Pro",
@@ -16662,7 +16737,7 @@
   {
     "Name": "Metal",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/metal/v30/lW-wwjUJIXTo7i3nnoQAUdN2.ttf"
+    "URL": "https://fonts.gstatic.com/s/metal/v31/lW-wwjUJIXTo7i3nnoQAUdN2.ttf"
   },
   {
     "Name": "Metal Mania",
@@ -16687,12 +16762,12 @@
   {
     "Name": "Micro 5",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/micro5/v1/H4cnBX2MkcfEngTr0gYQ7LO5mqc.ttf"
+    "URL": "https://fonts.gstatic.com/s/micro5/v2/H4cnBX2MkcfEngTr0gYQ7LO5mqc.ttf"
   },
   {
     "Name": "Micro 5 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/micro5charted/v1/hESp6XxmPDtTtADZhn7oD_yrmxEGRUsJQAlbUA.ttf"
+    "URL": "https://fonts.gstatic.com/s/micro5charted/v2/hESp6XxmPDtTtADZhn7oD_yrmxEGRUsJQAlbUA.ttf"
   },
   {
     "Name": "Milonga",
@@ -16752,22 +16827,22 @@
   {
     "Name": "Mirza",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/mirza/v17/co3ImWlikiN5EurdKMewsrvI.ttf"
+    "URL": "https://fonts.gstatic.com/s/mirza/v18/co3ImWlikiN5EurdKMewsrvI.ttf"
   },
   {
     "Name": "Mirza",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/mirza/v17/co3FmWlikiN5EtIpAeO4mafBomDi.ttf"
+    "URL": "https://fonts.gstatic.com/s/mirza/v18/co3FmWlikiN5EtIpAeO4mafBomDi.ttf"
   },
   {
     "Name": "Mirza",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/mirza/v17/co3FmWlikiN5EtIFBuO4mafBomDi.ttf"
+    "URL": "https://fonts.gstatic.com/s/mirza/v18/co3FmWlikiN5EtIFBuO4mafBomDi.ttf"
   },
   {
     "Name": "Mirza",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/mirza/v17/co3FmWlikiN5EtJhB-O4mafBomDi.ttf"
+    "URL": "https://fonts.gstatic.com/s/mirza/v18/co3FmWlikiN5EtJhB-O4mafBomDi.ttf"
   },
   {
     "Name": "Miss Fajardose",
@@ -16807,17 +16882,17 @@
   {
     "Name": "Mochiy Pop One",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/mochiypopone/v10/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf"
+    "URL": "https://fonts.gstatic.com/s/mochiypopone/v11/QdVPSTA9Jh-gg-5XZP2UmU4O9kwwD3s6ZKAi.ttf"
   },
   {
     "Name": "Mochiy Pop P One",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/mochiypoppone/v10/Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf"
+    "URL": "https://fonts.gstatic.com/s/mochiypoppone/v11/Ktk2AKuPeY_td1-h9LayHYWCjAqyN4O3WYZB_sU.ttf"
   },
   {
     "Name": "Modak",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/modak/v18/EJRYQgs1XtIEsnMH8BVZ76KU.ttf"
+    "URL": "https://fonts.gstatic.com/s/modak/v20/EJRYQgs1XtIEsnMH8BVZ76KU.ttf"
   },
   {
     "Name": "Modern Antiqua",
@@ -16857,7 +16932,7 @@
   {
     "Name": "Mogra",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/mogra/v19/f0X40eSs8c95TBo4DvLmxtnG.ttf"
+    "URL": "https://fonts.gstatic.com/s/mogra/v21/f0X40eSs8c95TBo4DvLmxtnG.ttf"
   },
   {
     "Name": "Mohave",
@@ -17028,6 +17103,11 @@
     "Name": "Monofett",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/monofett/v23/mFTyWbofw6zc9NtnW43SuRwr0VJ7.ttf"
+  },
+  {
+    "Name": "Monomakh",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/monomakh/v1/Wnz4HAk3Yh_SC3FACTYdiArcPRKo.ttf"
   },
   {
     "Name": "Monomaniac One",
@@ -21680,6 +21760,46 @@
     "URL": "https://fonts.gstatic.com/s/notoserifhebrew/v28/k3k0o9MMPvpLmixYH7euCwmkS9DohjX1-kRyiqyBqIxnoLbp93i9IKrXKF_qVKUVAG8_vlQxz24.ttf"
   },
   {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwGqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hztIGqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzowGqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzr4GqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzlIBqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzmsBqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hzgwBqxEZWEARdDE.ttf"
+  },
+  {
+    "Name": "Noto Serif Hentaigana",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/notoserifhentaigana/v14/uk-OEHi3o6EruUbj3pGaDj3siVARn-kqgu1eOHk7wYK23O0hziUBqxEZWEARdDE.ttf"
+  },
+  {
     "Name": "Noto Serif JP",
     "Variant": "200",
     "URL": "https://fonts.gstatic.com/s/notoserifjp/v30/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2byxOubAILO5wBCU.ttf"
@@ -22418,6 +22538,11 @@
     "Name": "Noto Serif Tibetan",
     "Variant": "900",
     "URL": "https://fonts.gstatic.com/s/notoseriftibetan/v22/gokGH7nwAEdtF9N45n0Vaz7O-pk0wsvxHeDXMfqguoCmIh8bPS7rdSy_32c.ttf"
+  },
+  {
+    "Name": "Noto Serif Todhri",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/notoseriftodhri/v3/dFalZeyY-aYz1YVbjMoBWml1nBz7N3ByX6n0fnNk.ttf"
   },
   {
     "Name": "Noto Serif Toto",
@@ -24022,72 +24147,72 @@
   {
     "Name": "Playfair",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPlKetgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkUetgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPkmetgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnKfdgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPnzfdgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPmUfdgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkQC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SiiZ4b8h5G3GutPm9fdgdoSMw5ifm.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOW5eqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOTBeqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOQJeqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOe5ZqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOddZqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "800italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcObBZqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/playfair/v2/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playfair/v9/0nkSC9D7PO4KhmUJ59baVQ_iWhg0cgSrLQZDFpFUsLCFf_1ubkfQeG9KkBAQcOsAs-zcOZlZqycS4zfmNrE.ttf"
   },
   {
     "Name": "Playfair Display",
@@ -24222,22 +24347,22 @@
   {
     "Name": "Playwrite AR",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritear/v1/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-fteqf-ES67xIO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-fteqf-ES67xIO8.ttf"
   },
   {
     "Name": "Playwrite AR",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritear/v1/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-Xtfqf-ES67xIO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-Xtfqf-ES67xIO8.ttf"
   },
   {
     "Name": "Playwrite AR",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritear/v1/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-aVfqf-ES67xIO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-aVfqf-ES67xIO8.ttf"
   },
   {
     "Name": "Playwrite AR",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritear/v1/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfqf-ES67xIO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritear/v4/VEMjRohisJz5pTCzruCNjWbfp_N-aNWqYgKS-ftfqf-ES67xIO8.ttf"
   },
   {
     "Name": "Playwrite AR Guides",
@@ -24247,42 +24372,42 @@
   {
     "Name": "Playwrite AT",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d03MLIHJ-rk.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M77d03MLIHJ-rk.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d03MLIHJ-rk.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2E76d03MLIHJ-rk.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d03MLIHJ-rk.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2JD6d03MLIHJ-rk.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d03MLIHJ-rk.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6owc7n6kfJN4fVoKON7HIEBRSfb0U2uGBm2M76d03MLIHJ-rk.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "100italic",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GKKPM6rkyVg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw_GKKPM6rkyVg.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "200italic",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GKKPM6rkyVg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5Hw7GKKPM6rkyVg.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GKKPM6rkyVg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5wQ7GKKPM6rkyVg.ttf"
   },
   {
     "Name": "Playwrite AT",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/playwriteat/v1/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GKKPM6rkyVg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteat/v4/Gw6uwc7n6kfJN4fVoKON7HIuDCZgtyxdIs5hzQa5nw7GKKPM6rkyVg.ttf"
   },
   {
     "Name": "Playwrite AT Guides",
@@ -24297,22 +24422,22 @@
   {
     "Name": "Playwrite AU NSW",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v4/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML96TD2dC1gS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjML96TD2dC1gS.ttf"
   },
   {
     "Name": "Playwrite AU NSW",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v4/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb96TD2dC1gS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xbjMb96TD2dC1gS.ttf"
   },
   {
     "Name": "Playwrite AU NSW",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v4/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb96TD2dC1gS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xY9Mb96TD2dC1gS.ttf"
   },
   {
     "Name": "Playwrite AU NSW",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v4/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb96TD2dC1gS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteaunsw/v9/6qLWKY4NtxD-qVlIPUIPenElWCCEWRgilpupBXi19xZjMb96TD2dC1gS.ttf"
   },
   {
     "Name": "Playwrite AU NSW Guides",
@@ -24322,22 +24447,22 @@
   {
     "Name": "Playwrite AU QLD",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v4/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6-yMY2fqm1BV-XS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v9/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6-yMY2fqm1BV-XS.ttf"
   },
   {
     "Name": "Playwrite AU QLD",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v4/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA68yMI2fqm1BV-XS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v9/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA68yMI2fqm1BV-XS.ttf"
   },
   {
     "Name": "Playwrite AU QLD",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v4/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6_sMI2fqm1BV-XS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v9/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6_sMI2fqm1BV-XS.ttf"
   },
   {
     "Name": "Playwrite AU QLD",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v4/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6-yMI2fqm1BV-XS.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauqld/v9/SlGGmR-Yo5oYZX5BFVcEwSFSOXBRWADAWbgjmLBhA6-yMI2fqm1BV-XS.ttf"
   },
   {
     "Name": "Playwrite AU QLD Guides",
@@ -24347,22 +24472,22 @@
   {
     "Name": "Playwrite AU SA",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteausa/v4/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgQcuVjCoV0bbE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgQcuVjCoV0bbE.ttf"
   },
   {
     "Name": "Playwrite AU SA",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteausa/v4/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpRgRcuVjCoV0bbE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpRgRcuVjCoV0bbE.ttf"
   },
   {
     "Name": "Playwrite AU SA",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteausa/v4/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpcYRcuVjCoV0bbE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpcYRcuVjCoV0bbE.ttf"
   },
   {
     "Name": "Playwrite AU SA",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteausa/v4/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRcuVjCoV0bbE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteausa/v9/YcmhsZpNS1SdgmHbGgtRuUElnR3CmSC5bVQVlrclpZgRcuVjCoV0bbE.ttf"
   },
   {
     "Name": "Playwrite AU SA Guides",
@@ -24372,22 +24497,22 @@
   {
     "Name": "Playwrite AU TAS",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteautas/v4/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLUEHqK6Hl9WrXm4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteautas/v9/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLUEHqK6Hl9WrXm4.ttf"
   },
   {
     "Name": "Playwrite AU TAS",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteautas/v4/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLWEH6K6Hl9WrXm4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteautas/v9/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLWEH6K6Hl9WrXm4.ttf"
   },
   {
     "Name": "Playwrite AU TAS",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteautas/v4/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLVaH6K6Hl9WrXm4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteautas/v9/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLVaH6K6Hl9WrXm4.ttf"
   },
   {
     "Name": "Playwrite AU TAS",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteautas/v4/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLUEH6K6Hl9WrXm4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteautas/v9/GftT7u9QuxsdI_QuuctXue3ElxxmcBb3ih0opvWiLLUEH6K6Hl9WrXm4.ttf"
   },
   {
     "Name": "Playwrite AU TAS Guides",
@@ -24397,22 +24522,22 @@
   {
     "Name": "Playwrite AU VIC",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v4/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4fTaLK0CBIDKNvl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v9/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4fTaLK0CBIDKNvl.ttf"
   },
   {
     "Name": "Playwrite AU VIC",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v4/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4dTabK0CBIDKNvl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v9/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4dTabK0CBIDKNvl.ttf"
   },
   {
     "Name": "Playwrite AU VIC",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v4/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4eNabK0CBIDKNvl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v9/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4eNabK0CBIDKNvl.ttf"
   },
   {
     "Name": "Playwrite AU VIC",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v4/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4fTabK0CBIDKNvl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteauvic/v9/bWtu7enUfwn0Hf1zjprKOJdcDy8rxwC1ltAeNDAAd4fTabK0CBIDKNvl.ttf"
   },
   {
     "Name": "Playwrite AU VIC Guides",
@@ -24472,22 +24597,22 @@
   {
     "Name": "Playwrite BR",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritebr/v4/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmFOOFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritebr/v9/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmFOOFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite BR",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritebr/v4/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmNOPFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritebr/v9/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmNOPFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite BR",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritebr/v4/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmA2PFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritebr/v9/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmA2PFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite BR",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritebr/v4/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmFOPFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritebr/v9/kJEhBuMK4Q07lDHc2Xp9vYgIp-6D3QEGCpthmFOPFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite BR Guides",
@@ -24497,22 +24622,22 @@
   {
     "Name": "Playwrite CA",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteca/v4/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHiquYp261AIQU98.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteca/v9/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHiquYp261AIQU98.ttf"
   },
   {
     "Name": "Playwrite CA",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteca/v4/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHqqvYp261AIQU98.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteca/v9/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHqqvYp261AIQU98.ttf"
   },
   {
     "Name": "Playwrite CA",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteca/v4/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHnSvYp261AIQU98.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteca/v9/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHnSvYp261AIQU98.ttf"
   },
   {
     "Name": "Playwrite CA",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteca/v4/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHiqvYp261AIQU98.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteca/v9/z7NGdR_4cT0NOrEAIElil93uR_VhfhYaYOijHiqvYp261AIQU98.ttf"
   },
   {
     "Name": "Playwrite CA Guides",
@@ -24522,22 +24647,22 @@
   {
     "Name": "Playwrite CL",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritecl/v1/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JbvLq3DyPNbus.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JbvLq3DyPNbus.ttf"
   },
   {
     "Name": "Playwrite CL",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritecl/v1/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU0JavLq3DyPNbus.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU0JavLq3DyPNbus.ttf"
   },
   {
     "Name": "Playwrite CL",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritecl/v1/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU5xavLq3DyPNbus.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU5xavLq3DyPNbus.ttf"
   },
   {
     "Name": "Playwrite CL",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritecl/v1/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JavLq3DyPNbus.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecl/v5/-zk391m7wssz_XLkGgu8hy3tqrcOhnbf6ForU8JavLq3DyPNbus.ttf"
   },
   {
     "Name": "Playwrite CL Guides",
@@ -24547,22 +24672,22 @@
   {
     "Name": "Playwrite CO",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteco/v6/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx7ZJo-dOEhxX3Iw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteco/v12/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx7ZJo-dOEhxX3Iw.ttf"
   },
   {
     "Name": "Playwrite CO",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteco/v6/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqxzZIo-dOEhxX3Iw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteco/v12/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqxzZIo-dOEhxX3Iw.ttf"
   },
   {
     "Name": "Playwrite CO",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteco/v6/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx-hIo-dOEhxX3Iw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteco/v12/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx-hIo-dOEhxX3Iw.ttf"
   },
   {
     "Name": "Playwrite CO",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteco/v6/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx7ZIo-dOEhxX3Iw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteco/v12/0FlGVP2Hl1iH-fv2BH4kJkgb8vH-rbJPTDqqx7ZIo-dOEhxX3Iw.ttf"
   },
   {
     "Name": "Playwrite CO Guides",
@@ -24572,22 +24697,22 @@
   {
     "Name": "Playwrite CU",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritecu/v1/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseRmwZeT7m2YIByI.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecu/v5/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseRmwZeT7m2YIByI.ttf"
   },
   {
     "Name": "Playwrite CU",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritecu/v1/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseZmxZeT7m2YIByI.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecu/v5/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseZmxZeT7m2YIByI.ttf"
   },
   {
     "Name": "Playwrite CU",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritecu/v1/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseUexZeT7m2YIByI.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecu/v5/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseUexZeT7m2YIByI.ttf"
   },
   {
     "Name": "Playwrite CU",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritecu/v1/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseRmxZeT7m2YIByI.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecu/v5/VuJjdNDb2p7tvoFGLMPdf9xcahOpb9ZuoyXseRmxZeT7m2YIByI.ttf"
   },
   {
     "Name": "Playwrite CU Guides",
@@ -24597,22 +24722,22 @@
   {
     "Name": "Playwrite CZ",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritecz/v1/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCI4aTqT_VkAS5X4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecz/v5/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCI4aTqT_VkAS5X4.ttf"
   },
   {
     "Name": "Playwrite CZ",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritecz/v1/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCA4bTqT_VkAS5X4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecz/v5/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCA4bTqT_VkAS5X4.ttf"
   },
   {
     "Name": "Playwrite CZ",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritecz/v1/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCNAbTqT_VkAS5X4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecz/v5/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCNAbTqT_VkAS5X4.ttf"
   },
   {
     "Name": "Playwrite CZ",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritecz/v1/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCI4bTqT_VkAS5X4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritecz/v5/8vIa7wYp22pt_BUChSHeVxxlOPUEKoMfap_FCI4bTqT_VkAS5X4.ttf"
   },
   {
     "Name": "Playwrite CZ Guides",
@@ -24622,22 +24747,22 @@
   {
     "Name": "Playwrite DE Grund",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v4/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qGZwCUOfSwZTM.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qGZwCUOfSwZTM.ttf"
   },
   {
     "Name": "Playwrite DE Grund",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v4/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz-qHZwCUOfSwZTM.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz-qHZwCUOfSwZTM.ttf"
   },
   {
     "Name": "Playwrite DE Grund",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v4/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZzzSHZwCUOfSwZTM.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZzzSHZwCUOfSwZTM.ttf"
   },
   {
     "Name": "Playwrite DE Grund",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v4/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qHZwCUOfSwZTM.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedegrund/v10/EJR-QhwoXdccriFurnRxqv-1MFyKy696-4VufrEGGbTZz2qHZwCUOfSwZTM.ttf"
   },
   {
     "Name": "Playwrite DE Grund Guides",
@@ -24647,22 +24772,22 @@
   {
     "Name": "Playwrite DE LA",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedela/v4/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnrPgcigC5Ph2w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnrPgcigC5Ph2w.ttf"
   },
   {
     "Name": "Playwrite DE LA",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedela/v4/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2NnqPgcigC5Ph2w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2NnqPgcigC5Ph2w.ttf"
   },
   {
     "Name": "Playwrite DE LA",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedela/v4/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2AfqPgcigC5Ph2w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2AfqPgcigC5Ph2w.ttf"
   },
   {
     "Name": "Playwrite DE LA",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedela/v4/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnqPgcigC5Ph2w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedela/v10/oY1J8e3fprboJ2HN4ogXTpFVJ8QjJV9p0P4yukst2FnqPgcigC5Ph2w.ttf"
   },
   {
     "Name": "Playwrite DE LA Guides",
@@ -24672,22 +24797,22 @@
   {
     "Name": "Playwrite DE SAS",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedesas/v4/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTeVg-6lSyVPgRkJ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedesas/v10/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTeVg-6lSyVPgRkJ.ttf"
   },
   {
     "Name": "Playwrite DE SAS",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedesas/v4/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTcVgu6lSyVPgRkJ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedesas/v10/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTcVgu6lSyVPgRkJ.ttf"
   },
   {
     "Name": "Playwrite DE SAS",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedesas/v4/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTfLgu6lSyVPgRkJ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedesas/v10/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTfLgu6lSyVPgRkJ.ttf"
   },
   {
     "Name": "Playwrite DE SAS",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedesas/v4/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTeVgu6lSyVPgRkJ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedesas/v10/1Pt4g9vaRvmWghDdrE8IDuRPVrHN_1AaFXASpbMqJTeVgu6lSyVPgRkJ.ttf"
   },
   {
     "Name": "Playwrite DE SAS Guides",
@@ -24697,22 +24822,22 @@
   {
     "Name": "Playwrite DE VA",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedeva/v4/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRSyTv24jGyvutu4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedeva/v10/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRSyTv24jGyvutu4.ttf"
   },
   {
     "Name": "Playwrite DE VA",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedeva/v4/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRaySv24jGyvutu4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedeva/v10/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRaySv24jGyvutu4.ttf"
   },
   {
     "Name": "Playwrite DE VA",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedeva/v4/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRXKSv24jGyvutu4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedeva/v10/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRXKSv24jGyvutu4.ttf"
   },
   {
     "Name": "Playwrite DE VA",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedeva/v4/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRSySv24jGyvutu4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedeva/v10/VuJmdNPb2p7tvoFGLMPdeMxGN1pntEMhdK1XfsTyRSySv24jGyvutu4.ttf"
   },
   {
     "Name": "Playwrite DE VA Guides",
@@ -24722,22 +24847,22 @@
   {
     "Name": "Playwrite DK Loopet",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v1/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwOgRuQovSE8_.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwOgRuQovSE8_.ttf"
   },
   {
     "Name": "Playwrite DK Loopet",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v1/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75LJwegRuQovSE8_.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75LJwegRuQovSE8_.ttf"
   },
   {
     "Name": "Playwrite DK Loopet",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v1/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75IXwegRuQovSE8_.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75IXwegRuQovSE8_.ttf"
   },
   {
     "Name": "Playwrite DK Loopet",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v1/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwegRuQovSE8_.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkloopet/v5/memVYbuzy2qb3rtJGfM1FvY-GacDcsPvtaDfqfgbBWmV75JJwegRuQovSE8_.ttf"
   },
   {
     "Name": "Playwrite DK Loopet Guides",
@@ -24747,22 +24872,22 @@
   {
     "Name": "Playwrite DK Uloopet",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v1/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrKeng6LUzAA.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lQrKeng6LUzAA.ttf"
   },
   {
     "Name": "Playwrite DK Uloopet",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v1/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrKeng6LUzAA.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0alUrKeng6LUzAA.ttf"
   },
   {
     "Name": "Playwrite DK Uloopet",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v1/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrKeng6LUzAA.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K0tFUrKeng6LUzAA.ttf"
   },
   {
     "Name": "Playwrite DK Uloopet",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v1/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrKeng6LUzAA.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritedkuloopet/v5/bWtS7e3Ufwn0Hf1zjprKPYlcDAoHknvYFjqIh8PF6jwcP5K06lUrKeng6LUzAA.ttf"
   },
   {
     "Name": "Playwrite DK Uloopet Guides",
@@ -24772,42 +24897,42 @@
   {
     "Name": "Playwrite ES",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritees/v4/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmFOOFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritees/v10/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmFOOFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite ES",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritees/v4/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmNOPFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritees/v10/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmNOPFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite ES",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritees/v4/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmA2PFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritees/v10/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmA2PFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite ES",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritees/v4/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmFOPFsfjAOVZBgs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritees/v10/kJEhBuMK4Q07lDHc2Xp9uokIp-6D3QEGCpthmFOPFsfjAOVZBgs.ttf"
   },
   {
     "Name": "Playwrite ES Deco",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v4/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4yrZxOQ9p5Cljpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v10/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4yrZxOQ9p5Cljpw.ttf"
   },
   {
     "Name": "Playwrite ES Deco",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v4/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4SrdxOQ9p5Cljpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v10/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4SrdxOQ9p5Cljpw.ttf"
   },
   {
     "Name": "Playwrite ES Deco",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v4/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4lLdxOQ9p5Cljpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v10/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4lLdxOQ9p5Cljpw.ttf"
   },
   {
     "Name": "Playwrite ES Deco",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v4/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4yrdxOQ9p5Cljpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteesdeco/v10/7AuWp-g3kjKKGkePXEf2jxctfDxlvGM7-RllW8uEsjJ4yrdxOQ9p5Cljpw.ttf"
   },
   {
     "Name": "Playwrite ES Deco Guides",
@@ -24822,22 +24947,22 @@
   {
     "Name": "Playwrite FR Moderne",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v4/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvAl74XSpRjw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v10/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAOvAl74XSpRjw.ttf"
   },
   {
     "Name": "Playwrite FR Moderne",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v4/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvAl74XSpRjw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v10/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJOAKvAl74XSpRjw.ttf"
   },
   {
     "Name": "Playwrite FR Moderne",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v4/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvAl74XSpRjw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v10/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJ5gKvAl74XSpRjw.ttf"
   },
   {
     "Name": "Playwrite FR Moderne",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v4/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvAl74XSpRjw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrmoderne/v10/3y9L6awucz3w5m4FFTzKolJRXhUk_u1yWtWmFCJcqUBvK5aJuAKvAl74XSpRjw.ttf"
   },
   {
     "Name": "Playwrite FR Moderne Guides",
@@ -24847,22 +24972,22 @@
   {
     "Name": "Playwrite FR Trad",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v6/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAogrNdt-fwzTS5A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v12/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAogrNdt-fwzTS5A.ttf"
   },
   {
     "Name": "Playwrite FR Trad",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v6/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAIgvNdt-fwzTS5A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v12/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAIgvNdt-fwzTS5A.ttf"
   },
   {
     "Name": "Playwrite FR Trad",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v6/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvA_AvNdt-fwzTS5A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v12/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvA_AvNdt-fwzTS5A.ttf"
   },
   {
     "Name": "Playwrite FR Trad",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v6/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAogvNdt-fwzTS5A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritefrtrad/v12/sJot3KxJjdGLJV3vyatrJE2pkQisWWMBP23HSIVI5tvAogvNdt-fwzTS5A.ttf"
   },
   {
     "Name": "Playwrite FR Trad Guides",
@@ -24872,42 +24997,42 @@
   {
     "Name": "Playwrite GB J",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc5HaN7X9HFR8Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc5HaN7X9HFR8Q.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheG9c9HaN7X9HFR8Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheG9c9HaN7X9HFR8Q.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGK89HaN7X9HFR8Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGK89HaN7X9HFR8Q.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc9HaN7X9HFR8Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kEo8wSPe9dzQ1UGbvobAPhY5iG-fsubxedDheGdc9HaN7X9HFR8Q.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "100italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvKtTT1nRB8S9t.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvKtTT1nRB8S9t.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "200italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYwvK9TT1nRB8S9t.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYwvK9TT1nRB8S9t.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYzxK9TT1nRB8S9t.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYzxK9TT1nRB8S9t.ttf"
   },
   {
     "Name": "Playwrite GB J",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbj/v4/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvK9TT1nRB8S9t.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbj/v10/k3kGo8wSPe9dzQ1UGbvobAPhY7KPywT2BnwHoBCTvYyvK9TT1nRB8S9t.ttf"
   },
   {
     "Name": "Playwrite GB J Guides",
@@ -24922,42 +25047,42 @@
   {
     "Name": "Playwrite GB S",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8x5eMaTk8AQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhH8x5eMaTk8AQ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8x5eMaTk8AQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6OhD8x5eMaTk8AQ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8x5eMaTk8AQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU65BD8x5eMaTk8AQ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8x5eMaTk8AQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWb_kFkk-s1Xclhmlemy7jsNQR8TohGU_DTHWU6uhD8x5eMaTk8AQ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "100italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2ISzwsAReZ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhZ2ISzwsAReZ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "200italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2ISzwsAReZ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclOUhJ2ISzwsAReZ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2ISzwsAReZ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclNKhJ2ISzwsAReZ.ttf"
   },
   {
     "Name": "Playwrite GB S",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/playwritegbs/v5/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2ISzwsAReZ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritegbs/v11/oPWZ_kFkk-s1Xclhmlemy7jsNS51fHeeOptJs2IvclMUhJ2ISzwsAReZ.ttf"
   },
   {
     "Name": "Playwrite GB S Guides",
@@ -24972,22 +25097,22 @@
   {
     "Name": "Playwrite HR",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritehr/v1/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPsoA9YHXAHC7tvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehr/v5/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPsoA9YHXAHC7tvg.ttf"
   },
   {
     "Name": "Playwrite HR",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritehr/v1/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPkoB9YHXAHC7tvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehr/v5/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPkoB9YHXAHC7tvg.ttf"
   },
   {
     "Name": "Playwrite HR",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritehr/v1/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPpQB9YHXAHC7tvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehr/v5/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPpQB9YHXAHC7tvg.ttf"
   },
   {
     "Name": "Playwrite HR",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritehr/v1/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPsoB9YHXAHC7tvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehr/v5/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPsoB9YHXAHC7tvg.ttf"
   },
   {
     "Name": "Playwrite HR Guides",
@@ -24997,22 +25122,22 @@
   {
     "Name": "Playwrite HR Lijeva",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v1/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aUy4_lxmKl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zB8aUy4_lxmKl.ttf"
   },
   {
     "Name": "Playwrite HR Lijeva",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v1/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaUy4_lxmKl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d6zBsaUy4_lxmKl.ttf"
   },
   {
     "Name": "Playwrite HR Lijeva",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v1/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaUy4_lxmKl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d5tBsaUy4_lxmKl.ttf"
   },
   {
     "Name": "Playwrite HR Lijeva",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v1/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaUy4_lxmKl.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehrlijeva/v5/gNMvW2dhS5-p7HvxrBYiWN2SsKqLWCrYiDBAvbRl82ZY0d4zBsaUy4_lxmKl.ttf"
   },
   {
     "Name": "Playwrite HR Lijeva Guides",
@@ -25022,22 +25147,22 @@
   {
     "Name": "Playwrite HU",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritehu/v1/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1PL7TO2dH3B2Xx4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehu/v5/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1PL7TO2dH3B2Xx4.ttf"
   },
   {
     "Name": "Playwrite HU",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritehu/v1/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1HL6TO2dH3B2Xx4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehu/v5/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1HL6TO2dH3B2Xx4.ttf"
   },
   {
     "Name": "Playwrite HU",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritehu/v1/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1Kz6TO2dH3B2Xx4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehu/v5/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1Kz6TO2dH3B2Xx4.ttf"
   },
   {
     "Name": "Playwrite HU",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritehu/v1/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1PL6TO2dH3B2Xx4.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritehu/v5/A2BIn59A0g0xA3zDhFw-0vfPWJtlaFKmrETx1PL6TO2dH3B2Xx4.ttf"
   },
   {
     "Name": "Playwrite HU Guides",
@@ -25047,22 +25172,22 @@
   {
     "Name": "Playwrite ID",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteid/v4/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl0-QB_JbFi0pLlg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteid/v10/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl0-QB_JbFi0pLlg.ttf"
   },
   {
     "Name": "Playwrite ID",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteid/v4/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl8-RB_JbFi0pLlg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteid/v10/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl8-RB_JbFi0pLlg.ttf"
   },
   {
     "Name": "Playwrite ID",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteid/v4/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUlxGRB_JbFi0pLlg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteid/v10/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUlxGRB_JbFi0pLlg.ttf"
   },
   {
     "Name": "Playwrite ID",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteid/v4/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl0-RB_JbFi0pLlg.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteid/v10/Cn-kJt2YWhlY2oC4KxifKQJmrtrRm-sKkQqUl0-RB_JbFi0pLlg.ttf"
   },
   {
     "Name": "Playwrite ID Guides",
@@ -25072,22 +25197,22 @@
   {
     "Name": "Playwrite IE",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteie/v4/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzipBpIu30AZbUY.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzipBpIu30AZbUY.ttf"
   },
   {
     "Name": "Playwrite IE",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteie/v4/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy7ioBpIu30AZbUY.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy7ioBpIu30AZbUY.ttf"
   },
   {
     "Name": "Playwrite IE",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteie/v4/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy2aoBpIu30AZbUY.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMy2aoBpIu30AZbUY.ttf"
   },
   {
     "Name": "Playwrite IE",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteie/v4/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzioBpIu30AZbUY.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteie/v10/fC1zPYtWYWnH0hvndYd6GCGWXCAxfsUebXFMyzioBpIu30AZbUY.ttf"
   },
   {
     "Name": "Playwrite IE Guides",
@@ -25097,22 +25222,22 @@
   {
     "Name": "Playwrite IN",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritein/v4/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM7mNMR8n3_Ag1kU.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritein/v10/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM7mNMR8n3_Ag1kU.ttf"
   },
   {
     "Name": "Playwrite IN",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritein/v4/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkMzmMMR8n3_Ag1kU.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritein/v10/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkMzmMMR8n3_Ag1kU.ttf"
   },
   {
     "Name": "Playwrite IN",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritein/v4/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM-eMMR8n3_Ag1kU.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritein/v10/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM-eMMR8n3_Ag1kU.ttf"
   },
   {
     "Name": "Playwrite IN",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritein/v4/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM7mMMR8n3_Ag1kU.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritein/v10/uk-xEGGpoLQ97mfv2J3cZzuz7CyEJhPw65lkM7mMMR8n3_Ag1kU.ttf"
   },
   {
     "Name": "Playwrite IN Guides",
@@ -25172,22 +25297,22 @@
   {
     "Name": "Playwrite IT Trad",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v4/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_gENNXvzL2Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v10/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u--_gENNXvzL2Q.ttf"
   },
   {
     "Name": "Playwrite IT Trad",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v4/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_gENNXvzL2Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v10/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96O-6_gENNXvzL2Q.ttf"
   },
   {
     "Name": "Playwrite IT Trad",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v4/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_gENNXvzL2Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v10/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq965e6_gENNXvzL2Q.ttf"
   },
   {
     "Name": "Playwrite IT Trad",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v4/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_gENNXvzL2Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteittrad/v10/SlG5mR6Yo5oYZX5BFVcEySBSPE50BjHDpZxuvgxzFq96u-6_gENNXvzL2Q.ttf"
   },
   {
     "Name": "Playwrite IT Trad Guides",
@@ -25197,22 +25322,22 @@
   {
     "Name": "Playwrite MX",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritemx/v4/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr9wnc5xYfXDWXDu8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritemx/v12/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr9wnc5xYfXDWXDu8.ttf"
   },
   {
     "Name": "Playwrite MX",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritemx/v4/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr94nd5xYfXDWXDu8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritemx/v12/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr94nd5xYfXDWXDu8.ttf"
   },
   {
     "Name": "Playwrite MX",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritemx/v4/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr91fd5xYfXDWXDu8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritemx/v12/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr91fd5xYfXDWXDu8.ttf"
   },
   {
     "Name": "Playwrite MX",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritemx/v4/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr9wnd5xYfXDWXDu8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritemx/v12/6xK9dSNbKtCe7KfhXg7RYSwyQ-oO7xNblyJr9wnd5xYfXDWXDu8.ttf"
   },
   {
     "Name": "Playwrite MX Guides",
@@ -25222,22 +25347,22 @@
   {
     "Name": "Playwrite NG Modern",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v4/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPQbi5GswWJNE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPQbi5GswWJNE.ttf"
   },
   {
     "Name": "Playwrite NG Modern",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v4/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V15tPAbi5GswWJNE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V15tPAbi5GswWJNE.ttf"
   },
   {
     "Name": "Playwrite NG Modern",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v4/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V16zPAbi5GswWJNE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V16zPAbi5GswWJNE.ttf"
   },
   {
     "Name": "Playwrite NG Modern",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v4/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPAbi5GswWJNE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritengmodern/v10/ijw-s4b2R9Qve5V5lNJb_yRhEfSep5NbFCKmKgoEeCA4V17tPAbi5GswWJNE.ttf"
   },
   {
     "Name": "Playwrite NG Modern Guides",
@@ -25247,22 +25372,22 @@
   {
     "Name": "Playwrite NL",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritenl/v3/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG9_EnYxNbPzS5HE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenl/v9/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG9_EnYxNbPzS5HE.ttf"
   },
   {
     "Name": "Playwrite NL",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritenl/v3/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG1_FnYxNbPzS5HE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenl/v9/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG1_FnYxNbPzS5HE.ttf"
   },
   {
     "Name": "Playwrite NL",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritenl/v3/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG4HFnYxNbPzS5HE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenl/v9/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG4HFnYxNbPzS5HE.ttf"
   },
   {
     "Name": "Playwrite NL",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritenl/v3/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG9_FnYxNbPzS5HE.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenl/v9/k3kCo84SPe9dzQ1UGbvoZQ37Iqp5IZJF9bmaG9_FnYxNbPzS5HE.ttf"
   },
   {
     "Name": "Playwrite NL Guides",
@@ -25272,22 +25397,22 @@
   {
     "Name": "Playwrite NO",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteno/v3/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49whHKen-mjRVtc.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49whHKen-mjRVtc.ttf"
   },
   {
     "Name": "Playwrite NO",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteno/v3/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-41wgHKen-mjRVtc.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-41wgHKen-mjRVtc.ttf"
   },
   {
     "Name": "Playwrite NO",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteno/v3/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-44IgHKen-mjRVtc.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-44IgHKen-mjRVtc.ttf"
   },
   {
     "Name": "Playwrite NO",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteno/v3/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49wgHKen-mjRVtc.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteno/v9/nuFrD_fYSZviRJYb-P2TrQO1DRpazaZDgnw-49wgHKen-mjRVtc.ttf"
   },
   {
     "Name": "Playwrite NO Guides",
@@ -25297,22 +25422,22 @@
   {
     "Name": "Playwrite NZ",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritenz/v4/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjngAVeRt5gGCzkrs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenz/v10/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjngAVeRt5gGCzkrs.ttf"
   },
   {
     "Name": "Playwrite NZ",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritenz/v4/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjnoAUeRt5gGCzkrs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenz/v10/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjnoAUeRt5gGCzkrs.ttf"
   },
   {
     "Name": "Playwrite NZ",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritenz/v4/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjnl4UeRt5gGCzkrs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenz/v10/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjnl4UeRt5gGCzkrs.ttf"
   },
   {
     "Name": "Playwrite NZ",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritenz/v4/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjngAUeRt5gGCzkrs.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritenz/v10/d6lakaOxRsyr_zZDmUYvh2TW3NCQVvjKPjPjngAUeRt5gGCzkrs.ttf"
   },
   {
     "Name": "Playwrite NZ Guides",
@@ -25322,22 +25447,22 @@
   {
     "Name": "Playwrite PE",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritepe/v1/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO2lsTPHFdtSgb_A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepe/v5/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO2lsTPHFdtSgb_A.ttf"
   },
   {
     "Name": "Playwrite PE",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritepe/v1/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO-ltTPHFdtSgb_A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepe/v5/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO-ltTPHFdtSgb_A.ttf"
   },
   {
     "Name": "Playwrite PE",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritepe/v1/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesOzdtTPHFdtSgb_A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepe/v5/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesOzdtTPHFdtSgb_A.ttf"
   },
   {
     "Name": "Playwrite PE",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritepe/v1/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO2ltTPHFdtSgb_A.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepe/v5/FwZJ7-Amxlw-50y5PJugmImRrktKJDJ4lnesO2ltTPHFdtSgb_A.ttf"
   },
   {
     "Name": "Playwrite PE Guides",
@@ -25347,22 +25472,22 @@
   {
     "Name": "Playwrite PL",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritepl/v3/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmRfa9ZybSwcVtHQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepl/v9/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmRfa9ZybSwcVtHQ.ttf"
   },
   {
     "Name": "Playwrite PL",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritepl/v3/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmZfb9ZybSwcVtHQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepl/v9/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmZfb9ZybSwcVtHQ.ttf"
   },
   {
     "Name": "Playwrite PL",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritepl/v3/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmUnb9ZybSwcVtHQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepl/v9/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmUnb9ZybSwcVtHQ.ttf"
   },
   {
     "Name": "Playwrite PL",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritepl/v3/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmRfb9ZybSwcVtHQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritepl/v9/0QIyMXVf_4C2VH-yUr5uz72U-LQiKJ_9tb1WmRfb9ZybSwcVtHQ.ttf"
   },
   {
     "Name": "Playwrite PL Guides",
@@ -25372,22 +25497,22 @@
   {
     "Name": "Playwrite PT",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritept/v3/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9qDjTfJtvlo3Qaw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritept/v9/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9qDjTfJtvlo3Qaw.ttf"
   },
   {
     "Name": "Playwrite PT",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritept/v3/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9iDiTfJtvlo3Qaw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritept/v9/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9iDiTfJtvlo3Qaw.ttf"
   },
   {
     "Name": "Playwrite PT",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritept/v3/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9v7iTfJtvlo3Qaw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritept/v9/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9v7iTfJtvlo3Qaw.ttf"
   },
   {
     "Name": "Playwrite PT",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritept/v3/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9qDiTfJtvlo3Qaw.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritept/v9/6NUE8FidKwOcfRjj8ukv5Lg-wt21rkAVfXUe9qDiTfJtvlo3Qaw.ttf"
   },
   {
     "Name": "Playwrite PT Guides",
@@ -25397,22 +25522,22 @@
   {
     "Name": "Playwrite RO",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritero/v3/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9ZnZWMJnZeBS8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9ZnZWMJnZeBS8.ttf"
   },
   {
     "Name": "Playwrite RO",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritero/v3/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4S9YnZWMJnZeBS8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4S9YnZWMJnZeBS8.ttf"
   },
   {
     "Name": "Playwrite RO",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritero/v3/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4fFYnZWMJnZeBS8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4fFYnZWMJnZeBS8.ttf"
   },
   {
     "Name": "Playwrite RO",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritero/v3/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9YnZWMJnZeBS8.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritero/v9/gok8H6fuA1J7QPJ04HFTGSWdk_S0czhwEf0j4a9YnZWMJnZeBS8.ttf"
   },
   {
     "Name": "Playwrite RO Guides",
@@ -25422,22 +25547,22 @@
   {
     "Name": "Playwrite SK",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritesk/v3/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2dvsOzdK9OF68.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2dvsOzdK9OF68.ttf"
   },
   {
     "Name": "Playwrite SK",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritesk/v3/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf22cvsOzdK9OF68.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf22cvsOzdK9OF68.ttf"
   },
   {
     "Name": "Playwrite SK",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritesk/v3/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf7OcvsOzdK9OF68.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf7OcvsOzdK9OF68.ttf"
   },
   {
     "Name": "Playwrite SK",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritesk/v3/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cvsOzdK9OF68.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritesk/v9/9XU3lJp0klrZDw3AZHcsJTByz7latrF9yDIlf-2cvsOzdK9OF68.ttf"
   },
   {
     "Name": "Playwrite SK Guides",
@@ -25447,22 +25572,22 @@
   {
     "Name": "Playwrite TZ",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritetz/v4/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwSue1COwjVROo.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwSue1COwjVROo.ttf"
   },
   {
     "Name": "Playwrite TZ",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritetz/v4/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDewTue1COwjVROo.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDewTue1COwjVROo.ttf"
   },
   {
     "Name": "Playwrite TZ",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritetz/v4/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDTITue1COwjVROo.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDTITue1COwjVROo.ttf"
   },
   {
     "Name": "Playwrite TZ",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritetz/v4/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTue1COwjVROo.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritetz/v10/RLptK5rs6au7bzABmVQAOwnUbvHMbzSUU27JDWwTue1COwjVROo.ttf"
   },
   {
     "Name": "Playwrite TZ Guides",
@@ -25472,22 +25597,22 @@
   {
     "Name": "Playwrite US Modern",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v4/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YohNw2Da0LCgUPK.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v10/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YohNw2Da0LCgUPK.ttf"
   },
   {
     "Name": "Playwrite US Modern",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v4/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YqhNg2Da0LCgUPK.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v10/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YqhNg2Da0LCgUPK.ttf"
   },
   {
     "Name": "Playwrite US Modern",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v4/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62Yp_Ng2Da0LCgUPK.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v10/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62Yp_Ng2Da0LCgUPK.ttf"
   },
   {
     "Name": "Playwrite US Modern",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v4/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YohNg2Da0LCgUPK.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteusmodern/v10/H4cMBWmRlMXPhla3hmMaveiYz8nSDkIFLNIYl2TXUwK62YohNg2Da0LCgUPK.ttf"
   },
   {
     "Name": "Playwrite US Modern Guides",
@@ -25497,22 +25622,22 @@
   {
     "Name": "Playwrite US Trad",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v4/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1E8pgj6Kf5uBNig.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v10/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1E8pgj6Kf5uBNig.ttf"
   },
   {
     "Name": "Playwrite US Trad",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v4/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1k8tgj6Kf5uBNig.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v10/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1k8tgj6Kf5uBNig.ttf"
   },
   {
     "Name": "Playwrite US Trad",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v4/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1Tctgj6Kf5uBNig.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v10/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1Tctgj6Kf5uBNig.ttf"
   },
   {
     "Name": "Playwrite US Trad",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v4/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1E8tgj6Kf5uBNig.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteustrad/v10/fdNX9tyHsnVPjW9trmV7wQ0stdwRBYclCsCdzOb1-cd1E8tgj6Kf5uBNig.ttf"
   },
   {
     "Name": "Playwrite US Trad Guides",
@@ -25522,22 +25647,22 @@
   {
     "Name": "Playwrite VN",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwritevn/v4/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI8E-9HPWIQtD0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritevn/v10/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI8E-9HPWIQtD0.ttf"
   },
   {
     "Name": "Playwrite VN",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwritevn/v4/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNcI9E-9HPWIQtD0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritevn/v10/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNcI9E-9HPWIQtD0.ttf"
   },
   {
     "Name": "Playwrite VN",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwritevn/v4/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNRw9E-9HPWIQtD0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritevn/v10/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNRw9E-9HPWIQtD0.ttf"
   },
   {
     "Name": "Playwrite VN",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwritevn/v4/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI9E-9HPWIQtD0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwritevn/v10/mtGo4_hXJqPSu8nf5RBY5i0q0yxCxtP-9TFBNUI9E-9HPWIQtD0.ttf"
   },
   {
     "Name": "Playwrite VN Guides",
@@ -25547,22 +25672,22 @@
   {
     "Name": "Playwrite ZA",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playwriteza/v4/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYUsn9T5dt0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteza/v10/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLGbYUsn9T5dt0.ttf"
   },
   {
     "Name": "Playwrite ZA",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playwriteza/v4/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYUsn9T5dt0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteza/v10/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0ETLHbYUsn9T5dt0.ttf"
   },
   {
     "Name": "Playwrite ZA",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playwriteza/v4/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYUsn9T5dt0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteza/v10/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EezHbYUsn9T5dt0.ttf"
   },
   {
     "Name": "Playwrite ZA",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playwriteza/v4/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYUsn9T5dt0.ttf"
+    "URL": "https://fonts.gstatic.com/s/playwriteza/v10/Noag6Uzhw5CTOhXKt5-vwvhrNyaNQo1LaBq0EbLHbYUsn9T5dt0.ttf"
   },
   {
     "Name": "Playwrite ZA Guides",
@@ -25638,6 +25763,11 @@
     "Name": "Plus Jakarta Sans",
     "Variant": "800italic",
     "URL": "https://fonts.gstatic.com/s/plusjakartasans/v8/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ2lDh_QMq2oR82k.ttf"
+  },
+  {
+    "Name": "Pochaevsk",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/pochaevsk/v2/55xuey9_OdX_Om7ReYgloJd4-bnQKg.ttf"
   },
   {
     "Name": "Podkova",
@@ -29035,6 +29165,11 @@
     "URL": "https://fonts.gstatic.com/s/shadowsintolighttwo/v17/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmlAvNGLNnIF0.ttf"
   },
   {
+    "Name": "Shafarik",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/shafarik/v3/RWmLoKaF7PojpZXlW52sbsHKqLkD.ttf"
+  },
+  {
     "Name": "Shalimar",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/shalimar/v7/uU9MCBoE6I6iNWFUvTPx8PCOg0uX.ttf"
@@ -30347,22 +30482,22 @@
   {
     "Name": "Space Mono",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/spacemono/v14/i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf"
+    "URL": "https://fonts.gstatic.com/s/spacemono/v15/i7dPIFZifjKcF5UAWdDRUEZ2RFq7AwU.ttf"
   },
   {
     "Name": "Space Mono",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/spacemono/v14/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf"
+    "URL": "https://fonts.gstatic.com/s/spacemono/v15/i7dNIFZifjKcF5UAWdDRYER8QHi-EwWMbg.ttf"
   },
   {
     "Name": "Space Mono",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/spacemono/v14/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf"
+    "URL": "https://fonts.gstatic.com/s/spacemono/v15/i7dMIFZifjKcF5UAWdDRaPpZYFKQHwyVd3U.ttf"
   },
   {
     "Name": "Space Mono",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/spacemono/v14/i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf"
+    "URL": "https://fonts.gstatic.com/s/spacemono/v15/i7dSIFZifjKcF5UAWdDRYERE_FeaGy6QZ3WfYg.ttf"
   },
   {
     "Name": "Special Elite",
@@ -31718,6 +31853,11 @@
     "Name": "Train One",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/trainone/v14/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
+  },
+  {
+    "Name": "Triodion",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/triodion/v3/IFSnHe5TgMVEmMQV5mr5u-W10l_X.ttf"
   },
   {
     "Name": "Trirong",
@@ -33142,22 +33282,22 @@
   {
     "Name": "Yarndings 12",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yarndings12/v2/55xreyp2N8T5P2LJbZAlkY9c8ZLMI2VUnQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/yarndings12/v3/55xreyp2N8T5P2LJbZAlkY9c8ZLMI2VUnQ.ttf"
   },
   {
     "Name": "Yarndings 12 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yarndings12charted/v2/eLGDP_DlKhO-DUfeqM4I_vDdJgmIh7hAvvbJ0t-dHaJH.ttf"
+    "URL": "https://fonts.gstatic.com/s/yarndings12charted/v3/eLGDP_DlKhO-DUfeqM4I_vDdJgmIh7hAvvbJ0t-dHaJH.ttf"
   },
   {
     "Name": "Yarndings 20",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yarndings20/v2/TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf"
+    "URL": "https://fonts.gstatic.com/s/yarndings20/v3/TuGWUVlkUohEQu8l7K8b-vNFB380PMTK1w.ttf"
   },
   {
     "Name": "Yarndings 20 Charted",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yarndings20charted/v2/QldRNSdbpg0G8vh0W2qxe0l-hcUPtY2VaLQm4UTqz5V9.ttf"
+    "URL": "https://fonts.gstatic.com/s/yarndings20charted/v3/QldRNSdbpg0G8vh0W2qxe0l-hcUPtY2VaLQm4UTqz5V9.ttf"
   },
   {
     "Name": "Yatra One",
