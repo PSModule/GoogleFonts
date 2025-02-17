@@ -1,12 +1,12 @@
 name: Update-FontsData
 
 on:
-  push:
-    branches-ignore:
-      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
+  pull-requests: write # open PRs
 
 jobs:
   Update-FontsData:
@@ -21,5 +21,4 @@ jobs:
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
         with:
-          Script: | #scripts/Update-FontsData.ps1
-            gh auth status
+          Script: scripts/Update-FontsData.ps1
