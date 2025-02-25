@@ -53,7 +53,8 @@ function Install-GoogleFont {
 
         # Specify the scope of where to install the font(s).
         [Parameter()]
-        [Scope] $Scope = 'CurrentUser',
+        [ValidateSet('CurrentUser', 'AllUsers')]
+        [string] $Scope = 'CurrentUser',
 
         # Force will overwrite existing fonts
         [Parameter()]
