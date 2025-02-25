@@ -1,4 +1,4 @@
-﻿#Requires -Modules @{ ModuleName = 'Fonts'; RequiredVersion = '1.1.13' }
+﻿#Requires -Modules @{ ModuleName = 'Fonts'; RequiredVersion = '1.1.18' }
 
 function Install-GoogleFont {
     <#
@@ -53,7 +53,8 @@ function Install-GoogleFont {
 
         # Specify the scope of where to install the font(s).
         [Parameter()]
-        [Scope] $Scope = 'CurrentUser',
+        [ValidateSet('CurrentUser', 'AllUsers')]
+        [string] $Scope = 'CurrentUser',
 
         # Force will overwrite existing fonts
         [Parameter()]
