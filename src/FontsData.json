@@ -4030,51 +4030,6 @@
     "URL": "https://fonts.gstatic.com/s/bigshoulders/v2/qFdk35CPh40oITJ69S3GFqy5-BQAcbz7z7beObrv_PytqyTi33thrko94eT9ANM1LlZAtA.ttf"
   },
   {
-    "Name": "Big Shoulders Display",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY86JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ87JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YddE7JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdY87JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0Ydb07JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdVE8JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ88JF46SRP4yZQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Display",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8JF46SRP4yZQ.ttf"
-  },
-  {
     "Name": "Big Shoulders Inline",
     "Variant": "100",
     "URL": "https://fonts.gstatic.com/s/bigshouldersinline/v2/bx68NwSCkev-8u0YNXAF6gArLyznvspgMZDcnsTZieUyOqQzOiBfauOMaRhGeKwO1nHb-oUTA-kSKkM.ttf"
@@ -4120,96 +4075,6 @@
     "URL": "https://fonts.gstatic.com/s/bigshouldersinline/v2/bx68NwSCkev-8u0YNXAF6gArLyznvspgMZDcnsTZieUyOqQzOiBfauOMaRhGeKwO1tjd-oUTA-kSKkM.ttf"
   },
   {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBEnR5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBE3R5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0mfE3R5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nBE3R5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0nzE3R5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kfFHR5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0kmFHR5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0lBFHR5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Display",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinedisplay/v27/_LOumyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CGNOFeNLxoYMPJ0loFHR5yPc2Huux.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0yqGN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0y6GN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgbqy6GN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwga0y6GN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgaGy6GN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZqzKGN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgZTzKGN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgY0zKGN7Y6Jsc8c.ttf"
-  },
-  {
-    "Name": "Big Shoulders Inline Text",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersinlinetext/v26/vm8XdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NMyHY74qpoNNcwgYdzKGN7Y6Jsc8c.ttf"
-  },
-  {
     "Name": "Big Shoulders Stencil",
     "Variant": "100",
     "URL": "https://fonts.gstatic.com/s/bigshouldersstencil/v2/TwM2-JIEQ1Je5sI6Bx1TKHD83rT3u3NSCfbFxqa9oQbR_CiZMgOzPB7iSLKdsgE9Sp2x5OZJnqtwIp4I.ttf"
@@ -4253,141 +4118,6 @@
     "Name": "Big Shoulders Stencil",
     "Variant": "900",
     "URL": "https://fonts.gstatic.com/s/bigshouldersstencil/v2/TwM2-JIEQ1Je5sI6Bx1TKHD83rT3u3NSCfbFxqa9oQbR_CiZMgOzPB7iSLKdsgE9Sp0Y4uZJnqtwIp4I.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0nPKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0jPKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_ZUjPKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_O0jPKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_CUjPKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_5U_PKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_3E_PKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_u0_PKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Display",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstencildisplay/v28/6aeZ4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPytKb-oPRU-vkuLm_kk_PKHznJucP9w.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04XIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4TIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRjYTIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR04TIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGR4YTIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRDYPIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRNIPIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGRU4PIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Stencil Text",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshouldersstenciltext/v26/5aUV9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcab2SJYLLUtk1OGReoPIGS_Py_AWbQ.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-r3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-q3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3dGq3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Y-q3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3b2q3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3VGt3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Wit3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Q-t3TIPNl6P2pc.ttf"
-  },
-  {
-    "Name": "Big Shoulders Text",
-    "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/bigshoulderstext/v24/55xEezRtP9G3CGPIf49hxc8P0eytUxB2l66LmF6xc3kA3Sat3TIPNl6P2pc.ttf"
   },
   {
     "Name": "Bigelow Rules",
@@ -4987,12 +4717,22 @@
   {
     "Name": "Buenard",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_3iBYVfsc4.ttf"
+  },
+  {
+    "Name": "Buenard",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_3iBYVfsc4.ttf"
+  },
+  {
+    "Name": "Buenard",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf"
   },
   {
     "Name": "Buenard",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/buenard/v17/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf"
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf"
   },
   {
     "Name": "Bungee",
@@ -6267,102 +6007,102 @@
   {
     "Name": "Cormorant Garamond",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllvuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuw-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjornFLsS6V7w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrHtPkyuF7w6C.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhvuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEO7ug-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQdl9vuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEOXvQ-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5vuQWJ5heb_w.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnPEi_s4Mfs.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOj9k9Ifu5UQ.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPzvA-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOj9k9Ifu5UQ.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrhxYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrgvYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrgdYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrjxZ-WThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrjIZ-WThDlDkWSy.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI1PQjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nIw3Qjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nIz_Qjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI9PXjj1hlHSyazs.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI-rXjj1hlHSyazs.ttf"
   },
   {
     "Name": "Cormorant SC",
@@ -12025,6 +11765,11 @@
     "URL": "https://fonts.gstatic.com/s/imfellgreatprimersc/v21/ga6daxBOxyt6sCqz3fjZCTFCTUDMHagsQKdDTLf9BXz0s8FG.ttf"
   },
   {
+    "Name": "Iansui",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/iansui/v2/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf"
+  },
+  {
     "Name": "Ibarra Real Nova",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/ibarrarealnova/v27/sZlSdQiA-DBIDCcaWtQzL4BZHoiDundw4ATyjed3EXdg5MDtVT9TWIvS.ttf"
@@ -16772,42 +16517,72 @@
   {
     "Name": "Merriweather",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf"
-  },
-  {
-    "Name": "Merriweather",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrgCcqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf"
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr7CcqE1f0KvXKYQ.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrACAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
-    "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf"
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrXiAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAqE1f0KvXKYQ.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmScUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTwUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQcV13wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "700italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV13wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "800italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRCV13wCPDaYa_F.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV13wCPDaYa_F.ttf"
   },
   {
     "Name": "Merriweather Sans",
