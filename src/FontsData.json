@@ -4717,12 +4717,22 @@
   {
     "Name": "Buenard",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsPzf9qGi9HL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqpK0_3iBYVfsc4.ttf"
+  },
+  {
+    "Name": "Buenard",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sqbK0_3iBYVfsc4.ttf"
+  },
+  {
+    "Name": "Buenard",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92sp3LE_3iBYVfsc4.ttf"
   },
   {
     "Name": "Buenard",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/buenard/v17/OD5GuM6Cyma8FnnsB4vSjGCWALepwss.ttf"
+    "URL": "https://fonts.gstatic.com/s/buenard/v20/OD5cuM6Cyma8FnnsJTzfWLAhv7i92spOLE_3iBYVfsc4.ttf"
   },
   {
     "Name": "Bungee",
@@ -5997,102 +6007,102 @@
   {
     "Name": "Cormorant Garamond",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllvuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPjuw-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3bmX5slCNuHLi8bLeY9MK7whWMhyjornFLsS6V7w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrHtPkyuF7w6C.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhvuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEO7ug-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQdl9vuQWJ5heb_w.ttf"
-  },
-  {
-    "Name": "Cormorant Garamond",
-    "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEOXvQ-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnPEi_s4Mfs.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5vuQWJ5heb_w.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnPEi_s4Mfs.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOj9k9Ifu5UQ.ttf"
+  },
+  {
+    "Name": "Cormorant Garamond",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOj9k9Ifu5UQ.ttf"
   },
   {
     "Name": "Cormorant Garamond",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3WmX5slCNuHLi8bLeY9MK7whWMhyjYrEPzvA-NxBKL_y94.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantgaramond/v19/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOj9k9Ifu5UQ.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9951w3_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItcDEhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrhxYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyPU44g9vKiM1sORYSiWeAsLN993_Af2DsAXq4.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyJU44g9vKiM1sORYSiWeAsLN997_IV3BkFTq4EPw.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrgvYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995wQ2_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItKDAhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrgdYOWThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN995ygx_DMrQqcdJrk.ttf"
-  },
-  {
-    "Name": "Cormorant Infant",
-    "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItBDchRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrjxZ-WThDlDkWSy.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyIU44g9vKiM1sORYSiWeAsLN9950ww_DMrQqcdJrk.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/HhyCU44g9vKiM1sORYSiWeAsLN99xfs9KOOc_agJPrjIZ-WThDlDkWSy.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI1PQjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nIw3Qjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nIz_Qjj1hlHSyazs.ttf"
+  },
+  {
+    "Name": "Cormorant Infant",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI9PXjj1hlHSyazs.ttf"
   },
   {
     "Name": "Cormorant Infant",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v17/HhyKU44g9vKiM1sORYSiWeAsLN997_ItYDYhRoUYNrn_Ig.ttf"
+    "URL": "https://fonts.gstatic.com/s/cormorantinfant/v20/Hhy8U44g9vKiM1sORYSiWeAsLN997_IP1zv1ljKnOa3nI-rXjj1hlHSyazs.ttf"
   },
   {
     "Name": "Cormorant SC",
@@ -16507,42 +16517,72 @@
   {
     "Name": "Merriweather",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRpX837pvjxPA.ttf"
-  },
-  {
-    "Name": "Merriweather",
-    "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_hP3hPGWH.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrgCcqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5OeyxNV-bnrw.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
-    "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eSZJdeP3r-Ho.ttf"
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr7CcqE1f0KvXKYQ.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrACAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNpX837pvjxPA.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
-    "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_hP3hPGWH.ttf"
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrXiAqE1f0KvXKYQ.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52_wFpX837pvjxPA.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrdyAqE1f0KvXKYQ.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmScUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTCUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmTwUF3wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQcV13wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "700italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmQlV13wCPDaYa_F.ttf"
+  },
+  {
+    "Name": "Merriweather",
+    "Variant": "800italic",
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRCV13wCPDaYa_F.ttf"
   },
   {
     "Name": "Merriweather",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_hP3hPGWH.ttf"
+    "URL": "https://fonts.gstatic.com/s/merriweather/v31/u-4B0qyriQwlOrhSvowK_l5-eTxCVx0ZbwLvKH2Gk9hLmp0v5yA-xXPqCzLvPee1XYk_XSf-FmRrV13wCPDaYa_F.ttf"
   },
   {
     "Name": "Merriweather Sans",
