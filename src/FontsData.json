@@ -332,32 +332,32 @@
   {
     "Name": "Akatab",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJwdNrK3Z7gqJEPWIz5NIh-YA.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJwdNrK3Z7gqJEPWIz5NIh-YA.ttf"
   },
   {
     "Name": "Akatab",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3rKXdPKNiaRpFvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJzdNrK3Z7gqJE3rKXdPKNiaRpFvg.ttf"
   },
   {
     "Name": "Akatab",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3gKLdPKNiaRpFvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJzdNrK3Z7gqJE3gKLdPKNiaRpFvg.ttf"
   },
   {
     "Name": "Akatab",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE35KPdPKNiaRpFvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJzdNrK3Z7gqJE35KPdPKNiaRpFvg.ttf"
   },
   {
     "Name": "Akatab",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE3-KDdPKNiaRpFvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJzdNrK3Z7gqJE3-KDdPKNiaRpFvg.ttf"
   },
   {
     "Name": "Akatab",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/akatab/v7/VuJzdNrK3Z7gqJE33KHdPKNiaRpFvg.ttf"
+    "URL": "https://fonts.gstatic.com/s/akatab/v8/VuJzdNrK3Z7gqJE33KHdPKNiaRpFvg.ttf"
   },
   {
     "Name": "Akaya Kanadaka",
@@ -8055,6 +8055,11 @@
     "URL": "https://fonts.gstatic.com/s/ewert/v25/va9I4kzO2tFODYBvS-J3kbDP.ttf"
   },
   {
+    "Name": "Exile",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/exile/v1/pxiKyp0xqNtbjBsYHpT2dkNE.ttf"
+  },
+  {
     "Name": "Exo",
     "Variant": "100",
     "URL": "https://fonts.gstatic.com/s/exo/v21/4UaZrEtFpBI4f1ZSIK9d4LjJ4lM2CwNsOl4p5Is.ttf"
@@ -8532,72 +8537,72 @@
   {
     "Name": "Figtree",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQF5ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQF5ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R15ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R15ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR15ewkEU4HTy.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR15ewkEU4HTy.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A-gdyEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A-gdyEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A7YdyEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A7YdyEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A4QdyEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A4QdyEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A2gayEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A2gayEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A1EayEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A1EayEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "800italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3AzYayEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3AzYayEU25WTybO8.ttf"
   },
   {
     "Name": "Figtree",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/figtree/v7/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3Ax8ayEU25WTybO8.ttf"
+    "URL": "https://fonts.gstatic.com/s/figtree/v8/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3Ax8ayEU25WTybO8.ttf"
   },
   {
     "Name": "Finger Paint",
@@ -12062,7 +12067,7 @@
   {
     "Name": "Iansui",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/iansui/v2/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/iansui/v5/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf"
   },
   {
     "Name": "Ibarra Real Nova",
@@ -24592,42 +24597,202 @@
   {
     "Name": "Playpen Sans",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRgunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRhunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IqphunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IvRhunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IsZhunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IipmunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4IhNmunQ9Ffmme0w.ttf"
   },
   {
     "Name": "Playpen Sans",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/playpensans/v14/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunQ9Ffmme0w.ttf"
+    "URL": "https://fonts.gstatic.com/s/playpensans/v21/dg43_pj1p6gXP0gzAZgm4c8XQArSU7ACQSn4InRmunQ9Ffmme0w.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBobPcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBoLPcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-YfoLPcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZBoLPcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-ZzoLPcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-afp7PcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-amp7PcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Arabic",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/playpensansarabic/v6/KtkGAKiSeo38bkPvhIqjU6aCgha2der-Z4VIEhR8sOKet-bBp7PcBO1L0EHE.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ0xgUG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQUxkUG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQjRkUG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ0xkUG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQ4RkUG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQDR4UG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQNB4UG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Deva",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/playpensansdeva/v2/vm8fdQj0UUbMxObnsO17RZ7pPBuJge10OmPLCiz-HCrQUx4UG_5NygdkiQ.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnp5pC63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnlp55C63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnm355C63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnp55C63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnnb55C63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnk34JC63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnkO4JC63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Hebrew",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/playpensanshebrew/v6/lJws-okuj29wT-AN6RvLx8QqjkKhL7eAjoL9jK7L4vstDnlp4JC63VFfsRss.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLghGPoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLAhCPoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxL3BCPoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLghCPoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLsBCPoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLXBePoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLZRePoxxAISLTzA.ttf"
+  },
+  {
+    "Name": "Playpen Sans Thai",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/playpensansthai/v6/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLAhePoxxAISLTzA.ttf"
   },
   {
     "Name": "Playwrite AR",
