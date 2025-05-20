@@ -1,4 +1,5 @@
-﻿#Requires -Modules @{ ModuleName = 'Fonts'; RequiredVersion = '1.1.19' }
+﻿#Requires -Modules @{ ModuleName = 'Fonts'; RequiredVersion = '1.1.21' }
+#Requires -Modules @{ ModuleName = 'Admin'; RequiredVersion = '1.1.6' }
 
 function Install-GoogleFont {
     <#
@@ -27,6 +28,13 @@ function Install-GoogleFont {
         Install-GoogleFont -All
 
         Installs all Google Fonts to the current user.
+
+        .LINK
+        https://psmodule.io/GoogleFonts/Functions/Install-GoogleFont
+
+        .NOTES
+        More information about the GoogleFonts can be found at:
+        [GoogleFonts](https://fonts.google.com/) | [GitHub](https://github.com/google/fonts)
     #>
     [CmdletBinding(
         DefaultParameterSetName = 'ByName',

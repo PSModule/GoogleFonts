@@ -20,6 +20,13 @@
         Get-GoogleFonts -Name 'Noto*'
 
         Get the GoogleFont with the name starting with 'Noto'.
+
+        .LINK
+        https://psmodule.io/GoogleFonts/Functions/Get-GoogleFont
+
+        .NOTES
+        More information about the GoogleFonts can be found at:
+        [GoogleFonts](https://fonts.google.com/) | [GitHub](https://github.com/google/fonts)
     #>
     [Alias('Get-GoogleFonts')]
     [OutputType([System.Object[]])]
