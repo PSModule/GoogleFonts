@@ -34,7 +34,7 @@ function Install-GoogleFont {
 
         .NOTES
         More information about the GoogleFonts can be found at:
-        [GoogleFonts | GitHub](https://github.com/google/fonts)
+        [GoogleFonts](https://fonts.google.com/) | [GitHub](https://github.com/google/fonts)
     #>
     [CmdletBinding(
         DefaultParameterSetName = 'ByName',
