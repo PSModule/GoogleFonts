@@ -512,12 +512,12 @@
   {
     "Name": "Alef",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/alef/v22/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
+    "URL": "https://fonts.gstatic.com/s/alef/v23/FeVfS0NQpLYgrjJbC5FxxbU.ttf"
   },
   {
     "Name": "Alef",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/alef/v22/FeVQS0NQpLYglo50L5la2bxii28.ttf"
+    "URL": "https://fonts.gstatic.com/s/alef/v23/FeVQS0NQpLYglo50L5la2bxii28.ttf"
   },
   {
     "Name": "Alegreya",
@@ -2472,12 +2472,12 @@
   {
     "Name": "Arya",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/arya/v19/ga6CawNG-HJd9Ub1-beqdFE.ttf"
+    "URL": "https://fonts.gstatic.com/s/arya/v20/ga6CawNG-HJd9Ub1-beqdFE.ttf"
   },
   {
     "Name": "Arya",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/arya/v19/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf"
+    "URL": "https://fonts.gstatic.com/s/arya/v20/ga6NawNG-HJdzfra3b-BaFg3dRE.ttf"
   },
   {
     "Name": "Asap",
@@ -3897,12 +3897,42 @@
   {
     "Name": "Baskervville",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/baskervville/v16/YA9Ur0yU4l_XOrogbkun3kQgt5OohvbJ9A.ttf"
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugOydR1FLkw.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugOydR1FLkw.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugOydR1FLkw.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYgfsugOydR1FLkw.ttf"
   },
   {
     "Name": "Baskervville",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/baskervville/v16/YA9Kr0yU4l_XOrogbkun3kQQtZmspPPZ9Mlt.ttf"
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4cT9APkyagA.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4cT9APkyagA.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4cT9APkyagA.ttf"
+  },
+  {
+    "Name": "Baskervville",
+    "Variant": "700italic",
+    "URL": "https://fonts.gstatic.com/s/baskervville/v18/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiotUe4cT9APkyagA.ttf"
   },
   {
     "Name": "Baskervville SC",
@@ -7517,27 +7547,27 @@
   {
     "Name": "Eczar",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/eczar/v22/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf"
+    "URL": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXHd6WqTIVKWJKWg.ttf"
   },
   {
     "Name": "Eczar",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/eczar/v22/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf"
+    "URL": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXL96WqTIVKWJKWg.ttf"
   },
   {
     "Name": "Eczar",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/eczar/v22/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf"
+    "URL": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXw9mWqTIVKWJKWg.ttf"
   },
   {
     "Name": "Eczar",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/eczar/v22/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf"
+    "URL": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDX-tmWqTIVKWJKWg.ttf"
   },
   {
     "Name": "Eczar",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/eczar/v22/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf"
+    "URL": "https://fonts.gstatic.com/s/eczar/v24/BXR2vF3Pi-DLmxcpJB-qbNTyTMDXndmWqTIVKWJKWg.ttf"
   },
   {
     "Name": "Edu AU VIC WA NT Arrows",
@@ -10882,7 +10912,7 @@
   {
     "Name": "Gurajada",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/gurajada/v20/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf"
+    "URL": "https://fonts.gstatic.com/s/gurajada/v21/FwZY7-Qx308m-l-0Kd6A4sijpFu_.ttf"
   },
   {
     "Name": "Gwendolyn",
@@ -11357,27 +11387,27 @@
   {
     "Name": "Hind Madurai",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/hindmadurai/v11/f0Xu0e2p98ZvDXdZQIOcpqjfXaUnecsoMJ0b_g.ttf"
+    "URL": "https://fonts.gstatic.com/s/hindmadurai/v12/f0Xu0e2p98ZvDXdZQIOcpqjfXaUnecsoMJ0b_g.ttf"
   },
   {
     "Name": "Hind Madurai",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/hindmadurai/v11/f0Xx0e2p98ZvDXdZQIOcpqjn8Y0DceA0OQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/hindmadurai/v12/f0Xx0e2p98ZvDXdZQIOcpqjn8Y0DceA0OQ.ttf"
   },
   {
     "Name": "Hind Madurai",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/hindmadurai/v11/f0Xu0e2p98ZvDXdZQIOcpqjfBaQnecsoMJ0b_g.ttf"
+    "URL": "https://fonts.gstatic.com/s/hindmadurai/v12/f0Xu0e2p98ZvDXdZQIOcpqjfBaQnecsoMJ0b_g.ttf"
   },
   {
     "Name": "Hind Madurai",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/hindmadurai/v11/f0Xu0e2p98ZvDXdZQIOcpqjfKaMnecsoMJ0b_g.ttf"
+    "URL": "https://fonts.gstatic.com/s/hindmadurai/v12/f0Xu0e2p98ZvDXdZQIOcpqjfKaMnecsoMJ0b_g.ttf"
   },
   {
     "Name": "Hind Madurai",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/hindmadurai/v11/f0Xu0e2p98ZvDXdZQIOcpqjfTaInecsoMJ0b_g.ttf"
+    "URL": "https://fonts.gstatic.com/s/hindmadurai/v12/f0Xu0e2p98ZvDXdZQIOcpqjfTaInecsoMJ0b_g.ttf"
   },
   {
     "Name": "Hind Mysuru",
@@ -13790,6 +13820,16 @@
     "URL": "https://fonts.gstatic.com/s/kantumruypro/v9/1q2RY5aECkp34vEBSPFOmJxwlEbbdY1VU_nxzRim70RwOXo_QrdWlcU.ttf"
   },
   {
+    "Name": "Kapakana",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/kapakana/v17/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDixNA5tRbXZ4IXAA.ttf"
+  },
+  {
+    "Name": "Kapakana",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/kapakana/v17/sykt-yN0m6InS7OD9BCc9iYVO-6XOlDimtA5tRbXZ4IXAA.ttf"
+  },
+  {
     "Name": "Karantina",
     "Variant": "300",
     "URL": "https://fonts.gstatic.com/s/karantina/v12/buExpo24ccnh31GVMABxXCgf-P5Oaiw4cw.ttf"
@@ -14257,12 +14297,12 @@
   {
     "Name": "Kosugi",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/kosugi/v15/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/kosugi/v18/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf"
   },
   {
     "Name": "Kosugi Maru",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/kosugimaru/v14/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf"
+    "URL": "https://fonts.gstatic.com/s/kosugimaru/v16/0nksC9PgP_wGh21A2KeqGiTqivr9iBq_.ttf"
   },
   {
     "Name": "Kotta One",
@@ -14542,7 +14582,7 @@
   {
     "Name": "Kurale",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/kurale/v12/4iCs6KV9e9dXjho6eAT3v02QFg.ttf"
+    "URL": "https://fonts.gstatic.com/s/kurale/v13/4iCs6KV9e9dXjho6eAT3v02QFg.ttf"
   },
   {
     "Name": "LXGW WenKai Mono TC",
@@ -14677,27 +14717,27 @@
   {
     "Name": "Laila",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLzxogNAh14nVcfe.ttf"
+    "URL": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLzxogNAh14nVcfe.ttf"
   },
   {
     "Name": "Laila",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/laila/v18/LYjMdG_8nE8jDIRdiidIrEIu.ttf"
+    "URL": "https://fonts.gstatic.com/s/laila/v19/LYjMdG_8nE8jDIRdiidIrEIu.ttf"
   },
   {
     "Name": "Laila",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLypowNAh14nVcfe.ttf"
+    "URL": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLypowNAh14nVcfe.ttf"
   },
   {
     "Name": "Laila",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLyFpANAh14nVcfe.ttf"
+    "URL": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLyFpANAh14nVcfe.ttf"
   },
   {
     "Name": "Laila",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/laila/v18/LYjBdG_8nE8jDLzhpQNAh14nVcfe.ttf"
+    "URL": "https://fonts.gstatic.com/s/laila/v19/LYjBdG_8nE8jDLzhpQNAh14nVcfe.ttf"
   },
   {
     "Name": "Lakki Reddy",
@@ -16817,107 +16857,107 @@
   {
     "Name": "Material Symbols Outlined",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v244/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v245/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v245/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v246/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v241/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v242/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Maven Pro",
@@ -17232,22 +17272,22 @@
   {
     "Name": "Miriam Libre",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/miriamlibre/v16/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k9vGL-8tY7Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/miriamlibre/v18/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH9P3k9vGL-8tY7Q.ttf"
   },
   {
     "Name": "Miriam Libre",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/miriamlibre/v16/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k9vGL-8tY7Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/miriamlibre/v18/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjH-H3k9vGL-8tY7Q.ttf"
   },
   {
     "Name": "Miriam Libre",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/miriamlibre/v16/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk9vGL-8tY7Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/miriamlibre/v18/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHw3wk9vGL-8tY7Q.ttf"
   },
   {
     "Name": "Miriam Libre",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/miriamlibre/v16/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk9vGL-8tY7Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/miriamlibre/v18/DdT0798HsHwubBAqfkcBTL_1a7sPlXcE8PJjHzTwk9vGL-8tY7Q.ttf"
   },
   {
     "Name": "Mirza",
@@ -18397,27 +18437,27 @@
   {
     "Name": "Narnoor",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/narnoor/v7/cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf"
+    "URL": "https://fonts.gstatic.com/s/narnoor/v8/cIf9MaFWuVo-UTyPxCmrYGkHgIs.ttf"
   },
   {
     "Name": "Narnoor",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/narnoor/v8/cIf4MaFWuVo-UTyP_N2CRGEsnIJkWL4.ttf"
   },
   {
     "Name": "Narnoor",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/narnoor/v8/cIf4MaFWuVo-UTyP_PGFRGEsnIJkWL4.ttf"
   },
   {
     "Name": "Narnoor",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/narnoor/v8/cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf"
   },
   {
     "Name": "Narnoor",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf"
+    "URL": "https://fonts.gstatic.com/s/narnoor/v8/cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf"
   },
   {
     "Name": "National Park",
@@ -21935,6 +21975,11 @@
     "URL": "https://fonts.gstatic.com/s/notoserifdisplay/v26/buEPppa9f8_vkXaZLAgP0G5Wi6QmA1QwcLRCOrN8uo7t6FBJOJTQit-N33sQOk-VoZlOYjEfg-zCmf4.ttf"
   },
   {
+    "Name": "Noto Serif Dives Akuru",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/notoserifdivesakuru/v2/QldfNSVMqAsHtsJ_TnD3aT03sMgd57ibeeZT60DIyoV9Ejs.ttf"
+  },
+  {
     "Name": "Noto Serif Dogra",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/notoserifdogra/v23/MQpP-XquKMC7ROPP3QOOlm7xPu3fGy63IbPzkns.ttf"
@@ -24192,7 +24237,7 @@
   {
     "Name": "Pattaya",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/pattaya/v16/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf"
+    "URL": "https://fonts.gstatic.com/s/pattaya/v17/ea8ZadcqV_zkHY-XNdCn92ZEmVs.ttf"
   },
   {
     "Name": "Patua One",
@@ -24327,12 +24372,12 @@
   {
     "Name": "Phetsarath",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/phetsarath/v1/N0bQ2SpTP-plK0uWayAYAd79nd_QeZA.ttf"
+    "URL": "https://fonts.gstatic.com/s/phetsarath/v2/N0bQ2SpTP-plK0uWayAYAd79nd_QeZA.ttf"
   },
   {
     "Name": "Phetsarath",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/phetsarath/v1/N0bT2SpTP-plK0uWayAYOWLSudf7ZZlIHD0.ttf"
+    "URL": "https://fonts.gstatic.com/s/phetsarath/v2/N0bT2SpTP-plK0uWayAYOWLSudf7ZZlIHD0.ttf"
   },
   {
     "Name": "Philosopher",
@@ -26417,7 +26462,7 @@
   {
     "Name": "Poller One",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/pollerone/v23/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
+    "URL": "https://fonts.gstatic.com/s/pollerone/v24/ahccv82n0TN3gia5E4Bud-lbgUS5u0s.ttf"
   },
   {
     "Name": "Poltawski Nowy",
@@ -28022,7 +28067,7 @@
   {
     "Name": "Reggae One",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/reggaeone/v17/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf"
+    "URL": "https://fonts.gstatic.com/s/reggaeone/v18/7r3DqX5msMIkeuwJwOJt_a5L5uH-mts.ttf"
   },
   {
     "Name": "Rethink Sans",
@@ -29917,62 +29962,62 @@
   {
     "Name": "Shippori Antique",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/shipporiantique/v9/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiantique/v10/-F6qfid3KC8pdMyzR0qRyFUht11v8ldPg-IUDNg.ttf"
   },
   {
     "Name": "Shippori Antique B1",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/shipporiantiqueb1/v9/2Eb7L_JwClR7Zl_UAKZ0mUHw3oMKd40grRFCj9-5Y8Y.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiantiqueb1/v10/2Eb7L_JwClR7Zl_UAKZ0mUHw3oMKd40grRFCj9-5Y8Y.ttf"
   },
   {
     "Name": "Shippori Mincho",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporimincho/v16/VdGGAZweH5EbgHY6YExcZfDoj0BA2_-C7LoS7g.ttf"
   },
   {
     "Name": "Shippori Mincho",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporimincho/v16/VdGDAZweH5EbgHY6YExcZfDoj0B4L9am5JEO5--2zg.ttf"
   },
   {
     "Name": "Shippori Mincho",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporimincho/v16/VdGDAZweH5EbgHY6YExcZfDoj0B4A9Gm5JEO5--2zg.ttf"
   },
   {
     "Name": "Shippori Mincho",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporimincho/v16/VdGDAZweH5EbgHY6YExcZfDoj0B4Z9Cm5JEO5--2zg.ttf"
   },
   {
     "Name": "Shippori Mincho",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/shipporimincho/v15/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporimincho/v16/VdGDAZweH5EbgHY6YExcZfDoj0B4e9Om5JEO5--2zg.ttf"
   },
   {
     "Name": "Shippori Mincho B1",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v22/wXK2E2wCr44tulPdnn-xbIpJ9RgT9-nyjqBr1lO97Q.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v23/wXK2E2wCr44tulPdnn-xbIpJ9RgT9-nyjqBr1lO97Q.ttf"
   },
   {
     "Name": "Shippori Mincho B1",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v22/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKeolP3nih5H4Uug.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v23/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKeolP3nih5H4Uug.ttf"
   },
   {
     "Name": "Shippori Mincho B1",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v22/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKVo5P3nih5H4Uug.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v23/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKVo5P3nih5H4Uug.ttf"
   },
   {
     "Name": "Shippori Mincho B1",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v22/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKMo9P3nih5H4Uug.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v23/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKMo9P3nih5H4Uug.ttf"
   },
   {
     "Name": "Shippori Mincho B1",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v22/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKLoxP3nih5H4Uug.ttf"
+    "URL": "https://fonts.gstatic.com/s/shipporiminchob1/v23/wXK1E2wCr44tulPdnn-xbIpJ9RgT9-nKLoxP3nih5H4Uug.ttf"
   },
   {
     "Name": "Shizuru",
@@ -30862,82 +30907,82 @@
   {
     "Name": "Source Code Pro",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyQhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyQhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DJKQhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DP6QhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DP6QhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DBKXhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DBKXhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DCuXhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DCuXhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyXhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DEyXhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DGWXhM5hTXUcdJg.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DGWXhM5hTXUcdJg.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "200italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7I1rSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7I1rSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTMo1rSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTMo1rSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTbI1rSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTbI1rSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTXo1rSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTXo1rSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTsoprSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTsoprSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTi4prSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTi4prSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "800italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7IprSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTT7IprSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Code Pro",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v23/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTxYprSVcZZJiGpw.ttf"
+    "URL": "https://fonts.gstatic.com/s/sourcecodepro/v30/HI_jiYsKILxRpg3hIP6sJ7fM7PqlOPHYvDP_W9O7GQTTxYprSVcZZJiGpw.ttf"
   },
   {
     "Name": "Source Sans 3",
@@ -31457,7 +31502,7 @@
   {
     "Name": "Stick",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/stick/v18/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf"
+    "URL": "https://fonts.gstatic.com/s/stick/v19/Qw3TZQpMCyTtJSvfvPVDMPoF.ttf"
   },
   {
     "Name": "Stick No Bills",
@@ -31527,7 +31572,7 @@
   {
     "Name": "Stylish",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/stylish/v23/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf"
+    "URL": "https://fonts.gstatic.com/s/stylish/v24/m8JSjfhPYriQkk7-fo35dLxEdmo.ttf"
   },
   {
     "Name": "Sue Ellen Francisco",
@@ -32517,7 +32562,7 @@
   {
     "Name": "Train One",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/trainone/v14/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
+    "URL": "https://fonts.gstatic.com/s/trainone/v15/gyB-hwkiNtc6KnxUVjWHOqbZRY7JVQ.ttf"
   },
   {
     "Name": "Triodion",
@@ -33530,6 +33575,11 @@
     "URL": "https://fonts.gstatic.com/s/vujahdayscript/v8/RWmQoKGA8fEkrIPtSZ3_J7er2dUiDEtvAlaMKw.ttf"
   },
   {
+    "Name": "WDXL Lubrifont TC",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/wdxllubrifonttc/v3/nKKN-H4mPq1yJurnWXfJE8svQHonWc_-EqxyqaA8.ttf"
+  },
+  {
     "Name": "Waiting for the Sunrise",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/waitingforthesunrise/v21/WBL1rFvOYl9CEv2i1mO6KUW8RKWJ2zoXoz5JsYZQ9h_ZYk5J.ttf"
@@ -33632,72 +33682,72 @@
   {
     "Name": "Winky Rough",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bOSVuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bOSVuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bZyVuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bZyVuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bVSVuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bVSVuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8buSJuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8buSJuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bgCJuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bgCJuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "800",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8b5yJuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8b5yJuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bziJuN7JB-KCmzg.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5tzIRwIMoSXA0WSPBjQxJzjxc0_NyCBbx8bziJuN7JB-KCmzg.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "300italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2bYdLhF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2bYdLhF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2aGdLhF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2aGdLhF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "500italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2a0dLhF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2a0dLhF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "600italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2ZYc7hF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2ZYc7hF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "700italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Zhc7hF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Zhc7hF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "800italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2YGc7hF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2YGc7hF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Rough",
     "Variant": "900italic",
-    "URL": "https://fonts.gstatic.com/s/winkyrough/v1/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Yvc7hF2qW2zneX.ttf"
+    "URL": "https://fonts.gstatic.com/s/winkyrough/v2/t5t1IRwIMoSXA0WSPBjQxLbq9zLnXksbwRgOr2Yvc7hF2qW2zneX.ttf"
   },
   {
     "Name": "Winky Sans",
@@ -34527,7 +34577,7 @@
   {
     "Name": "Yuji Boku",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yujiboku/v6/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf"
+    "URL": "https://fonts.gstatic.com/s/yujiboku/v7/P5sAzZybeNzXsA9xj1Fkjb2r2dgvJA.ttf"
   },
   {
     "Name": "Yuji Hentaigana Akari",
@@ -34542,12 +34592,12 @@
   {
     "Name": "Yuji Mai",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yujimai/v6/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf"
+    "URL": "https://fonts.gstatic.com/s/yujimai/v7/ZgNQjPxdJ7DEHrS0gC38hmHmNpCO.ttf"
   },
   {
     "Name": "Yuji Syuku",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/yujisyuku/v6/BngNUXdTV3vO6Lw5ApOPqPfgwqiA-Rk.ttf"
+    "URL": "https://fonts.gstatic.com/s/yujisyuku/v7/BngNUXdTV3vO6Lw5ApOPqPfgwqiA-Rk.ttf"
   },
   {
     "Name": "Yusei Magic",
@@ -34692,27 +34742,27 @@
   {
     "Name": "Zen Maru Gothic",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v17/o-0XIpIxzW5b-RxT-6A8jWAtCp-cQWpCPJqa_ajlvw.ttf"
+    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v18/o-0XIpIxzW5b-RxT-6A8jWAtCp-cQWpCPJqa_ajlvw.ttf"
   },
   {
     "Name": "Zen Maru Gothic",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v17/o-0SIpIxzW5b-RxT-6A8jWAtCp-k7UJmNLGG9A.ttf"
+    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v18/o-0SIpIxzW5b-RxT-6A8jWAtCp-k7UJmNLGG9A.ttf"
   },
   {
     "Name": "Zen Maru Gothic",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v17/o-0XIpIxzW5b-RxT-6A8jWAtCp-cGWtCPJqa_ajlvw.ttf"
+    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v18/o-0XIpIxzW5b-RxT-6A8jWAtCp-cGWtCPJqa_ajlvw.ttf"
   },
   {
     "Name": "Zen Maru Gothic",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v17/o-0XIpIxzW5b-RxT-6A8jWAtCp-cUW1CPJqa_ajlvw.ttf"
+    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v18/o-0XIpIxzW5b-RxT-6A8jWAtCp-cUW1CPJqa_ajlvw.ttf"
   },
   {
     "Name": "Zen Maru Gothic",
     "Variant": "900",
-    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v17/o-0XIpIxzW5b-RxT-6A8jWAtCp-caW9CPJqa_ajlvw.ttf"
+    "URL": "https://fonts.gstatic.com/s/zenmarugothic/v18/o-0XIpIxzW5b-RxT-6A8jWAtCp-caW9CPJqa_ajlvw.ttf"
   },
   {
     "Name": "Zen Old Mincho",
