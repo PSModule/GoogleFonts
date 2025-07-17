@@ -4685,6 +4685,51 @@
     "URL": "https://fonts.gstatic.com/s/biryani/v14/hv-TlzNxIFoO84Yddcg0GTBSU-J-RxQ.ttf"
   },
   {
+    "Name": "Bitcount",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJVvr06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJdvq06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJQXq06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJVvq06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJWnq06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJYXt06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJbzt06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJdvt06JyZBdg54o.ttf"
+  },
+  {
+    "Name": "Bitcount",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/bitcount/v1/ijxXs53kQsE1Y5J-lI1wubXnlQH-1-E1LhaU1dJRZZaHU0slfybi9GQwiTv06bjtugLjdPqK3d9XKDqRc2jrJlC4ZRsgxqxP-aVoJfLt06JyZBdg54o.ttf"
+  },
+  {
     "Name": "Bitcount Grid Double",
     "Variant": "100",
     "URL": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZDxleZEXi_Ul10k.ttf"
@@ -4728,6 +4773,186 @@
     "Name": "Bitcount Grid Double",
     "Variant": "900",
     "URL": "https://fonts.gstatic.com/s/bitcountgriddouble/v1/WBK7rFjbakJVFOargiWSKQysDITG_S0VtG0x3HD2FYHVdlZI-rLlahmEAPp8wjYMvkPq48MVQo5RQf2svjnxa5Anx8-Y-pHdkVb0ByRHaxzbXaLbA9wfZJVjeZEXi_Ul10k.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanohqZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanghrZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGantZrZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanohrZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanrprZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanlZsZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanm9sZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGanghsZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Grid Single",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/bitcountgridsingle/v1/cY8bfi2OU1tLpjaqQveNvbC2qfsuQPDVASHjTcBszBsXfC5C9kAKu8QoqnfqMiS4gVij5yxO41San7UnNMBH-Y9u33JUGFdHpUYahAAdbgvnnHmmgUGaniFsZUINrmJ9z94.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWck5Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWUk4Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWZc4Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWck4Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWfs4Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWRc_Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWS4_Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWUk_Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Double",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropdouble/v1/K2EvfY5Wn-tBSVxaDL6DUOXQJ26dEAnh698zMFjGZaPCtbJHl1TFmDKfGe4_bKUh3sC1Q7DxZ5-3PQRHsSZEX9ctiFN1ZosZvKyl3LzeFmQvK5hIm0nBWWA_Kx91m1YFsiM.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GXZkLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GfZlLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GShlLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GXZlLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GURlLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GahiLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GZFiLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GfZiLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Prop Single",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/bitcountpropsingle/v1/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921Gd9iLGUYg0NjZiU.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "100",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKC4tYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "200",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKCotYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8iUCotYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8jKCotYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8j4CotYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gUDYtYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8gtDYtYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "800",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hKDYtYzXjwevWm.ttf"
+  },
+  {
+    "Name": "Bitcount Single",
+    "Variant": "900",
+    "URL": "https://fonts.gstatic.com/s/bitcountsingle/v1/or25Q6T72-iP2RY6OLSkb95a817cjULDyyhvb6tTxCxtAOObpH9NnfLjSWiXv_OGqtjRD0BNzrItMZWC-9SK8R6EpA2l9RAyOs8BbxT7gd3xw8hjDYtYzXjwevWm.ttf"
   },
   {
     "Name": "Bitter",
@@ -5342,7 +5567,7 @@
   {
     "Name": "Cactus Classical Serif",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/cactusclassicalserif/v12/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf"
+    "URL": "https://fonts.gstatic.com/s/cactusclassicalserif/v13/sZlVdQ6K-zJOCzUaS90zMNN-Ep-OoC8dZr0JFuBIFX-pv-E.ttf"
   },
   {
     "Name": "Caesar Dressing",
@@ -13085,6 +13310,56 @@
     "URL": "https://fonts.gstatic.com/s/instrumentserif/v4/jizHRFtNs2ka5fXjeivQ4LroWlx-6zATi3TNgNq55w.ttf"
   },
   {
+    "Name": "Intel One Mono",
+    "Variant": "300",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sWzZuLY8Lb_G1RikFkwPjBvuM8LXucmoHDSAMg__cRnD9TMr2nYA.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "300italic",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sUzZuLY8Lb_G1RikFkwPjBvsk1H4RE8-pZ5gQ1abSn3zVXELi3YD27.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sWzZuLY8Lb_G1RikFkwPjBvuM8LXucmoHDSAMgofcRnD9TMr2nYA.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "italic",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sUzZuLY8Lb_G1RikFkwPjBvsk1H4RE8-pZ5gQ1abT53zVXELi3YD27.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "500",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sWzZuLY8Lb_G1RikFkwPjBvuM8LXucmoHDSAMgk_cRnD9TMr2nYA.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "500italic",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sUzZuLY8Lb_G1RikFkwPjBvsk1H4RE8-pZ5gQ1abTL3zVXELi3YD27.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "600",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sWzZuLY8Lb_G1RikFkwPjBvuM8LXucmoHDSAMgf_ARnD9TMr2nYA.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "600italic",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sUzZuLY8Lb_G1RikFkwPjBvsk1H4RE8-pZ5gQ1abQn2DVXELi3YD27.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "700",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sWzZuLY8Lb_G1RikFkwPjBvuM8LXucmoHDSAMgRvARnD9TMr2nYA.ttf"
+  },
+  {
+    "Name": "Intel One Mono",
+    "Variant": "700italic",
+    "URL": "https://fonts.gstatic.com/s/intelonemono/v2/P5sUzZuLY8Lb_G1RikFkwPjBvsk1H4RE8-pZ5gQ1abQe2DVXELi3YD27.ttf"
+  },
+  {
     "Name": "Inter",
     "Variant": "100",
     "URL": "https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf"
@@ -17367,107 +17642,107 @@
   {
     "Name": "Material Symbols Outlined",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHeembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDAvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDDxHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCdHOembd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBxG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Outlined",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v257/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v266/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDBIG-embd5zrTgt.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIekXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rAelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rNmlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rLWlXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rFmiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Rounded",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v258/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDB_Qb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rGCiXxKJKJBjAa8.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "100",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLozCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "200",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxMLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "300",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxPVojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "regular",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxOLojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "500",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxO5ojCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "600",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNVpTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Material Symbols Sharp",
     "Variant": "700",
-    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v254/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
+    "URL": "https://fonts.gstatic.com/s/materialsymbolssharp/v263/gNNBW2J8Roq16WD5tFNRaeLQk6-SHQ_R00k4c2_whPnoY9ruReaU4bHmz74m0ZkGH-VBYe1x0TV6x4yFH8F-H5OdzEL3sVTgJtfbYxNspTCOJ1H7-knk.ttf"
   },
   {
     "Name": "Maven Pro",
