@@ -28,26 +28,19 @@
     }
 }
 
-# Get the current branch and default branch information
 $currentBranch = (Run git rev-parse --abbrev-ref HEAD).Trim()
 $defaultBranch = (Run git remote show origin | Select-String 'HEAD branch:' | ForEach-Object { $_.ToString().Split(':')[1].Trim() })
-
 Write-Output "Current branch: $currentBranch"
 Write-Output "Default branch: $defaultBranch"
 
-# Fetch latest changes from remote
 Run git fetch origin
-
-# Get the head branch (latest default branch)
 Run git checkout $defaultBranch
 Run git pull origin $defaultBranch
 
 $timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
-
-# Determine target branch based on current context
 if ($currentBranch -eq $defaultBranch) {
     # Running on main/default branch - create new branch
-    $targetBranch = "auto-font-update-$timeStamp"
+    $targetBranch = "auto-update-font-$timeStamp"
     Write-Output "Running on default branch. Creating new branch: $targetBranch"
     Run git checkout -b $targetBranch
 } else {
@@ -59,22 +52,22 @@ if ($currentBranch -eq $defaultBranch) {
     Run git merge origin/$defaultBranch
 }
 
-$fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$env:GOOGLE_DEVELOPER_API_KEY"
-$fontFamilies = $fontList.items
-$fonts = @()
+LogGroup 'Latest Fonts' {
+    $fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$env:GOOGLE_DEVELOPER_API_KEY"
+    $fontFamilies = $fontList.items
+    $fonts = @()
 
-foreach ($fontFamily in $fontFamilies) {
-    $variants = $fontFamily.files.PSObject.Properties
-    foreach ($variant in $variants) {
-        $fonts += [PSCustomObject]@{
-            Name    = $fontFamily.family
-            Variant = $variant.Name
-            URL     = $variant.Value
+    foreach ($fontFamily in $fontFamilies) {
+        $variants = $fontFamily.files.PSObject.Properties
+        foreach ($variant in $variants) {
+            $fonts += [PSCustomObject]@{
+                Name    = $fontFamily.family
+                Variant = $variant.Name
+                URL     = $variant.Value
+            }
         }
     }
-}
 
-LogGroup 'Latest Fonts' {
     $fonts | Sort-Object Name | Format-Table -AutoSize | Out-String
 }
 
@@ -84,46 +77,36 @@ $null = New-Item -Path $filePath -ItemType File -Force
 $fonts | ConvertTo-Json | Set-Content -Path $filePath -Force
 
 $changes = Run git status --porcelain
-if (-not [string]::IsNullOrWhiteSpace($changes)) {
-    Write-Output 'Changes detected:'
-    Write-Output $changes
+if ([string]::IsNullOrWhiteSpace($changes)) {
+    Write-Output 'No changes detected.'
+    return
+}
 
-    # Show what will be committed
-    Write-Output 'Diff of changes to be committed:'
-    Run git diff --cached HEAD -- src/FontsData.json 2>$null
-    if ($LASTEXITCODE -ne 0) {
-        # If --cached doesn't work (no staged changes), show unstaged diff
-        Run git diff HEAD -- src/FontsData.json
-    }
+Write-Output 'Changes detected:'
+Write-Output $changes
 
-    Run git add .
-    Run git commit -m "Update-FontsData via script on $timeStamp"
+Write-Output 'Diff of changes to be committed:'
+Run git diff HEAD -- src/FontsData.json
 
-    # Show the commit that was just created
-    Write-Output 'Commit created:'
-    Run git log -1 --oneline
+Run git add .
+Run git commit -m "Update-FontsData via script on $timeStamp"
+Write-Output 'Changes in this commit:'
+Run git diff HEAD~1 HEAD -- src/FontsData.json
 
-    # Show diff between HEAD and previous commit
-    Write-Output 'Changes in this commit:'
-    Run git diff HEAD~1 HEAD -- src/FontsData.json
-
-    # Push behavior depends on branch type
-    if ($targetBranch -eq $currentBranch -and $currentBranch -ne $defaultBranch) {
-        # Push to existing branch
-        Run git push origin $targetBranch
-        Write-Output "Changes committed and pushed to existing branch: $targetBranch"
-    } else {
-        # Push new branch and create PR
-        Run git push --set-upstream origin $targetBranch
-
-        Run gh pr create `
-            --base $defaultBranch `
-            --head $targetBranch `
-            --title "Auto-Update: Google Fonts Data ($timeStamp)" `
-            --body 'This PR updates FontsData.json with the latest Google Fonts metadata.'
-
-        Write-Output "Changes detected and PR opened for branch: $targetBranch"
-    }
+# Push behavior depends on branch type
+if ($targetBranch -eq $currentBranch -and $currentBranch -ne $defaultBranch) {
+    # Push to existing branch
+    Run git push origin $targetBranch
+    Write-Output "Changes committed and pushed to existing branch: $targetBranch"
 } else {
-    Write-Output 'No changes to commit.'
+    # Push new branch and create PR
+    Run git push --set-upstream origin $targetBranch
+
+    Run gh pr create `
+        --base $defaultBranch `
+        --head $targetBranch `
+        --title "Auto-Update: Google Fonts Data ($timeStamp)" `
+        --body 'This PR updates FontsData.json with the latest Google Fonts metadata.'
+
+    Write-Output "Changes detected and PR opened for branch: $targetBranch"
 }
