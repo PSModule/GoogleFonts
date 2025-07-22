@@ -11,21 +11,31 @@
         [string[]]$InputObject
     )
 
-    $command = $inputObject[0]
-    $arguments = $inputObject[1..$inputObject.Length]
-    Write-Debug "Command: $command"
-    Write-Debug "Arguments: $($arguments -join ', ')"
-    $fullCommand = "$command $($arguments -join ' ')"
-
-    try {
-        Write-Verbose "Executing: $fullCommand"
-        & $command @arguments
-        if ($LASTEXITCODE -ne 0) {
-            $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
-            Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
+    process {
+        Write-Debug "InputObject: $InputObject"
+        foreach ($item in $InputObject) {
+            Write-Debug "Processing item: $item"
+            $commandwitharguments = $InputObject -join ' '
         }
-    } catch {
-        throw
+    }
+
+    end {
+        $command = $inputObject[0]
+        $arguments = $inputObject[1..$inputObject.Length]
+        Write-Debug "Command: $command"
+        Write-Debug "Arguments: $($arguments -join ', ')"
+        $fullCommand = "$command $($arguments -join ' ')"
+
+        try {
+            Write-Verbose "Executing: $fullCommand"
+            & $command @arguments
+            if ($LASTEXITCODE -ne 0) {
+                $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
+                Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
+            }
+        } catch {
+            throw
+        }
     }
 }
 
