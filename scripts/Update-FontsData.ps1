@@ -1,57 +1,106 @@
-﻿Connect-GitHubApp -Organization PSModule -Default
+﻿function Invoke-NativeCommand {
+    <#
+        .SYNOPSIS
+        Executes a native command with arguments.
+    #>
+    [Alias('Exec', 'Run')]
+    [CmdletBinding()]
+    param (
+        # The command to execute
+        [Parameter(ValueFromRemainingArguments)]
+        [string[]]$Command
+    )
+    $cmd = $Command[0]
+    $arguments = $Command[1..$Command.Length]
+    Write-Debug "Command: $cmd"
+    Write-Debug "Arguments: $($arguments -join ', ')"
+    $fullCommand = "$cmd $($arguments -join ' ')"
 
-git checkout main
-git pull
-
-# 2. Retrieve the date-time to create a unique branch name.
-$timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
-$branchName = "auto-font-update-$timeStamp"
-
-# 3. Create a new branch for the changes.
-git checkout -b $branchName
-
-# 4. Retrieve the latest font data from Google Fonts.
-$GOOGLE_DEVELOPER_API_KEY = $env:GOOGLE_DEVELOPER_API_KEY
-$fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$GOOGLE_DEVELOPER_API_KEY"
-$fontFamilies = $fontList.items
-$fonts = @()
-
-foreach ($fontFamily in $fontFamilies) {
-    $variants = $fontFamily.files.PSObject.Properties
-    foreach ($variant in $variants) {
-        $fonts += [ordered]@{
-            Name    = $fontFamily.family
-            Variant = $variant.Name
-            URL     = $variant.Value
+    try {
+        Write-Verbose "Executing: $fullCommand"
+        & $cmd @arguments
+        if ($LASTEXITCODE -ne 0) {
+            $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
+            Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
         }
+    } catch {
+        throw
     }
 }
 
-# 5. Write results to FontsData.json.
+$currentBranch = (Run git rev-parse --abbrev-ref HEAD).Trim()
+$defaultBranch = (Run git remote show origin | Select-String 'HEAD branch:' | ForEach-Object { $_.ToString().Split(':')[1].Trim() })
+Write-Output "Current branch: $currentBranch"
+Write-Output "Default branch: $defaultBranch"
+
+Run git fetch origin
+Run git checkout $defaultBranch
+Run git pull origin $defaultBranch
+
+$timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
+if ($currentBranch -eq $defaultBranch) {
+    # Running on main/default branch - create new branch
+    $targetBranch = "auto-update-font-$timeStamp"
+    Write-Output "Running on default branch. Creating new branch: $targetBranch"
+    Run git checkout -b $targetBranch
+} else {
+    # Running on another branch (e.g., workflow_dispatch) - use current branch
+    $targetBranch = $currentBranch
+    Write-Output "Running on feature branch. Using existing branch: $targetBranch"
+    Run git checkout $targetBranch
+    # Merge latest changes from default branch
+    Run git merge origin/$defaultBranch
+}
+
+LogGroup 'Latest Fonts' {
+    $fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$env:GOOGLE_DEVELOPER_API_KEY"
+    $fontFamilies = $fontList.items
+    $fonts = @()
+
+    foreach ($fontFamily in $fontFamilies) {
+        $variants = $fontFamily.files.PSObject.Properties
+        foreach ($variant in $variants) {
+            $fonts += [PSCustomObject]@{
+                Name    = $fontFamily.family
+                Variant = $variant.Name
+                URL     = $variant.Value
+            }
+        }
+    }
+
+    $fonts | Sort-Object Name | Format-Table -AutoSize | Out-String
+}
+
 $parentFolder = Split-Path -Path $PSScriptRoot -Parent
 $filePath = Join-Path -Path $parentFolder -ChildPath 'src\FontsData.json'
-
-# Make sure file exists (or overwrite).
 $null = New-Item -Path $filePath -ItemType File -Force
-$fonts | ConvertTo-Json -Depth 10 | Out-File -FilePath $filePath -Force
+$fonts | ConvertTo-Json | Set-Content -Path $filePath -Force
 
-# 6. Check if anything actually changed.
-#    If git status --porcelain is empty, there are no new changes to commit.
-$changes = git status --porcelain
-if (-not [string]::IsNullOrWhiteSpace($changes)) {
-    # 7. Commit and push changes.
-    git add .
-    git commit -m "Update-FontsData via script on $timeStamp"
-    git push --set-upstream origin $branchName
+$changes = Run git status --porcelain
+if ([string]::IsNullOrWhiteSpace($changes)) {
+    Write-Output 'No changes detected.'
+    return
+}
 
-    # 8. Create a PR via GitHub CLI.
-    gh pr create `
-        --base main `
-        --head $branchName `
+Run git add .
+Run git commit -m "Update-FontsData via script on $timeStamp"
+Write-Output 'Changes in this commit:'
+Run git diff HEAD~1 HEAD -- src/FontsData.json
+
+# Push behavior depends on branch type
+if ($targetBranch -eq $currentBranch -and $currentBranch -ne $defaultBranch) {
+    # Push to existing branch
+    Run git push origin $targetBranch
+    Write-Output "Changes committed and pushed to existing branch: $targetBranch"
+} else {
+    # Push new branch and create PR
+    Run git push --set-upstream origin $targetBranch
+
+    Run gh pr create `
+        --base $defaultBranch `
+        --head $targetBranch `
         --title "Auto-Update: Google Fonts Data ($timeStamp)" `
         --body 'This PR updates FontsData.json with the latest Google Fonts metadata.'
 
-    Write-Output 'Changes detected and PR opened.'
-} else {
-    Write-Output 'No changes to commit.'
+    Write-Output "Changes detected and PR opened for branch: $targetBranch"
 }
