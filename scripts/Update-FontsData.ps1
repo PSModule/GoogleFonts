@@ -11,14 +11,14 @@
         [string[]]$Command
     )
     $cmd = $Command[0]
-    $args = $Command[1..$Command.Length]
+    $arguments = $Command[1..$Command.Length]
     Write-Debug "Command: $cmd"
-    Write-Debug "Arguments: $($args -join ', ')"
-    $fullCommand = "$cmd $($args -join ' ')"
+    Write-Debug "Arguments: $($arguments -join ', ')"
+    $fullCommand = "$cmd $($arguments -join ' ')"
 
     try {
         Write-Verbose "Executing: $fullCommand"
-        & $cmd @args
+        & $cmd @arguments
         if ($LASTEXITCODE -ne 0) {
             $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
             Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
