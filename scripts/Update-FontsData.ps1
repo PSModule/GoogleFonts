@@ -7,21 +7,19 @@
     [CmdletBinding()]
     param (
         # The command to execute
-        [Parameter(Mandatory, Position = 0)]
-        [string]$Command,
-
-        # The arguments to pass to the command
         [Parameter(ValueFromRemainingArguments)]
-        [string[]]$Arguments
+        [string[]]$InputObject
     )
 
-    Write-Debug "Command: $Command"
-    Write-Debug "Arguments: $($Arguments -join ', ')"
-    $fullCommand = "$Command $($Arguments -join ' ')"
+    $command = $inputObject[0]
+    $arguments = $inputObject[1..$inputObject.Length]
+    Write-Debug "Command: $command"
+    Write-Debug "Arguments: $($arguments -join ', ')"
+    $fullCommand = "$command $($arguments -join ' ')"
 
     try {
         Write-Verbose "Executing: $fullCommand"
-        & $Command @Arguments
+        & $command @arguments
         if ($LASTEXITCODE -ne 0) {
             $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
             Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
