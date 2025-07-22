@@ -1,25 +1,50 @@
-﻿Connect-GitHubApp -Organization PSModule -Default
+﻿function Invoke-NativeCommand {
+    <#
+        .SYNOPSIS
+        Executes a native command with arguments.
+    #>
+    [Alias('Exec', 'Run')]
+    [CmdletBinding()]
+    param (
+        # The command to execute
+        [Parameter(Mandatory, Position = 0)]
+        [string]$Command,
 
-git checkout main
-git pull
+        # The arguments to pass to the command
+        [Parameter(ValueFromRemainingArguments)]
+        [string[]]$Arguments
+    )
 
-# 2. Retrieve the date-time to create a unique branch name.
+    Write-Debug "Command: $Command"
+    Write-Debug "Arguments: $($Arguments -join ', ')"
+    $fullCommand = "$Command $($Arguments -join ' ')"
+
+    try {
+        Write-Verbose "Executing: $fullCommand"
+        & $Command @Arguments
+        if ($LASTEXITCODE -ne 0) {
+            $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
+            Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
+        }
+    } catch {
+        throw
+    }
+}
+
+Invoke-NativeCommand git checkout main
+Invoke-NativeCommand git pull
 $timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
 $branchName = "auto-font-update-$timeStamp"
+Invoke-NativeCommand git checkout -b $branchName
 
-# 3. Create a new branch for the changes.
-git checkout -b $branchName
-
-# 4. Retrieve the latest font data from Google Fonts.
-$GOOGLE_DEVELOPER_API_KEY = $env:GOOGLE_DEVELOPER_API_KEY
-$fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$GOOGLE_DEVELOPER_API_KEY"
+$fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$env:GOOGLE_DEVELOPER_API_KEY"
 $fontFamilies = $fontList.items
 $fonts = @()
 
 foreach ($fontFamily in $fontFamilies) {
     $variants = $fontFamily.files.PSObject.Properties
     foreach ($variant in $variants) {
-        $fonts += [ordered]@{
+        $fonts += [PSCustomObject]@{
             Name    = $fontFamily.family
             Variant = $variant.Name
             URL     = $variant.Value
@@ -27,25 +52,21 @@ foreach ($fontFamily in $fontFamilies) {
     }
 }
 
-# 5. Write results to FontsData.json.
+LogGroup 'Latest Fonts' {
+    $fonts | Sort-Object Name | Format-Table -AutoSize | Out-String
+}
+
 $parentFolder = Split-Path -Path $PSScriptRoot -Parent
 $filePath = Join-Path -Path $parentFolder -ChildPath 'src\FontsData.json'
-
-# Make sure file exists (or overwrite).
 $null = New-Item -Path $filePath -ItemType File -Force
-$fonts | ConvertTo-Json -Depth 10 | Out-File -FilePath $filePath -Force
+$fonts | ConvertTo-Json | Set-Content -Path $filePath -Force
 
-# 6. Check if anything actually changed.
-#    If git status --porcelain is empty, there are no new changes to commit.
-$changes = git status --porcelain
+$changes = Invoke-NativeCommand git status --porcelain
 if (-not [string]::IsNullOrWhiteSpace($changes)) {
-    # 7. Commit and push changes.
-    git add .
-    git commit -m "Update-FontsData via script on $timeStamp"
-    git push --set-upstream origin $branchName
-
-    # 8. Create a PR via GitHub CLI.
-    gh pr create `
+    Invoke-NativeCommand git add .
+    Invoke-NativeCommand git commit -m "Update-FontsData via script on $timeStamp"
+    Invoke-NativeCommand git push --set-upstream origin $branchName
+    Invoke-NativeCommand gh pr create `
         --base main `
         --head $branchName `
         --title "Auto-Update: Google Fonts Data ($timeStamp)" `
