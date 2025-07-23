@@ -5,9 +5,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
-permissions:
-  contents: write
-  pull-requests: write
+permissions: {}
 
 jobs:
   Update-FontsData:
@@ -25,4 +23,6 @@ jobs:
         env:
           GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
         with:
+          ClientID: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_CLIENT_ID }}
+          PrivateKey: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_PRIVATE_KEY }}
           Script: scripts/Update-FontsData.ps1
