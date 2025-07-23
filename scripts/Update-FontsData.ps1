@@ -100,10 +100,17 @@ LogGroup 'Get changes' {
     Set-GitHubStepSummary @"
 ## Changes available
 
+<details><summary>Details</summary>
+<p>
+
 ``````diff
 $changes
 ``````
+
+</p>
+</details>
 "@
+
 }
 
 LogGroup 'Process changes' {
