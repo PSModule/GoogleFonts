@@ -34,10 +34,12 @@
 }
 
 Connect-GitHubApp -Organization 'PSModule' -Default
+$repo = Get-GitHubRepository -Owner 'PSModule' -Name 'GoogleFonts'
 
 LogGroup 'Checkout' {
     $currentBranch = (Run git rev-parse --abbrev-ref HEAD).Trim()
-    $defaultBranch = (Run git symbolic-ref refs/remotes/origin/HEAD | ForEach-Object { $_.Split('/')[-1] })
+    $defaultBranch = $repo.DefaultBranch
+
     Write-Output "Current branch: $currentBranch"
     Write-Output "Default branch: $defaultBranch"
     Run git fetch origin
