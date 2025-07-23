@@ -28,6 +28,7 @@
     }
 }
 
+Connect-GitHubApp -Organization 'PSModule' -Default
 $currentBranch = (Run git rev-parse --abbrev-ref HEAD).Trim()
 $defaultBranch = (Run git remote show origin | Select-String 'HEAD branch:' | ForEach-Object { $_.ToString().Split(':')[1].Trim() })
 Write-Output "Current branch: $currentBranch"
