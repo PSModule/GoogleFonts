@@ -80,14 +80,23 @@ LogGroup 'Getting latest fonts' {
 
 $changes = Run git status --porcelain
 if ([string]::IsNullOrWhiteSpace($changes)) {
-    Write-Output 'Nothing to update.'
+    Write-Output 'No updates available.'
+    Write-GitHubNotice 'No updates available.'
     return
 }
 LogGroup 'Get changes' {
     Run git add .
     Run git commit -m "Update-FontsData via script on $timeStamp"
     Write-Output 'Changes in this commit:'
-    Run git diff HEAD~1 HEAD -- src/FontsData.json
+    $changes = Run git diff HEAD~1 HEAD -- src/FontsData.json
+    Write-Output $changes
+    Set-GitHubStepSummary @"
+## Changes available
+
+``````
+$changes
+``````
+"@
 }
 
 LogGroup 'Process changes' {
