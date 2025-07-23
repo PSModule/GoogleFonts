@@ -49,7 +49,7 @@ LogGroup 'Checkout' {
     $timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
     if ($currentBranch -eq $defaultBranch) {
         # Running on main/default branch - create new branch
-        $targetBranch = "auto-update-font-$timeStamp"
+        $targetBranch = "auto-update-$timeStamp"
         Write-Output "Running on default branch. Creating new branch: $targetBranch"
         Run git checkout -b $targetBranch
     } else {
@@ -93,7 +93,7 @@ if ([string]::IsNullOrWhiteSpace($changes)) {
 }
 LogGroup 'Get changes' {
     Run git add .
-    Run git commit -m "Update-FontsData via script on $timeStamp"
+    Run git commit -m 'Update FontsData.json'
     Write-Output 'Changes in this commit:'
     $changes = Run git diff HEAD~1 HEAD -- src/FontsData.json
     Write-Output $changes
@@ -114,20 +114,17 @@ $changes
 }
 
 LogGroup 'Process changes' {
-    # Push behavior depends on branch type
     if ($targetBranch -eq $currentBranch -and $currentBranch -ne $defaultBranch) {
-        # Push to existing branch
         Run git push origin $targetBranch
         Write-Output "Changes committed and pushed to existing branch: $targetBranch"
     } else {
-        # Push new branch and create PR
         Run git push --set-upstream origin $targetBranch
 
         Run gh pr create `
             --base $defaultBranch `
             --head $targetBranch `
-            --title "Auto-Update: Google Fonts Data ($timeStamp)" `
-            --body 'This PR updates FontsData.json with the latest Google Fonts metadata.'
+            --title "Auto-Update $timeStamp" `
+            --body 'This PR updates FontsData.json with the latest metadata.'
 
         Write-Output "Changes detected and PR opened for branch: $targetBranch"
     }
