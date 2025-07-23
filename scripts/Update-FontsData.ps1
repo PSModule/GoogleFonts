@@ -18,10 +18,15 @@
 
     try {
         Write-Verbose "Executing: $fullCommand"
-        & $cmd @arguments
+        $output = & $cmd @arguments
         if ($LASTEXITCODE -ne 0) {
             $errorMessage = "Command failed with exit code $LASTEXITCODE`: $fullCommand"
             Write-Error $errorMessage -ErrorId 'NativeCommandFailed' -Category OperationStopped -TargetObject $fullCommand
+        }
+        if ($output -is [array] -and $output.Count -gt 1) {
+            return $output -join "`n"
+        } else {
+            return $output
         }
     } catch {
         throw
@@ -93,7 +98,7 @@ LogGroup 'Get changes' {
     Set-GitHubStepSummary @"
 ## Changes available
 
-``````
+``````diff
 $changes
 ``````
 "@
