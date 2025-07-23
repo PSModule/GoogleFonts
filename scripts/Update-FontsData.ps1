@@ -55,7 +55,7 @@ LogGroup 'Checkout' {
     }
 }
 
-LogGroup 'Latest Fonts' {
+LogGroup 'Getting latest fonts' {
     $fontList = Invoke-RestMethod -Uri "https://www.googleapis.com/webfonts/v1/webfonts?key=$env:GOOGLE_DEVELOPER_API_KEY"
     $fontFamilies = $fontList.items
     $fonts = @()
@@ -80,7 +80,7 @@ LogGroup 'Latest Fonts' {
 
 $changes = Run git status --porcelain
 if ([string]::IsNullOrWhiteSpace($changes)) {
-    Write-Output 'No changes detected.'
+    Write-Output 'Nothing to update.'
     return
 }
 LogGroup 'Get changes' {
