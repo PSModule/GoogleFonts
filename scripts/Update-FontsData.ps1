@@ -37,7 +37,7 @@ Connect-GitHubApp -Organization 'PSModule' -Default
 
 LogGroup 'Checkout' {
     $currentBranch = (Run git rev-parse --abbrev-ref HEAD).Trim()
-    $defaultBranch = (Run git remote show origin | Select-String 'HEAD branch:' | ForEach-Object { $_.ToString().Split(':')[1].Trim() })
+    $defaultBranch = (Run git symbolic-ref refs/remotes/origin/HEAD | ForEach-Object { $_.Split('/')[-1] })
     Write-Output "Current branch: $currentBranch"
     Write-Output "Default branch: $defaultBranch"
     Run git fetch origin
