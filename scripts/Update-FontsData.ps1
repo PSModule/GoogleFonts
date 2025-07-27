@@ -33,6 +33,8 @@
     }
 }
 
+Install-PSResource -Repository PSGallery -TrustRepository -Name 'Json'
+
 Connect-GitHubApp -Organization 'PSModule' -Default
 $repo = Get-GitHubRepository -Owner 'PSModule' -Name 'GoogleFonts'
 
@@ -49,7 +51,7 @@ LogGroup 'Checkout' {
     $timeStamp = Get-Date -Format 'yyyyMMdd-HHmmss'
     if ($currentBranch -eq $defaultBranch) {
         # Running on main/default branch - create new branch
-        $targetBranch = "auto-update-font-$timeStamp"
+        $targetBranch = "auto-update-$timeStamp"
         Write-Output "Running on default branch. Creating new branch: $targetBranch"
         Run git checkout -b $targetBranch
     } else {
@@ -82,7 +84,7 @@ LogGroup 'Getting latest fonts' {
     $parentFolder = Split-Path -Path $PSScriptRoot -Parent
     $filePath = Join-Path -Path $parentFolder -ChildPath 'src\FontsData.json'
     $null = New-Item -Path $filePath -ItemType File -Force
-    $fonts | ConvertTo-Json | Set-Content -Path $filePath -Force
+    $fonts | ConvertTo-Json | Format-Json -IndentationType Spaces -IndentationSize 4 | Set-Content -Path $filePath -Force
 }
 
 $changes = Run git status --porcelain
@@ -93,7 +95,7 @@ if ([string]::IsNullOrWhiteSpace($changes)) {
 }
 LogGroup 'Get changes' {
     Run git add .
-    Run git commit -m "Update-FontsData via script on $timeStamp"
+    Run git commit -m 'Update FontsData.json'
     Write-Output 'Changes in this commit:'
     $changes = Run git diff HEAD~1 HEAD -- src/FontsData.json
     Write-Output $changes
@@ -114,20 +116,17 @@ $changes
 }
 
 LogGroup 'Process changes' {
-    # Push behavior depends on branch type
     if ($targetBranch -eq $currentBranch -and $currentBranch -ne $defaultBranch) {
-        # Push to existing branch
         Run git push origin $targetBranch
         Write-Output "Changes committed and pushed to existing branch: $targetBranch"
     } else {
-        # Push new branch and create PR
         Run git push --set-upstream origin $targetBranch
 
         Run gh pr create `
             --base $defaultBranch `
             --head $targetBranch `
-            --title "Auto-Update: Google Fonts Data ($timeStamp)" `
-            --body 'This PR updates FontsData.json with the latest Google Fonts metadata.'
+            --title "Auto-Update $timeStamp" `
+            --body 'This PR updates FontsData.json with the latest metadata.'
 
         Write-Output "Changes detected and PR opened for branch: $targetBranch"
     }

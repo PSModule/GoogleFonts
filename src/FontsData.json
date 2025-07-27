@@ -15,6 +15,11 @@
     "URL": "https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZECsHYkYBPY3o.ttf"
   },
   {
+    "Name": "Test",
+    "Variant": "regular",
+    "URL": "https://fonts.gstatic.com/s/test/v1/abcd1234.ttf"
+  },
+  {
     "Name": "AR One Sans",
     "Variant": "regular",
     "URL": "https://fonts.gstatic.com/s/aronesans/v5/TUZezwhrmbFp0Srr_tH6fv6RcUejHO_u7GF5aXfv-U2QzBLF6gslWn_9DW03no5mBF4.ttf"
