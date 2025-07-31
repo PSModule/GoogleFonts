@@ -16125,6 +16125,51 @@
         "URL": "https://fonts.gstatic.com/s/libertinusmono/v1/_gPg1RnxrjY_TDm97ApTqwneJJFToBF3YROW_w.ttf"
     },
     {
+        "Name": "Libertinus Sans",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/libertinussans/v1/YA9Lr0-a6k7ZLbw_dle4knJh2cqMjt3V_dB0Yw.ttf"
+    },
+    {
+        "Name": "Libertinus Sans",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/libertinussans/v1/YA9Jr0-a6k7ZLbw_dle4knJh2cq8jNfR39VkYzCp.ttf"
+    },
+    {
+        "Name": "Libertinus Sans",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/libertinussans/v1/YA9Or0-a6k7ZLbw_dle4knJh2cq0MvLx9ftoaimwmw.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLpkK4bw7KinajYBg0RTTwCLF5Ben6kFUHPIFaU.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLpiK4bw7KinajYBg0RTTwCLF5Ber6sPVFHNBaVImA.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLpjK4bw7KinajYBg0RTTwCLF5Bep3ErdHvjCaxRgew.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "600italic",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLphK4bw7KinajYBg0RTTwCLF5Ber6s3jH_pDY5UkexwPg.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLpjK4bw7KinajYBg0RTTwCLF5BepxUqdHvjCaxRgew.ttf"
+    },
+    {
+        "Name": "Libertinus Serif",
+        "Variant": "700italic",
+        "URL": "https://fonts.gstatic.com/s/libertinusserif/v1/RLphK4bw7KinajYBg0RTTwCLF5Ber6s36H7pDY5UkexwPg.ttf"
+    },
+    {
         "Name": "Libre Barcode 128",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/librebarcode128/v29/cIfnMbdUsUoiW3O_hVviCwVjuLtXeJ_A_gMk0izH.ttf"
@@ -18830,6 +18875,66 @@
         "URL": "https://fonts.gstatic.com/s/mousememoirs/v18/t5tmIRoSNJ-PH0WNNgDYxdSb7TnFrpOHYh4.ttf"
     },
     {
+        "Name": "Mozilla Headline",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBYIYVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Headline",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBvoYVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Headline",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB4IYVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Headline",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOB0oYVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Headline",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBPoEVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Headline",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/mozillaheadline/v1/QGYLz-UXahmCOps4kyMKGuSA9pYt2_P-w2kFrS88o6cVYRvBSDSOuerB_FOBB4EVZRxvtcorUQ.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOBwUcPNBRVYmoOXo.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB9scPNBRVYmoOXo.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB4UcPNBRVYmoOXo.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB7ccPNBRVYmoOXo.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB1sbPNBRVYmoOXo.ttf"
+    },
+    {
+        "Name": "Mozilla Text",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/mozillatext/v1/SZcr3FrnJ7S7WZIff2mJ7Tbp4zu7ULu3HkPOB2IbPNBRVYmoOXo.ttf"
+    },
+    {
         "Name": "Mr Bedfort",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/mrbedfort/v22/MQpR-WCtNZSWAdTMwBicliq0XZe_Iy8.ttf"
@@ -19338,6 +19443,51 @@
         "Name": "Narnoor",
         "Variant": "800",
         "URL": "https://fonts.gstatic.com/s/narnoor/v10/cIf4MaFWuVo-UTyP_ImHRGEsnIJkWL4.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "100",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg6wI6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgywJ6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg_IJ6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg6wJ6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg54J6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg3IO6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChg0sO6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgywO6g2M62M1AXs.ttf"
+    },
+    {
+        "Name": "Nata Sans",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/natasans/v1/1q2XY5KBClBit88SU_tUw-brVNlaeZChgwUO6g2M62M1AXs.ttf"
     },
     {
         "Name": "National Park",
@@ -32202,7 +32352,22 @@
     {
         "Name": "Special Gothic",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/specialgothic/v2/1q2fY5WcG0Fg_v0fHc8BvIZ252ThVIGpgnxL.ttf"
+        "URL": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4bF8-SgLPIOkEp8.ttf"
+    },
+    {
+        "Name": "Special Gothic",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4YN8-SgLPIOkEp8.ttf"
+    },
+    {
+        "Name": "Special Gothic",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4W97-SgLPIOkEp8.ttf"
+    },
+    {
+        "Name": "Special Gothic",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/specialgothic/v3/1q2lY5WcG0Fg_v0fHc8BvIZ2537qdm1JEt9N3w2mJykOEnLhliLsitHN4VZ7-SgLPIOkEp8.ttf"
     },
     {
         "Name": "Special Gothic Condensed One",
