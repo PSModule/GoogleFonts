@@ -375,6 +375,41 @@
         "URL": "https://fonts.gstatic.com/s/aladin/v26/ZgNSjPJFPrvJV5f16Sf4pGT2Ng.ttf"
     },
     {
+        "Name": "Alan Sans",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfIHoxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfN_oxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfO3oxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfAHvxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfDjvxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfF_vxyB1jBwiRr0.ttf"
+    },
+    {
+        "Name": "Alan Sans",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/alansans/v1/zOLt4pbDmq5Eu6ebjMSx4sywa339j__gfHbvxyB1jBwiRr0.ttf"
+    },
+    {
         "Name": "Alata",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/alata/v12/PbytFmztEwbIofe6xKcRQEOX.ttf"
@@ -30657,42 +30692,172 @@
     {
         "Name": "SUSE",
         "Variant": "100",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbGG71q9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbGG71q9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "200",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbEG7lq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEG7lq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "300",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbHY7lq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbHY7lq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbGG7lq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbGG7lq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "500",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbG07lq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbG07lq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "600",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbFY6Vq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbFY6Vq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "700",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbFh6Vq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbFh6Vq9ZnJSZtQG.ttf"
     },
     {
         "Name": "SUSE",
         "Variant": "800",
-        "URL": "https://fonts.gstatic.com/s/suse/v3/MwQsbhb078Wt81NpzELmC2QqjbEG6Vq9ZnJSZtQG.ttf"
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEG6Vq9ZnJSZtQG.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQsbhb078Wt81NpzELmC2QqjbEv6Vq9ZnJSZtQG.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "100italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrbL_bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "200italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrTL-bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "300italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrez-bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrbL-bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "500italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrYD-bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "600italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrWz5bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "700italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrVX5bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "800italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrTL5bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE",
+        "Variant": "900italic",
+        "URL": "https://fonts.gstatic.com/s/suse/v4/MwQqbhb078Wt2VpbM5qPYP6EiqROrRv5bHZwY8QGjKU.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "100",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656x2gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB6x6w2gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB68Cw2gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB656w2gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB66yw2gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB60C32gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB63m32gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83KW4wN6yi9x2mTxJI2Lzk1yOJRC-VB6x632gtcobW_gE0.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "100italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzMklWpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "200italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzskhWpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "300italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzbEhWpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzMkhWpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "500italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzAEhWpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "600italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbz7E9WpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "700italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbz1U9WpZe6kE2tPw.ttf"
+    },
+    {
+        "Name": "SUSE Mono",
+        "Variant": "800italic",
+        "URL": "https://fonts.gstatic.com/s/susemono/v1/y83IW4wN6yi9x2mTxJIcJgvKEIs6kUtG_lbzsk9WpZe6kE2tPw.ttf"
     },
     {
         "Name": "Sacramento",
