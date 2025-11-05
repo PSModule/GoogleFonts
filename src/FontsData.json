@@ -5617,7 +5617,7 @@
     {
         "Name": "Borel",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/borel/v3/6qLOKZsftAPisgshYyMnOjwE.ttf"
+        "URL": "https://fonts.gstatic.com/s/borel/v9/6qLOKZsftAPisgshYyMnOjwE.ttf"
     },
     {
         "Name": "Bowlby One",
@@ -8833,6 +8833,96 @@
         "Name": "Electrolize",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/electrolize/v20/cIf5Ma1dtE0zSiGSiED7AUEGso5tQafB.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "100",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpp3bJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jph3aJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpsPaJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpp3aJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpq_aJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpkPdJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpnrdJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jph3dJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uWsoS_Lf9xv7Su1FpSCByoURnrD9-jpjTdJi52PLM6RNU.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "100italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZzmx8OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "200italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZTm18OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "300italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZkG18OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZzm18OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "500italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZ_G18OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "600italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZEGp8OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "700italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZKWp8OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "800italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZTmp8OJE_VNWoyQ.ttf"
+    },
+    {
+        "Name": "Elms Sans",
+        "Variant": "900italic",
+        "URL": "https://fonts.gstatic.com/s/elmssans/v5/q5uUsoS_Lf9xv7Su1Fp4AS5XiXCAlXGks1WZZ2p8OJE_VNWoyQ.ttf"
     },
     {
         "Name": "Elsie",
@@ -33408,6 +33498,96 @@
         "Name": "Staatliches",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMbectJG9O9PS.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc7tIgFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc4zIgFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc5tIgFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc5fIgFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc6zJQFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Headline",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/stacksansheadline/v1/1PtFg9jZXvmMnkLnuURbaukKZJTyrDV326uH6mSinjBIwc6KJQFHqgUA3ZCX.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8diuR2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8e8uR2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fiuR2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8fQuR2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8c8vh2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Notch",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/stacksansnotch/v5/TwMY-JcVXlQd3ooGEx9EbUzgioTr5BY5lEpidqlSR8cFvh2ZGGf6Bw3r.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNo-KJO1yGgKF1a0.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNlGKJO1yGgKF1a0.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNg-KJO1yGgKF1a0.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNj2KJO1yGgKF1a0.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNtGNJO1yGgKF1a0.ttf"
+    },
+    {
+        "Name": "Stack Sans Text",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/stacksanstext/v1/kJEkBuAJ-Q0hiGPmzHEu345X1JJNBpRJ3RPan47MNuiNJO1yGgKF1a0.ttf"
     },
     {
         "Name": "Stalemate",
