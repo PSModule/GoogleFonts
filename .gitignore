@@ -18,6 +18,3 @@ outputs/*
 bin/
 obj/
 libs/
-
-# Temporary tools
-actionlint
