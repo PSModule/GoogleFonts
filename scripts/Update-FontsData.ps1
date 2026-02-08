@@ -138,13 +138,16 @@ LogGroup 'Process changes' {
             $newPR = $null
             $retryCount = 0
             $maxRetries = 3
+            $retryDelays = @(1, 2, 3)  # Progressive delays in seconds
             while ($null -eq $newPR -and $retryCount -lt $maxRetries) {
-                Start-Sleep -Seconds 2
+                if ($retryCount -gt 0) {
+                    Start-Sleep -Seconds $retryDelays[$retryCount - 1]
+                }
                 $newPR = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Head "PSModule:$targetBranch" -State 'open' |
                     Select-Object -First 1
                 $retryCount++
                 if ($null -eq $newPR -and $retryCount -lt $maxRetries) {
-                    Write-Output "PR not found yet, retrying... ($retryCount/$maxRetries)"
+                    Write-Output "PR not found yet, retrying in $($retryDelays[$retryCount - 1]) seconds... (attempt $retryCount/$maxRetries)"
                 }
             }
 
