@@ -148,37 +148,36 @@ LogGroup 'Process changes' {
                 }
             }
 
-            if ($null -eq $newPR) {
-                Write-Warning "Could not retrieve the newly created PR. Skipping supersedence logic."
-                return
-            }
+            if ($null -ne $newPR) {
+                Write-Output "Found new PR #$($newPR.Number): $($newPR.Title)"
 
-            Write-Output "Found new PR #$($newPR.Number): $($newPR.Title)"
+                # Find existing PRs (excluding the one we just created)
+                $existingPRs = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -State 'open' |
+                    Where-Object { $_.Title -like 'Auto-Update*' -and $_.Number -ne $newPR.Number }
 
-            # Find existing PRs (excluding the one we just created)
-            $existingPRs = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -State 'open' |
-                Where-Object { $_.Title -like 'Auto-Update*' -and $_.Number -ne $newPR.Number }
+                if ($existingPRs) {
+                    Write-Output "Found $($existingPRs.Count) existing Auto-Update PR(s) to close."
+                    foreach ($pr in $existingPRs) {
+                        Write-Output "Closing PR #$($pr.Number): $($pr.Title)"
 
-            if ($existingPRs) {
-                Write-Output "Found $($existingPRs.Count) existing Auto-Update PR(s) to close."
-                foreach ($pr in $existingPRs) {
-                    Write-Output "Closing PR #$($pr.Number): $($pr.Title)"
-
-                    # Add a comment explaining the supersedence
-                    $comment = @"
+                        # Add a comment explaining the supersedence
+                        $comment = @"
 This PR has been superseded by #$($newPR.Number) and will be closed automatically.
 
 The font data has been updated in the newer PR. Please refer to #$($newPR.Number) for the most current changes.
 "@
-                    New-GitHubPullRequestComment -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -Body $comment
+                        New-GitHubPullRequestComment -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -Body $comment
 
-                    # Close the PR
-                    Set-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -State 'closed'
+                        # Close the PR
+                        Set-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -State 'closed'
 
-                    Write-Output "Successfully closed PR #$($pr.Number)"
+                        Write-Output "Successfully closed PR #$($pr.Number)"
+                    }
+                } else {
+                    Write-Output "No existing open Auto-Update PRs to close."
                 }
             } else {
-                Write-Output "No existing open Auto-Update PRs to close."
+                Write-Warning "Could not retrieve the newly created PR after $maxRetries attempts. Skipping supersedence logic."
             }
         }
     }

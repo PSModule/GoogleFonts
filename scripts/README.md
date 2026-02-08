@@ -81,8 +81,8 @@ You can manually trigger an update using the GitHub Actions UI:
 
 The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs is defined in the script and can be customized by modifying:
 
-- `scripts/Update-FontsData.ps1` (lines 151-154) - Message for PRs closed when creating a new update
-- `.github/workflows/Cleanup-FontsData-PRs.yml` (line 42) - Message for PRs closed after a merge
+- `scripts/Update-FontsData.ps1` (lines 164-168) - Message for PRs closed when creating a new update
+- `.github/workflows/Cleanup-FontsData-PRs.yml` (lines 41-45) - Message for PRs closed after a merge
 
 ### Development
 
