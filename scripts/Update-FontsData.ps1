@@ -134,9 +134,26 @@ LogGroup 'Process changes' {
         LogGroup 'Close superseded PRs' {
             Write-Output "Checking for existing open Auto-Update PRs to supersede..."
 
-            # Get the newly created PR
-            $newPR = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Head "PSModule:$targetBranch" -State 'open' |
-                Select-Object -First 1
+            # Get the newly created PR with retry logic
+            $newPR = $null
+            $retryCount = 0
+            $maxRetries = 3
+            while ($null -eq $newPR -and $retryCount -lt $maxRetries) {
+                Start-Sleep -Seconds 2
+                $newPR = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Head "PSModule:$targetBranch" -State 'open' |
+                    Select-Object -First 1
+                $retryCount++
+                if ($null -eq $newPR -and $retryCount -lt $maxRetries) {
+                    Write-Output "PR not found yet, retrying... ($retryCount/$maxRetries)"
+                }
+            }
+
+            if ($null -eq $newPR) {
+                Write-Warning "Could not retrieve the newly created PR. Skipping supersedence logic."
+                return
+            }
+
+            Write-Output "Found new PR #$($newPR.Number): $($newPR.Title)"
 
             # Find existing PRs (excluding the one we just created)
             $existingPRs = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -State 'open' |

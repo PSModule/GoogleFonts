@@ -39,7 +39,12 @@ jobs:
 
                     # Add a comment explaining the supersedence
                     $mergedPRNumber = $env:MERGED_PR_NUMBER
-                    $comment = "This PR has been superseded by PR #$mergedPRNumber which has been merged.`n`nThe font data has been updated in the merged PR. This PR is now obsolete and will be closed automatically."
+                    $commentLines = @(
+                        "This PR has been superseded by PR #$mergedPRNumber which has been merged."
+                        ""
+                        "The font data has been updated in the merged PR. This PR is now obsolete and will be closed automatically."
+                    )
+                    $comment = $commentLines -join "`n"
                     New-GitHubPullRequestComment -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -Body $comment
 
                     # Close the PR
