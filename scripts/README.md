@@ -21,9 +21,9 @@ This script automatically updates the `src/FontsData.json` file with the latest 
    - Creates a new branch named `auto-update-YYYYMMDD-HHmmss`
    - Commits the updated `FontsData.json`
    - Opens a pull request with title `Auto-Update YYYYMMDD-HHmmss`
-5. **PR Supersedence**: Before creating a new PR, the script:
-   - Searches for existing open PRs with titles matching `Auto-Update*`
-   - Closes each superseded PR with a comment explaining the supersedence
+5. **PR Supersedence**: After creating a new PR, the script:
+   - Searches for existing open PRs with titles matching `Auto-Update*` (excluding the newly created PR)
+   - Closes each superseded PR with a comment referencing the new PR number
    - Ensures only the latest update PR remains open
 
 ### PR Lifecycle Management
@@ -32,12 +32,13 @@ The font data updater implements PR supersedence similar to Dependabot:
 
 #### When a New Update PR is Created
 
-- The script checks for existing open `Auto-Update*` PRs
-- Each existing PR receives a comment:
+- The script first creates the new PR
+- Then checks for existing open `Auto-Update*` PRs (excluding the newly created one)
+- Each existing PR receives a comment referencing the new PR number:
   ```
-  This PR has been superseded by a newer update and will be closed automatically.
-  
-  The font data has been updated in a more recent PR. Please refer to the latest Auto-Update PR for the most current changes.
+  This PR has been superseded by #[NEW_PR_NUMBER] and will be closed automatically.
+
+  The font data has been updated in the newer PR. Please refer to #[NEW_PR_NUMBER] for the most current changes.
   ```
 - All superseded PRs are automatically closed
 
@@ -80,8 +81,8 @@ You can manually trigger an update using the GitHub Actions UI:
 
 The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs is defined in the script and can be customized by modifying:
 
-- `scripts/Update-FontsData.ps1` (lines 135-138) - Message for PRs closed when creating a new update
-- `.github/workflows/Cleanup-FontsData-PRs.yml` (lines 30-33) - Message for PRs closed after a merge
+- `scripts/Update-FontsData.ps1` (lines 151-154) - Message for PRs closed when creating a new update
+- `.github/workflows/Cleanup-FontsData-PRs.yml` (line 42) - Message for PRs closed after a merge
 
 ### Development
 
