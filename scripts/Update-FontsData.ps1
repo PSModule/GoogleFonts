@@ -120,36 +120,6 @@ LogGroup 'Process changes' {
         Run git push origin $targetBranch
         Write-Output "Changes committed and pushed to existing branch: $targetBranch"
     } else {
-        # Close any existing open Auto-Update PRs before creating a new one
-        LogGroup 'Close superseded PRs' {
-            Write-Output "Checking for existing open Auto-Update PRs..."
-            $existingPRs = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -State 'open' |
-                Where-Object { $_.Title -like 'Auto-Update*' }
-
-            if ($existingPRs) {
-                Write-Output "Found $($existingPRs.Count) existing Auto-Update PR(s) to close."
-                foreach ($pr in $existingPRs) {
-                    Write-Output "Closing PR #$($pr.Number): $($pr.Title)"
-
-                    # Add a comment explaining the supersedence
-                    $comment = @"
-This PR has been superseded by a newer update and will be closed automatically.
-
-The font data has been updated in a more recent PR. Please refer to the latest Auto-Update PR for the most current changes.
-"@
-                    New-GitHubPullRequestComment -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -Body $comment
-
-                    # Close the PR
-                    Set-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -State 'closed'
-
-                    Write-Output "Successfully closed PR #$($pr.Number)"
-                }
-            } else {
-                Write-Output "No existing open Auto-Update PRs found."
-            }
-        }
-
-
         Run git push --set-upstream origin $targetBranch
 
         Run gh pr create `
@@ -159,5 +129,40 @@ The font data has been updated in a more recent PR. Please refer to the latest A
             --body 'This PR updates FontsData.json with the latest metadata.'
 
         Write-Output "Changes detected and PR opened for branch: $targetBranch"
+
+        # Close any existing open Auto-Update PRs after creating the new one
+        LogGroup 'Close superseded PRs' {
+            Write-Output "Checking for existing open Auto-Update PRs to supersede..."
+
+            # Get the newly created PR
+            $newPR = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Head "PSModule:$targetBranch" -State 'open' |
+                Select-Object -First 1
+
+            # Find existing PRs (excluding the one we just created)
+            $existingPRs = Get-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -State 'open' |
+                Where-Object { $_.Title -like 'Auto-Update*' -and $_.Number -ne $newPR.Number }
+
+            if ($existingPRs) {
+                Write-Output "Found $($existingPRs.Count) existing Auto-Update PR(s) to close."
+                foreach ($pr in $existingPRs) {
+                    Write-Output "Closing PR #$($pr.Number): $($pr.Title)"
+
+                    # Add a comment explaining the supersedence
+                    $comment = @"
+This PR has been superseded by #$($newPR.Number) and will be closed automatically.
+
+The font data has been updated in the newer PR. Please refer to #$($newPR.Number) for the most current changes.
+"@
+                    New-GitHubPullRequestComment -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -Body $comment
+
+                    # Close the PR
+                    Set-GitHubPullRequest -Owner 'PSModule' -Name 'GoogleFonts' -Number $pr.Number -State 'closed'
+
+                    Write-Output "Successfully closed PR #$($pr.Number)"
+                }
+            } else {
+                Write-Output "No existing open Auto-Update PRs to close."
+            }
+        }
     }
 }
