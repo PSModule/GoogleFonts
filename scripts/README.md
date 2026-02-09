@@ -9,7 +9,7 @@ This script automatically updates the `src/FontsData.json` file with the latest 
 ### Features
 
 - **Automatic Updates**: Runs daily via GitHub Actions to fetch the latest font data
-- **PR Supersedence**: Automatically closes older update pull requests when a new update is available
+- **PR Supersedence**: Automatically closes older update pull requests when a new update is created
 - **Clean Repository**: Ensures only the most recent update PR remains open
 
 ### How It Works
@@ -28,9 +28,7 @@ This script automatically updates the `src/FontsData.json` file with the latest 
 
 ### PR Lifecycle Management
 
-The font data updater implements PR supersedence similar to Dependabot:
-
-#### When a New Update PR is Created
+The font data updater implements PR supersedence similar to Dependabot. When a new update PR is created:
 
 - The script first creates the new PR
 - Then checks for existing open `Auto-Update*` PRs (excluding the newly created one)
@@ -42,48 +40,19 @@ The font data updater implements PR supersedence similar to Dependabot:
   ```
 - All superseded PRs are automatically closed
 
-#### When an Update PR is Merged
+This means there is no need for a separate cleanup workflow on merge — by the time a PR is merged, it is already the only open Auto-Update PR.
 
-- The `Cleanup-FontsData-PRs` workflow is triggered
-- Any remaining open `Auto-Update*` PRs are detected
-- Each remaining PR receives a comment referencing the merged PR
-- All obsolete PRs are automatically closed
-
-### Workflows
+### Workflow
 
 #### Update-FontsData.yml
 
-Handles the scheduled updates and PR creation:
+Handles the scheduled updates, PR creation, and supersedence:
 - **Trigger**: Daily at midnight UTC, or manual via `workflow_dispatch`
 - **Authentication**: Uses GitHub App credentials for API access
 - **Permissions**: Requires secrets:
   - `GOOGLE_DEVELOPER_API_KEY`: For accessing Google Fonts API
   - `GOOGLEFONTS_UPDATER_BOT_CLIENT_ID`: GitHub App client ID
   - `GOOGLEFONTS_UPDATER_BOT_PRIVATE_KEY`: GitHub App private key
-
-#### Cleanup-FontsData-PRs.yml
-
-Handles cleanup after PR merges:
-- **Trigger**: When a PR modifying `src/FontsData.json` is merged to main
-- **Script**: Calls `scripts/Close-SupersededPRs.ps1` to close remaining open `Auto-Update*` PRs
-- **Action**: Closes any remaining open `Auto-Update*` PRs that are now obsolete
-- **Authentication**: Uses the same GitHub App credentials
-
-### Scripts
-
-#### Update-FontsData.ps1
-
-Main script for updating font data:
-- Fetches latest font metadata from Google Fonts API
-- Creates update PR if changes are detected
-- Closes superseded PRs after creating the new PR
-
-#### Close-SupersededPRs.ps1
-
-Cleanup script called by the Cleanup-FontsData-PRs workflow:
-- Finds remaining open `Auto-Update*` PRs
-- Closes them with a comment referencing the merged PR
-- Uses environment variable `MERGED_PR_NUMBER` for the PR reference
 
 ### Manual Execution
 
@@ -96,10 +65,7 @@ You can manually trigger an update using the GitHub Actions UI:
 
 ### Configuration
 
-The supersedence behavior is built into the scripts and requires no additional configuration. The message posted when closing superseded PRs is defined in the scripts and can be customized by modifying:
-
-- `scripts/Update-FontsData.ps1` (lines 164-168) - Message for PRs closed when creating a new update
-- `scripts/Close-SupersededPRs.ps1` (lines 13-17) - Message for PRs closed after a merge
+The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs can be customized by modifying `scripts/Update-FontsData.ps1` (lines 164-168).
 
 ### Development
 
