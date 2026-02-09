@@ -65,8 +65,25 @@ Handles the scheduled updates and PR creation:
 
 Handles cleanup after PR merges:
 - **Trigger**: When a PR modifying `src/FontsData.json` is merged to main
+- **Script**: Calls `scripts/Close-SupersededPRs.ps1` to close remaining open `Auto-Update*` PRs
 - **Action**: Closes any remaining open `Auto-Update*` PRs that are now obsolete
 - **Authentication**: Uses the same GitHub App credentials
+
+### Scripts
+
+#### Update-FontsData.ps1
+
+Main script for updating font data:
+- Fetches latest font metadata from Google Fonts API
+- Creates update PR if changes are detected
+- Closes superseded PRs after creating the new PR
+
+#### Close-SupersededPRs.ps1
+
+Cleanup script called by the Cleanup-FontsData-PRs workflow:
+- Finds remaining open `Auto-Update*` PRs
+- Closes them with a comment referencing the merged PR
+- Uses environment variable `MERGED_PR_NUMBER` for the PR reference
 
 ### Manual Execution
 
@@ -79,10 +96,10 @@ You can manually trigger an update using the GitHub Actions UI:
 
 ### Configuration
 
-The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs is defined in the script and can be customized by modifying:
+The supersedence behavior is built into the scripts and requires no additional configuration. The message posted when closing superseded PRs is defined in the scripts and can be customized by modifying:
 
 - `scripts/Update-FontsData.ps1` (lines 164-168) - Message for PRs closed when creating a new update
-- `.github/workflows/Cleanup-FontsData-PRs.yml` (lines 41-45) - Message for PRs closed after a merge
+- `scripts/Close-SupersededPRs.ps1` (lines 13-17) - Message for PRs closed after a merge
 
 ### Development
 
