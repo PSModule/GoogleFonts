@@ -65,7 +65,8 @@ You can manually trigger an update using the GitHub Actions UI:
 
 ### Configuration
 
-The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs can be customized by modifying `scripts/Update-FontsData.ps1` (lines 164-168).
+The supersedence behavior is built into the script and requires no additional configuration. The message posted when closing superseded PRs can be
+customized by modifying `scripts/Update-FontsData.ps1`.
 
 ### Development
 
