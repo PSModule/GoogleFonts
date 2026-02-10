@@ -33,6 +33,8 @@
     }
 }
 
+$repoName = $env:GITHUB_REPOSITORY
+
 Install-PSResource -Repository PSGallery -TrustRepository -Name 'Json'
 
 Connect-GitHubApp -Organization 'PSModule' -Default
@@ -143,7 +145,7 @@ LogGroup 'Process changes' {
                 if ($retryCount -gt 0) {
                     Start-Sleep -Seconds $retryDelays[$retryCount - 1]
                 }
-                $newPRJson = Run gh pr list --repo 'PSModule/GoogleFonts' --head $targetBranch --state open --json number, title --limit 1
+                $newPRJson = Run gh pr list --repo $repoName --head $targetBranch --state open --json 'number,title' --limit 1
                 $newPR = $newPRJson | ConvertFrom-Json | Select-Object -First 1
                 if ($null -eq $newPR -or $null -eq $newPR.number) {
                     $newPR = $null
@@ -159,7 +161,7 @@ LogGroup 'Process changes' {
                 Write-Output "Found new PR #$($newPR.number): $($newPR.title)"
 
                 # Find existing open Auto-Update PRs (excluding the one we just created)
-                $existingPRsJson = Run gh pr list --repo 'PSModule/GoogleFonts' --state open --search 'Auto-Update in:title' --json number, title
+                $existingPRsJson = Run gh pr list --repo $repoName --state open --search 'Auto-Update in:title' --json 'number,title'
                 $existingPRs = $existingPRsJson | ConvertFrom-Json | Where-Object { $_.number -ne $newPR.number }
 
                 if ($existingPRs) {
@@ -173,10 +175,10 @@ This PR has been superseded by #$($newPR.number) and will be closed automaticall
 
 The font data has been updated in the newer PR. Please refer to #$($newPR.number) for the most current changes.
 "@
-                        Run gh pr comment $pr.number --repo 'PSModule/GoogleFonts' --body $comment
+                        Run gh pr comment $pr.number --repo $repoName --body $comment
 
                         # Close the PR
-                        Run h pr close $pr.number --repo 'PSModule/GoogleFonts'
+                        Run gh pr close $pr.number --repo $repoName
 
                         Write-Output "Successfully closed PR #$($pr.number)"
                     }
