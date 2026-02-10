@@ -33,7 +33,7 @@ The font data updater implements PR supersedence similar to Dependabot. When a n
 - The script first creates the new PR
 - Then checks for existing open `Auto-Update*` PRs (excluding the newly created one)
 - Each existing PR receives a comment referencing the new PR number:
-  ```
+  ```text
   This PR has been superseded by #[NEW_PR_NUMBER] and will be closed automatically.
 
   The font data has been updated in the newer PR. Please refer to #[NEW_PR_NUMBER] for the most current changes.
