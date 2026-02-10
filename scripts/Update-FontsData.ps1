@@ -129,5 +129,63 @@ LogGroup 'Process changes' {
             --body 'This PR updates FontsData.json with the latest metadata.'
 
         Write-Output "Changes detected and PR opened for branch: $targetBranch"
+
+        # Close any existing open Auto-Update PRs after creating the new one
+        LogGroup 'Close superseded PRs' {
+            Write-Output 'Checking for existing open Auto-Update PRs to supersede...'
+
+            # Get the newly created PR with retry logic
+            $newPRJson = $null
+            $retryCount = 0
+            $maxRetries = 3
+            $retryDelays = @(1, 2, 3)  # Progressive delays in seconds
+            while ($null -eq $newPRJson -and $retryCount -lt $maxRetries) {
+                if ($retryCount -gt 0) {
+                    Start-Sleep -Seconds $retryDelays[$retryCount - 1]
+                }
+                $newPRJson = Run gh pr list --repo 'PSModule/GoogleFonts' --head $targetBranch --state open --json number, title --limit 1
+                $newPR = $newPRJson | ConvertFrom-Json | Select-Object -First 1
+                if ($null -eq $newPR -or $null -eq $newPR.number) {
+                    $newPR = $null
+                    $newPRJson = $null
+                }
+                $retryCount++
+                if ($null -eq $newPR -and $retryCount -lt $maxRetries) {
+                    Write-Output "PR not found yet, retrying in $($retryDelays[$retryCount - 1]) seconds... (attempt $retryCount/$maxRetries)"
+                }
+            }
+
+            if ($null -ne $newPR) {
+                Write-Output "Found new PR #$($newPR.number): $($newPR.title)"
+
+                # Find existing open Auto-Update PRs (excluding the one we just created)
+                $existingPRsJson = Run gh pr list --repo 'PSModule/GoogleFonts' --state open --search 'Auto-Update in:title' --json number, title
+                $existingPRs = $existingPRsJson | ConvertFrom-Json | Where-Object { $_.number -ne $newPR.number }
+
+                if ($existingPRs) {
+                    Write-Output "Found $(@($existingPRs).Count) existing Auto-Update PR(s) to close."
+                    foreach ($pr in $existingPRs) {
+                        Write-Output "Closing PR #$($pr.number): $($pr.title)"
+
+                        # Add a comment explaining the supersedence
+                        $comment = @"
+This PR has been superseded by #$($newPR.number) and will be closed automatically.
+
+The font data has been updated in the newer PR. Please refer to #$($newPR.number) for the most current changes.
+"@
+                        Run gh pr comment $pr.number --repo 'PSModule/GoogleFonts' --body $comment
+
+                        # Close the PR
+                        Run h pr close $pr.number --repo 'PSModule/GoogleFonts'
+
+                        Write-Output "Successfully closed PR #$($pr.number)"
+                    }
+                } else {
+                    Write-Output 'No existing open Auto-Update PRs to close.'
+                }
+            } else {
+                Write-Warning "Could not retrieve the newly created PR after $maxRetries attempts. Skipping supersedence logic."
+            }
+        }
     }
 }
