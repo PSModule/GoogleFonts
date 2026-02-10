@@ -161,7 +161,7 @@ LogGroup 'Process changes' {
                 Write-Output "Found new PR #$($newPR.number): $($newPR.title)"
 
                 # Find existing open Auto-Update PRs (excluding the one we just created)
-                $existingPRsJson = Run gh pr list --repo $repoName --state open --search 'Auto-Update in:title' --json 'number,title'
+                $existingPRsJson = Run gh pr list --repo $repoName --state open --search 'Auto-Update in:title' --json 'number,title,headRefName'
                 $existingPRs = $existingPRsJson | ConvertFrom-Json | Where-Object { $_.number -ne $newPR.number }
 
                 if ($existingPRs) {
@@ -181,6 +181,20 @@ The font data has been updated in the newer PR. Please refer to #$($newPR.number
                         Run gh pr close $pr.number --repo $repoName
 
                         Write-Output "Successfully closed PR #$($pr.number)"
+
+                        # Delete the branch associated with the closed PR
+                        $branchName = $pr.headRefName
+                        if ($branchName) {
+                            Write-Output "Deleting branch: $branchName"
+                            $null = Run gh api -X DELETE "repos/$repoName/git/refs/heads/$branchName"
+                            if ($LASTEXITCODE -eq 0) {
+                                Write-Output "Successfully deleted branch: $branchName"
+                            } else {
+                                Write-Warning "Failed to delete branch $branchName (exit code $LASTEXITCODE)"
+                            }
+                        } else {
+                            Write-Warning "Could not determine branch name for PR #$($pr.number)"
+                        }
                     }
                 } else {
                     Write-Output 'No existing open Auto-Update PRs to close.'
