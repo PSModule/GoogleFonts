@@ -186,8 +186,12 @@ The font data has been updated in the newer PR. Please refer to #$($newPR.number
                         $branchName = $pr.headRefName
                         if ($branchName) {
                             Write-Output "Deleting branch: $branchName"
-                            Run gh api -X DELETE "repos/$repoName/git/refs/heads/$branchName"
-                            Write-Output "Successfully deleted branch: $branchName"
+                            try {
+                                Run gh api -X DELETE "repos/$repoName/git/refs/heads/$branchName"
+                                Write-Output "Successfully deleted branch: $branchName"
+                            } catch {
+                                Write-Warning "Failed to delete branch $branchName : $_"
+                            }
                         } else {
                             Write-Warning "Could not determine branch name for PR #$($pr.number)"
                         }
