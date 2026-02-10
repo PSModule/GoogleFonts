@@ -173,10 +173,10 @@ This PR has been superseded by #$($newPR.number) and will be closed automaticall
 
 The font data has been updated in the newer PR. Please refer to #$($newPR.number) for the most current changes.
 "@
-                        gh pr comment $pr.number --repo 'PSModule/GoogleFonts' --body $comment
+                        Run gh pr comment $pr.number --repo 'PSModule/GoogleFonts' --body $comment
 
                         # Close the PR
-                        gh pr close $pr.number --repo 'PSModule/GoogleFonts'
+                        Run h pr close $pr.number --repo 'PSModule/GoogleFonts'
 
                         Write-Output "Successfully closed PR #$($pr.number)"
                     }
