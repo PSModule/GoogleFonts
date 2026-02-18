@@ -16,5 +16,3 @@
 *.png binary
 *.dll binary
 *.so  binary
-
-.github/workflows/*.lock.yml linguist-generated=true merge=ours
