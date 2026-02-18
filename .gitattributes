@@ -5,6 +5,9 @@
 *.sh    text eol=lf
 *.svg   eol=lf
 
+# Agentic workflows lock files
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
+
 # Ensure any exe files are treated as binary
 *.exe binary
 *.jpg binary
@@ -13,3 +16,5 @@
 *.png binary
 *.dll binary
 *.so  binary
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
