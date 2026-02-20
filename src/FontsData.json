@@ -985,6 +985,11 @@
         "URL": "https://fonts.gstatic.com/s/allison/v13/X7nl4b88AP2nkbvZOCaQ4MTgAgk.ttf"
     },
     {
+        "Name": "Allkin",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/allkin/v5/ieV_2Y5KIGmGKpnzLXRuIUsGCA.ttf"
+    },
+    {
         "Name": "Allura",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/allura/v23/9oRPNYsQpS4zjuAPjAIXPtrrGA.ttf"
@@ -1248,6 +1253,41 @@
         "Name": "Alumni Sans SC",
         "Variant": "900italic",
         "URL": "https://fonts.gstatic.com/s/alumnisanssc/v3/Y4GdYaxzVjArrOeNFYbCvkZ8C0UB-pPxss6d2oxLoP4XxMibThxbNRJQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZ3dR3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZg9R3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZsdR3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZXdN3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZZNN3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZA9N3qNHRIJlgTQ.ttf"
+    },
+    {
+        "Name": "Alyamama",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/alyamama/v2/snf0s0a6-txy62q5QqIBNi2sXSGcdTeZKtN3qNHRIJlgTQ.ttf"
     },
     {
         "Name": "Amarante",
@@ -5718,6 +5758,21 @@
         "Name": "Bowlby One SC",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/bowlbyonesc/v27/DtVlJxerQqQm37tzN3wMug9Pzgj8owhNjuE.ttf"
+    },
+    {
+        "Name": "Bpmf Huninn",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/bpmfhuninn/v2/taiOGmRuFJa3qsALi5gn1K6o05E5abe_.ttf"
+    },
+    {
+        "Name": "Bpmf Iansui",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/bpmfiansui/v2/yMJWMIp-dJTO0T8F_WnJPghxoNFxW0Hz.ttf"
+    },
+    {
+        "Name": "Bpmf Zihi Kai Std",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/bpmfzihikaistd/v2/9XU_lIdmjlbGWCXAeHssPRoh5OLaAgzG5SMtfj3e.ttf"
     },
     {
         "Name": "Braah One",
@@ -13297,7 +13352,7 @@
     {
         "Name": "Huninn",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/huninn/v2/OpNNnoINg9bQ4xkpjiHQjittXw.ttf"
+        "URL": "https://fonts.gstatic.com/s/huninn/v6/OpNNnoINg9bQ4xkpjiHQjittXw.ttf"
     },
     {
         "Name": "Hurricane",
@@ -13907,7 +13962,7 @@
     {
         "Name": "Iansui",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/iansui/v8/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf"
+        "URL": "https://fonts.gstatic.com/s/iansui/v10/w8gbH2UoTuUp5bOajSGD1FcXoQ.ttf"
     },
     {
         "Name": "Ibarra Real Nova",
@@ -23017,47 +23072,47 @@
     {
         "Name": "Noto Sans Oriya",
         "Variant": "100",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0fq_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0fq_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "200",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0f6_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0f6_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "300",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Iviqf6_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Iviqf6_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0f6_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivj0f6_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "500",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvjGf6_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvjGf6_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "600",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgqeK_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgqeK_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "700",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgTeK_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvgTeK_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "800",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0eK_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5Ivh0eK_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Oriya",
         "Variant": "900",
-        "URL": "https://fonts.gstatic.com/s/notosansoriya/v33/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvhdeK_c6LhHBRe-.ttf"
+        "URL": "https://fonts.gstatic.com/s/notosansoriya/v35/AYCppXfzfccDCstK_hrjDyADv5e9748vhj3CJBLHIARtgD6TJQS0dJT5IvhdeK_c6LhHBRe-.ttf"
     },
     {
         "Name": "Noto Sans Osage",
@@ -30432,92 +30487,92 @@
     {
         "Name": "Roboto",
         "Variant": "100",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "200",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbWmTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbWmTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "300",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "500",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "600",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaammTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaammTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "700",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "800",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEammTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEammTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "900",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammTggvWl0Qn.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammTggvWl0Qn.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "100italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "200italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "300italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "500italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "600italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "700italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "800italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto",
         "Variant": "900italic",
-        "URL": "https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXiA_0klQnx24.ttf"
+        "URL": "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXiA_0klQnx24.ttf"
     },
     {
         "Name": "Roboto Condensed",
