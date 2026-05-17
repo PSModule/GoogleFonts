@@ -14,6 +14,10 @@ param(
 )
 
 function Invoke-Uninstall {
+    <#
+    .SYNOPSIS
+    Uninstalls matching Google Fonts before a measurement run.
+    #>
     param([string[]] $Names)
     foreach ($n in $Names) {
         $installed = Get-Font -Scope CurrentUser -ErrorAction SilentlyContinue | Where-Object { $_.Name -like "$n*" }
@@ -24,6 +28,10 @@ function Invoke-Uninstall {
 }
 
 function Measure-Scenario {
+    <#
+    .SYNOPSIS
+    Measures a single install scenario and records the result.
+    #>
     param(
         [string] $Name,
         [scriptblock] $Setup,
