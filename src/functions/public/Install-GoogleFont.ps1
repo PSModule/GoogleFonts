@@ -70,7 +70,7 @@ function Install-GoogleFont {
     )
 
     begin {
-        if ($Scope -eq 'AllUsers' -and -not (IsAdmin)) {
+        if ($Scope -eq 'AllUsers' -and -not (Test-Admin)) {
             $errorMessage = @'
 Administrator rights are required to install fonts.
 Please run the command again with elevated rights (Run as Administrator) or provide '-Scope CurrentUser' to your command."
