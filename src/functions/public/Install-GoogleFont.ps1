@@ -77,6 +77,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 '@
             throw $errorMessage
         }
+        $previousProgressPreference = $ProgressPreference
+        $ProgressPreference = 'SilentlyContinue'
         $googleFontsToInstall = @()
 
         $guid = (New-Guid).Guid
@@ -125,5 +127,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
     clean {
         Remove-Item -Path $tempPath -Force
+        if ($previousProgressPreference) {
+            $ProgressPreference = $previousProgressPreference
+        }
     }
 }
