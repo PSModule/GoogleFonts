@@ -1,7 +1,7 @@
 ﻿#Requires -Version 7.0
 [CmdletBinding()]
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingWriteHost', '', Justification = 'Performance script intentionally uses Write-Host')]
-[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSReviewUnusedParameter', 'ResultsPath', Justification = 'Used via splatting')]
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSReviewUnusedParameter', 'ResultsPath', Justification = 'False positive: parameter is consumed from script scope inside Measure-Scenario')]
 param(
     [Parameter(Mandatory)]
     [string] $Iteration,
@@ -55,7 +55,7 @@ function Measure-Scenario {
         Error      = $err
         Module     = (Get-Module GoogleFonts | Select-Object -First 1 -ExpandProperty Version).ToString()
     }
-    ($obj | ConvertTo-Json -Compress) | Add-Content -LiteralPath $ResultsPath
+    ($obj | ConvertTo-Json -Compress) | Add-Content -LiteralPath $script:ResultsPath
     Write-Host "[$Iteration] Result   : $Name -> $($obj.DurationS)s"
     return $obj
 }
