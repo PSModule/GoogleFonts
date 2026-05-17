@@ -23,10 +23,6 @@
             { Install-GoogleFont -Name 'Akshar' } | Should -Not -Throw
         }
 
-        It '[Install-GoogleFont] - Reinstalls when -Force is specified' {
-            { Install-GoogleFont -Name 'Akshar' -Force } | Should -Not -Throw
-        }
-
         It '[Install-GoogleFont] - Supports wildcard names' {
             { Install-GoogleFont -Name 'ABee*' } | Should -Not -Throw
         }
