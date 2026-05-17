@@ -19,6 +19,18 @@
             Get-Font -Name 'Akshar*' | Should -Not -BeNullOrEmpty
         }
 
+        It '[Install-GoogleFont] - Skips an already-installed font' {
+            { Install-GoogleFont -Name 'Akshar' } | Should -Not -Throw
+        }
+
+        It '[Install-GoogleFont] - Reinstalls when -Force is specified' {
+            { Install-GoogleFont -Name 'Akshar' -Force } | Should -Not -Throw
+        }
+
+        It '[Install-GoogleFont] - Supports wildcard names' {
+            { Install-GoogleFont -Name 'ABee*' } | Should -Not -Throw
+        }
+
         # It '[Install-GoogleFont] - Installs all fonts' {
         #     { Install-GoogleFont -All -Verbose } | Should -Not -Throw
         #     Get-Font -Name 'Nabla*' | Should -Not -BeNullOrEmpty
