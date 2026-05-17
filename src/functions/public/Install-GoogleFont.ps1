@@ -139,8 +139,13 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
             $null = New-Item -Path $cacheRoot -ItemType Directory -Force
         }
+
         $sha = [System.Security.Cryptography.SHA1]::Create()
+        $httpClient = [System.Net.Http.HttpClient]::new()
+        $httpClient.Timeout = [TimeSpan]::FromMinutes(5)
+        $throttle = 8
         try {
+            $pending = [System.Collections.Generic.List[object]]::new()
             foreach ($googleFont in $googleFontsToInstall) {
                 $URL = $googleFont.URL
                 $fontName = $googleFont.Name
@@ -151,28 +156,54 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 $urlHash = ([System.BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL)))).Replace('-', '')
                 $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash.$fileExtension"
 
-                if (Test-Path -LiteralPath $cachePath) {
-                    Write-Verbose "[$fontName] - Cache hit, copying from [$cachePath]"
-                    Copy-Item -LiteralPath $cachePath -Destination $downloadPath -Force
-                } else {
-                    Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
-                    if ($PSCmdlet.ShouldProcess("[$fontName] to [$downloadPath]", 'Download')) {
-                        Invoke-WebRequest -Uri $URL -OutFile $downloadPath -RetryIntervalSec 5 -MaximumRetryCount 5
+                $pending.Add([pscustomobject]@{
+                        Name         = $fontName
+                        URL          = $URL
+                        DownloadPath = $downloadPath
+                        CachePath    = $cachePath
+                        FromCache    = (Test-Path -LiteralPath $cachePath)
+                    })
+            }
+
+            foreach ($item in $pending) {
+                if ($item.FromCache) {
+                    Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
+                    Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
+                }
+            }
+
+            $toDownload = @($pending | Where-Object { -not $_.FromCache })
+            for ($i = 0; $i -lt $toDownload.Count; $i += $throttle) {
+                $chunk = $toDownload[$i..([math]::Min($i + $throttle - 1, $toDownload.Count - 1))]
+                $tasks = foreach ($item in $chunk) {
+                    Write-Verbose "[$($item.Name)] - Downloading to [$($item.DownloadPath)]"
+                    [pscustomobject]@{ Item = $item; Task = $httpClient.GetByteArrayAsync($item.URL) }
+                }
+                foreach ($t in $tasks) {
+                    try {
+                        $bytes = $t.Task.GetAwaiter().GetResult()
+                        [System.IO.File]::WriteAllBytes($t.Item.DownloadPath, $bytes)
                         try {
-                            Copy-Item -LiteralPath $downloadPath -Destination $cachePath -Force
+                            [System.IO.File]::WriteAllBytes($t.Item.CachePath, $bytes)
                         } catch {
                             Write-Verbose "Cache write failed: $($_.Exception.Message)"
                         }
+                    } catch {
+                        Write-Warning "[$($t.Item.Name)] - Download failed: $($_.Exception.Message)"
                     }
                 }
+            }
 
-                Write-Verbose "[$fontName] - Install to [$Scope]"
-                if ($PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
-                    Install-Font -Path $downloadPath -Scope $Scope -Force:$Force
-                    Remove-Item -Path $downloadPath -Force -Recurse
+            foreach ($item in $pending) {
+                if (-not (Test-Path -LiteralPath $item.DownloadPath)) { continue }
+                Write-Verbose "[$($item.Name)] - Install to [$Scope]"
+                if ($PSCmdlet.ShouldProcess("[$($item.Name)] to [$Scope]", 'Install font')) {
+                    Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
+                    Remove-Item -Path $item.DownloadPath -Force -Recurse
                 }
             }
         } finally {
+            $httpClient.Dispose()
             $sha.Dispose()
         }
         Write-Verbose "Remove folder [$tempPath]"
