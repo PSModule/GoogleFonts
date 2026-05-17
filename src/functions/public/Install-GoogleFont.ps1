@@ -109,6 +109,26 @@ Please run the command again with elevated rights (Run as Administrator) or prov
     }
 
     end {
+        Write-Verbose "[$Scope] - Requested [$($googleFontsToInstall.Count)] fonts"
+
+        if (-not $Force) {
+            $installedNames = [string[]](Get-Font -Scope $Scope -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Name)
+            $installedFamilies = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+            foreach ($n in $installedNames) {
+                if ($n) { [void]$installedFamilies.Add($n) }
+            }
+            $toProcess = [System.Collections.Generic.List[object]]::new()
+            foreach ($googleFont in $googleFontsToInstall) {
+                $fontName = $googleFont.Name
+                $skip = $false
+                foreach ($family in $installedFamilies) {
+                    if ($family -like "$fontName*") { $skip = $true; break }
+                }
+                if (-not $skip) { $toProcess.Add($googleFont) }
+            }
+            $googleFontsToInstall = $toProcess
+        }
+
         Write-Verbose "[$Scope] - Installing [$($googleFontsToInstall.Count)] fonts"
 
         foreach ($googleFont in $googleFontsToInstall) {
