@@ -78,7 +78,6 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             throw $errorMessage
         }
         $previousProgressPreference = $ProgressPreference
-        $ProgressPreference = 'SilentlyContinue'
         $googleFontsToInstall = [System.Collections.Generic.List[object]]::new()
         $seenUrls = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
 
@@ -124,7 +123,11 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 foreach ($family in $installedFamilies) {
                     if ($family -like "$fontName*") { $skip = $true; break }
                 }
-                if (-not $skip) { $toProcess.Add($googleFont) }
+                if ($skip) {
+                    Write-Verbose "[$fontName] - Already installed, skipping"
+                    continue
+                }
+                $toProcess.Add($googleFont)
             }
             $googleFontsToInstall = $toProcess
         }
@@ -144,11 +147,16 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         $httpClient = [System.Net.Http.HttpClient]::new()
         $httpClient.Timeout = [TimeSpan]::FromMinutes(5)
         $throttle = [Environment]::ProcessorCount
+        $maxRetryCount = 5
+        $retryDelaySeconds = 5
         try {
             $pending = [System.Collections.Generic.List[object]]::new()
             foreach ($googleFont in $googleFontsToInstall) {
                 $URL = $googleFont.URL
                 $fontName = $googleFont.Name
+                if (-not $PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
+                    continue
+                }
                 $fontVariant = $googleFont.Variant
                 $fileExtension = $URL.Split('.')[-1]
                 $downloadFileName = "$fontName-$fontVariant.$fileExtension"
@@ -161,7 +169,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                         URL          = $URL
                         DownloadPath = $downloadPath
                         CachePath    = $cachePath
-                        FromCache    = (Test-Path -LiteralPath $cachePath)
+                    FromCache    = (-not $Force) -and (Test-Path -LiteralPath $cachePath)
                     })
             }
 
@@ -176,20 +184,35 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             for ($i = 0; $i -lt $toDownload.Count; $i += $throttle) {
                 $chunk = $toDownload[$i..([math]::Min($i + $throttle - 1, $toDownload.Count - 1))]
                 $tasks = foreach ($item in $chunk) {
-                    Write-Verbose "[$($item.Name)] - Downloading to [$($item.DownloadPath)]"
-                    [pscustomobject]@{ Item = $item; Task = $httpClient.GetByteArrayAsync($item.URL) }
+                    [pscustomobject]@{ Item = $item }
                 }
                 foreach ($t in $tasks) {
-                    try {
-                        $bytes = $t.Task.GetAwaiter().GetResult()
-                        [System.IO.File]::WriteAllBytes($t.Item.DownloadPath, $bytes)
+                    $downloadSucceeded = $false
+                    for ($attempt = 1; $attempt -le $maxRetryCount -and -not $downloadSucceeded; $attempt++) {
                         try {
-                            [System.IO.File]::WriteAllBytes($t.Item.CachePath, $bytes)
+                            Write-Verbose "[$($t.Item.Name)] - Downloading to [$($t.Item.DownloadPath)] (attempt $attempt/$maxRetryCount)"
+                            $currentProgressPreference = $ProgressPreference
+                            $ProgressPreference = 'SilentlyContinue'
+                            try {
+                                $bytes = $httpClient.GetByteArrayAsync($t.Item.URL).GetAwaiter().GetResult()
+                            } finally {
+                                $ProgressPreference = $currentProgressPreference
+                            }
+                            [System.IO.File]::WriteAllBytes($t.Item.DownloadPath, $bytes)
+                            try {
+                                [System.IO.File]::WriteAllBytes($t.Item.CachePath, $bytes)
+                            } catch {
+                                Write-Verbose "Cache write failed: $($_.Exception.Message)"
+                            }
+                            $downloadSucceeded = $true
                         } catch {
-                            Write-Verbose "Cache write failed: $($_.Exception.Message)"
+                            if ($attempt -lt $maxRetryCount) {
+                                Write-Verbose "[$($t.Item.Name)] - Download attempt $attempt failed, retrying in $retryDelaySeconds seconds: $($_.Exception.Message)"
+                                Start-Sleep -Seconds $retryDelaySeconds
+                                continue
+                            }
+                            Write-Warning "[$($t.Item.Name)] - Download failed after $maxRetryCount attempts: $($_.Exception.Message)"
                         }
-                    } catch {
-                        Write-Warning "[$($t.Item.Name)] - Download failed: $($_.Exception.Message)"
                     }
                 }
             }
@@ -197,10 +220,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             foreach ($item in $pending) {
                 if (-not (Test-Path -LiteralPath $item.DownloadPath)) { continue }
                 Write-Verbose "[$($item.Name)] - Install to [$Scope]"
-                if ($PSCmdlet.ShouldProcess("[$($item.Name)] to [$Scope]", 'Install font')) {
-                    Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
-                    Remove-Item -Path $item.DownloadPath -Force -Recurse
-                }
+                Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
+                Remove-Item -Path $item.DownloadPath -Force -ErrorAction SilentlyContinue
             }
         } finally {
             $httpClient.Dispose()
@@ -210,8 +231,11 @@ Please run the command again with elevated rights (Run as Administrator) or prov
     }
 
     clean {
-        Remove-Item -Path $tempPath -Force
-        if ($previousProgressPreference) {
+        try {
+            if ($tempPath -and (Test-Path -Path $tempPath -PathType Container)) {
+                Remove-Item -Path $tempPath -Force -Recurse -ErrorAction SilentlyContinue
+            }
+        } finally {
             $ProgressPreference = $previousProgressPreference
         }
     }

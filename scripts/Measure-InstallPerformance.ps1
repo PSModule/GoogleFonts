@@ -50,6 +50,11 @@ function Measure-Scenario {
     $err = $null
     try { & $Action | Out-Null } catch { $err = $_.Exception.Message }
     $sw.Stop()
+    $module = Get-Module GoogleFonts | Select-Object -First 1
+    $resultsDirectory = Split-Path -Path $script:ResultsPath -Parent
+    if ($resultsDirectory -and -not (Test-Path -Path $resultsDirectory -PathType Container)) {
+        $null = New-Item -Path $resultsDirectory -ItemType Directory -Force
+    }
     $obj = [pscustomobject]@{
         Iteration  = $Iteration
         Scenario   = $Name
@@ -57,7 +62,7 @@ function Measure-Scenario {
         DurationS  = [math]::Round($sw.Elapsed.TotalSeconds, 2)
         Timestamp  = (Get-Date).ToString('o')
         Error      = $err
-        Module     = (Get-Module GoogleFonts | Select-Object -First 1 -ExpandProperty Version).ToString()
+        Module     = if ($module) { $module.Version.ToString() } else { $null }
     }
     ($obj | ConvertTo-Json -Compress) | Add-Content -LiteralPath $script:ResultsPath
     Write-Host "[$Iteration] Result   : $Name -> $($obj.DurationS)s"
