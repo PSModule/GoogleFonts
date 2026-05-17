@@ -79,7 +79,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         }
         $previousProgressPreference = $ProgressPreference
         $ProgressPreference = 'SilentlyContinue'
-        $googleFontsToInstall = @()
+        $googleFontsToInstall = [System.Collections.Generic.List[object]]::new()
+        $seenUrls = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
 
         $guid = (New-Guid).Guid
         $tempPath = Join-Path -Path $HOME -ChildPath "GoogleFonts-$guid"
@@ -91,19 +92,29 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
     process {
         if ($All) {
-            $googleFontsToInstall = $script:GoogleFonts
-        } else {
-            foreach ($fontName in $Name) {
-                $googleFontsToInstall += $script:GoogleFonts | Where-Object { $_.Name -like $fontName }
+            foreach ($googleFont in $script:GoogleFonts) {
+                if ($seenUrls.Add($googleFont.URL)) {
+                    $googleFontsToInstall.Add($googleFont)
+                }
+            }
+            return
+        }
+        foreach ($fontName in $Name) {
+            foreach ($googleFont in $script:GoogleFonts) {
+                if ($googleFont.Name -like $fontName -and $seenUrls.Add($googleFont.URL)) {
+                    $googleFontsToInstall.Add($googleFont)
+                }
             }
         }
+    }
 
-        Write-Verbose "[$Scope] - Installing [$($googleFontsToInstall.count)] fonts"
+    end {
+        Write-Verbose "[$Scope] - Installing [$($googleFontsToInstall.Count)] fonts"
 
         foreach ($googleFont in $googleFontsToInstall) {
             $URL = $googleFont.URL
             $fontName = $googleFont.Name
-            $fontVariant = $GoogleFont.Variant
+            $fontVariant = $googleFont.Variant
             $fileExtension = $URL.Split('.')[-1]
             $downloadFileName = "$fontName-$fontVariant.$fileExtension"
             $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
@@ -119,9 +130,6 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 Remove-Item -Path $downloadPath -Force -Recurse
             }
         }
-    }
-
-    end {
         Write-Verbose "Remove folder [$tempPath]"
     }
 
