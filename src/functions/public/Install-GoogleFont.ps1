@@ -143,7 +143,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         $sha = [System.Security.Cryptography.SHA1]::Create()
         $httpClient = [System.Net.Http.HttpClient]::new()
         $httpClient.Timeout = [TimeSpan]::FromMinutes(5)
-        $throttle = 8
+        $throttle = [Environment]::ProcessorCount
         try {
             $pending = [System.Collections.Generic.List[object]]::new()
             foreach ($googleFont in $googleFontsToInstall) {
