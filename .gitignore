@@ -18,3 +18,5 @@ outputs/*
 bin/
 obj/
 libs/
+
+scripts/perf-results.jsonl
