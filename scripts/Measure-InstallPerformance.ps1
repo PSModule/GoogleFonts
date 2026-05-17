@@ -1,7 +1,11 @@
 ﻿#Requires -Version 7.0
 [CmdletBinding()]
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingWriteHost', '', Justification = 'Performance script intentionally uses Write-Host')]
-[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSReviewUnusedParameter', 'ResultsPath', Justification = 'False positive: parameter is consumed from script scope inside Measure-Scenario')]
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute(
+    'PSReviewUnusedParameter',
+    'ResultsPath',
+    Justification = 'False positive: parameter is consumed from script scope inside Measure-Scenario'
+)]
 param(
     [Parameter(Mandatory)]
     [string] $Iteration,
