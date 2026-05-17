@@ -131,24 +131,49 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
         Write-Verbose "[$Scope] - Installing [$($googleFontsToInstall.Count)] fonts"
 
-        foreach ($googleFont in $googleFontsToInstall) {
-            $URL = $googleFont.URL
-            $fontName = $googleFont.Name
-            $fontVariant = $googleFont.Variant
-            $fileExtension = $URL.Split('.')[-1]
-            $downloadFileName = "$fontName-$fontVariant.$fileExtension"
-            $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
+        if ($IsWindows) {
+            $cacheRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'PSModule/GoogleFonts/cache'
+        } else {
+            $cacheRoot = Join-Path $HOME '.cache/PSModule/GoogleFonts'
+        }
+        if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
+            $null = New-Item -Path $cacheRoot -ItemType Directory -Force
+        }
+        $sha = [System.Security.Cryptography.SHA1]::Create()
+        try {
+            foreach ($googleFont in $googleFontsToInstall) {
+                $URL = $googleFont.URL
+                $fontName = $googleFont.Name
+                $fontVariant = $googleFont.Variant
+                $fileExtension = $URL.Split('.')[-1]
+                $downloadFileName = "$fontName-$fontVariant.$fileExtension"
+                $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
+                $urlHash = ([System.BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL)))).Replace('-', '')
+                $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash.$fileExtension"
 
-            Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
-            if ($PSCmdlet.ShouldProcess("[$fontName] to [$downloadPath]", 'Download')) {
-                Invoke-WebRequest -Uri $URL -OutFile $downloadPath -RetryIntervalSec 5 -MaximumRetryCount 5
-            }
+                if (Test-Path -LiteralPath $cachePath) {
+                    Write-Verbose "[$fontName] - Cache hit, copying from [$cachePath]"
+                    Copy-Item -LiteralPath $cachePath -Destination $downloadPath -Force
+                } else {
+                    Write-Verbose "[$fontName] - Downloading to [$downloadPath]"
+                    if ($PSCmdlet.ShouldProcess("[$fontName] to [$downloadPath]", 'Download')) {
+                        Invoke-WebRequest -Uri $URL -OutFile $downloadPath -RetryIntervalSec 5 -MaximumRetryCount 5
+                        try {
+                            Copy-Item -LiteralPath $downloadPath -Destination $cachePath -Force
+                        } catch {
+                            Write-Verbose "Cache write failed: $($_.Exception.Message)"
+                        }
+                    }
+                }
 
-            Write-Verbose "[$fontName] - Install to [$Scope]"
-            if ($PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
-                Install-Font -Path $downloadPath -Scope $Scope -Force:$Force
-                Remove-Item -Path $downloadPath -Force -Recurse
+                Write-Verbose "[$fontName] - Install to [$Scope]"
+                if ($PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
+                    Install-Font -Path $downloadPath -Scope $Scope -Force:$Force
+                    Remove-Item -Path $downloadPath -Force -Recurse
+                }
             }
+        } finally {
+            $sha.Dispose()
         }
         Write-Verbose "Remove folder [$tempPath]"
     }
