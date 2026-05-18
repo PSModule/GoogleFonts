@@ -70,6 +70,7 @@ function Install-GoogleFont {
     )
 
     begin {
+        $previousProgressPreference = $ProgressPreference
         if ($Scope -eq 'AllUsers' -and -not (Test-Admin)) {
             $errorMessage = @'
 Administrator rights are required to install fonts.
@@ -77,7 +78,6 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 '@
             throw $errorMessage
         }
-        $previousProgressPreference = $ProgressPreference
         $googleFontsToInstall = [System.Collections.Generic.List[object]]::new()
         $seenUrls = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
 
@@ -225,7 +225,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                                 $currentProgressPreference = $ProgressPreference
                                 $ProgressPreference = 'SilentlyContinue'
                                 try {
-                                    Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
+                                    Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath -ErrorAction Stop
                                 } finally {
                                     $ProgressPreference = $currentProgressPreference
                                 }
@@ -263,7 +263,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                             $currentProgressPreference = $ProgressPreference
                             $ProgressPreference = 'SilentlyContinue'
                             try {
-                                Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
+                                Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath -ErrorAction Stop
                             } finally {
                                 $ProgressPreference = $currentProgressPreference
                             }
