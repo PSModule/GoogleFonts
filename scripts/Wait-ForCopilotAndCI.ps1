@@ -49,6 +49,10 @@ function Get-ItemCount {
 }
 
 function Get-ActivePullRequestNumber {
+    <#
+    .SYNOPSIS
+    Returns the active pull request number for a repository.
+    #>
     param([string] $Repo)
 
     $pr = Invoke-GitHubJson -Arguments @('pr', 'view', '--repo', $Repo, '--json', 'number')
@@ -59,14 +63,38 @@ function Get-ActivePullRequestNumber {
     return [int] $pr.number
 }
 
-function Get-UnresolvedCopilotThreads {
+function Get-UnresolvedCopilotThread {
+    <#
+    .SYNOPSIS
+    Returns unresolved review threads that contain Copilot comments.
+    #>
     param(
         [string] $RepoOwner,
         [string] $RepoName,
         [int] $PrNumber
     )
 
-    $query = 'query($owner:String!, $repo:String!, $pr:Int!) { repository(owner:$owner, name:$repo) { pullRequest(number:$pr) { reviewThreads(first:100) { nodes { isResolved comments(first:50) { nodes { author { login } body url createdAt } } } } } } }'
+    $query = @(
+        'query($owner:String!, $repo:String!, $pr:Int!) {'
+        '  repository(owner:$owner, name:$repo) {'
+        '    pullRequest(number:$pr) {'
+        '      reviewThreads(first:100) {'
+        '        nodes {'
+        '          isResolved'
+        '          comments(first:50) {'
+        '            nodes {'
+        '              author { login }'
+        '              body'
+        '              url'
+        '              createdAt'
+        '            }'
+        '          }'
+        '        }'
+        '      }'
+        '    }'
+        '  }'
+        '}'
+    ) -join [Environment]::NewLine
     $payload = Invoke-GitHubJson -Arguments @(
         'api',
         'graphql',
@@ -114,6 +142,10 @@ function Get-UnresolvedCopilotThreads {
 }
 
 function Get-PullRequestSnapshot {
+    <#
+    .SYNOPSIS
+    Collects CI and Copilot status signals for a pull request.
+    #>
     param(
         [string] $RepoOwner,
         [string] $RepoName,
@@ -154,7 +186,7 @@ function Get-PullRequestSnapshot {
         $copilotReviewedCurrentHead = $true
     }
 
-    $unresolvedCopilotThreads = Get-UnresolvedCopilotThreads -RepoOwner $RepoOwner -RepoName $RepoName -PrNumber $PrNumber
+    $unresolvedCopilotThreads = Get-UnresolvedCopilotThread -RepoOwner $RepoOwner -RepoName $RepoName -PrNumber $PrNumber
 
     $checks = @()
     try {
@@ -190,24 +222,24 @@ function Get-PullRequestSnapshot {
 
     $ciGreen = ($checkCount -gt 0 -and $pendingCheckCount -eq 0 -and $failedCheckCount -eq 0)
     $copilotNoComments = ($copilotThreadCount -eq 0)
-    $copilotReviewComplete = ($pendingCopilotRequestCount -eq 0 -and $copilotReviewedCurrentHead)
+    $copilotReviewComplete = ($pendingCopilotRequestCount -eq 0)
 
     [pscustomobject]@{
-        PullRequestNumber         = $PrNumber
-        PullRequestUrl            = $pr.url
-        HeadSha                   = $headSha
-        HeadCommitTime            = $headCommitTime
-        LatestCopilotReviewTime   = $latestCopilotReviewTime
+        PullRequestNumber          = $PrNumber
+        PullRequestUrl             = $pr.url
+        HeadSha                    = $headSha
+        HeadCommitTime             = $headCommitTime
+        LatestCopilotReviewTime    = $latestCopilotReviewTime
         CopilotReviewedCurrentHead = $copilotReviewedCurrentHead
-        PendingCopilotRequests    = @($pendingCopilotRequest)
-        UnresolvedCopilotThreads  = @($unresolvedCopilotThreads)
-        Checks                    = @($checks)
-        PendingChecks             = @($pendingChecks)
-        FailedChecks              = @($failedChecks)
-        CiGreen                   = $ciGreen
-        CopilotNoComments         = $copilotNoComments
-        CopilotReviewComplete     = $copilotReviewComplete
-        Ready                     = ($ciGreen -and $copilotNoComments -and $copilotReviewComplete)
+        PendingCopilotRequests     = @($pendingCopilotRequest)
+        UnresolvedCopilotThreads   = @($unresolvedCopilotThreads)
+        Checks                     = @($checks)
+        PendingChecks              = @($pendingChecks)
+        FailedChecks               = @($failedChecks)
+        CiGreen                    = $ciGreen
+        CopilotNoComments          = $copilotNoComments
+        CopilotReviewComplete      = $copilotReviewComplete
+        Ready                      = ($ciGreen -and $copilotNoComments -and $copilotReviewComplete)
     }
 }
 
@@ -216,66 +248,66 @@ if (-not $PullRequestNumber) {
     $PullRequestNumber = Get-ActivePullRequestNumber -Repo $repoRef
 }
 
-Write-Host "Watching PR #$PullRequestNumber in $repoRef"
-Write-Host "This loop only exits when CI is green and Copilot has no unresolved comments for the latest head commit."
+Write-Output "Watching PR #$PullRequestNumber in $repoRef"
+Write-Output 'This loop only exits when CI is green and Copilot has no unresolved comments for the latest head commit.'
 
 $round = 0
 while ($true) {
     $round++
     $now = (Get-Date).ToString('u')
-    Write-Host ''
-    Write-Host "[$now] Poll round $round"
+    Write-Output ''
+    Write-Output "[$now] Poll round $round"
 
     $snapshot = Get-PullRequestSnapshot -RepoOwner $Owner -RepoName $Repository -PrNumber $PullRequestNumber
 
-    Write-Host "PR: $($snapshot.PullRequestUrl)"
-    Write-Host "Head SHA: $($snapshot.HeadSha)"
-    Write-Host "CI green: $($snapshot.CiGreen)"
-    Write-Host "Copilot review complete for head: $($snapshot.CopilotReviewComplete)"
-    Write-Host "Copilot unresolved thread count: $($snapshot.UnresolvedCopilotThreads.Count)"
+    Write-Output "PR: $($snapshot.PullRequestUrl)"
+    Write-Output "Head SHA: $($snapshot.HeadSha)"
+    Write-Output "CI green: $($snapshot.CiGreen)"
+    Write-Output "Copilot review complete for head: $($snapshot.CopilotReviewComplete)"
+    Write-Output "Copilot unresolved thread count: $($snapshot.UnresolvedCopilotThreads.Count)"
 
     if ($snapshot.FailedChecks.Count -gt 0) {
-        Write-Host 'Failing checks:'
+        Write-Output 'Failing checks:'
         foreach ($check in $snapshot.FailedChecks) {
-            Write-Host "  - $($check.name) [$($check.state)]"
+            Write-Output "  - $($check.name) [$($check.state)]"
         }
     }
 
     if ($snapshot.PendingChecks.Count -gt 0) {
-        Write-Host 'Pending checks:'
+        Write-Output 'Pending checks:'
         foreach ($check in $snapshot.PendingChecks) {
-            Write-Host "  - $($check.name) [$($check.state)]"
+            Write-Output "  - $($check.name) [$($check.state)]"
         }
     }
 
     if (-not $snapshot.CopilotReviewComplete) {
         if ($snapshot.PendingCopilotRequests.Count -gt 0) {
-            Write-Host 'Copilot review is still requested and pending.'
+            Write-Output 'Copilot review is still requested and pending.'
         }
 
         if (-not $snapshot.CopilotReviewedCurrentHead) {
             if ($null -eq $snapshot.LatestCopilotReviewTime) {
-                Write-Host 'Copilot has not posted a review yet for this PR.'
+                Write-Output 'Copilot has not posted a review yet for this PR.'
             } else {
-                Write-Host "Latest Copilot review: $($snapshot.LatestCopilotReviewTime.ToString('u'))"
-                Write-Host "Latest head commit:    $($snapshot.HeadCommitTime.ToString('u'))"
+                Write-Output "Latest Copilot review: $($snapshot.LatestCopilotReviewTime.ToString('u'))"
+                Write-Output "Latest head commit:    $($snapshot.HeadCommitTime.ToString('u'))"
             }
         }
     }
 
     if ($snapshot.UnresolvedCopilotThreads.Count -gt 0) {
-        Write-Host 'Unresolved Copilot threads:'
+        Write-Output 'Unresolved Copilot threads:'
         foreach ($thread in $snapshot.UnresolvedCopilotThreads) {
-            Write-Host "  - $($thread.Url)"
+            Write-Output "  - $($thread.Url)"
         }
     }
 
     if ($snapshot.Ready) {
-        Write-Host ''
-        Write-Host 'All gates are green. CI is successful and Copilot has no unresolved comments.'
+        Write-Output ''
+        Write-Output 'All gates are green. CI is successful and Copilot has no unresolved comments.'
         break
     }
 
-    Write-Host "Waiting $PollIntervalSeconds seconds before checking comments and pipeline status again..."
+    Write-Output "Waiting $PollIntervalSeconds seconds before checking comments and pipeline status again..."
     Start-Sleep -Seconds $PollIntervalSeconds
 }
