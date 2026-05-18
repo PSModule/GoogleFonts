@@ -73,7 +73,7 @@ function Install-GoogleFont {
         if ($Scope -eq 'AllUsers' -and -not (Test-Admin)) {
             $errorMessage = @'
 Administrator rights are required to install fonts.
-Please run the command again with elevated rights (Run as Administrator) or provide '-Scope CurrentUser' to your command."
+Please run the command again with elevated rights (Run as Administrator) or provide '-Scope CurrentUser' to your command.
 '@
             throw $errorMessage
         }
@@ -192,8 +192,13 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
             foreach ($item in $pending) {
                 if ($item.FromCache) {
-                    Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
-                    Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
+                    try {
+                        Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
+                        Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
+                    } catch {
+                        Write-Verbose "[$($item.Name)] - Cache copy failed, will download instead: $($_.Exception.Message)"
+                        $item.FromCache = $false
+                    }
                 }
             }
 
@@ -307,13 +312,13 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 throw "One or more font downloads failed: $failureSummary"
             }
         } finally {
-            Write-Verbose "Remove folder [$tempPath]"
         }
     }
 
     clean {
         try {
             if ($tempPath -and (Test-Path -Path $tempPath -PathType Container)) {
+                Write-Verbose "Remove folder [$tempPath]"
                 Remove-Item -Path $tempPath -Force -Recurse -ErrorAction SilentlyContinue
             }
         } finally {
