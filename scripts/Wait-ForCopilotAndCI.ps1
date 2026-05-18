@@ -75,13 +75,17 @@ function Get-UnresolvedCopilotThread {
     )
 
     $query = @(
-        'query($owner:String!, $repo:String!, $pr:Int!) {'
+        'query($owner:String!, $repo:String!, $pr:Int!, $threadCursor:String) {'
         '  repository(owner:$owner, name:$repo) {'
         '    pullRequest(number:$pr) {'
-        '      reviewThreads(first:100) {'
+        '      reviewThreads(first:50, after:$threadCursor) {'
+        '        pageInfo {'
+        '          hasNextPage'
+        '          endCursor'
+        '        }'
         '        nodes {'
         '          isResolved'
-        '          comments(first:50) {'
+        '          comments(last:50) {'
         '            nodes {'
         '              author { login }'
         '              body'
@@ -95,50 +99,67 @@ function Get-UnresolvedCopilotThread {
         '  }'
         '}'
     ) -join [Environment]::NewLine
-    $payload = Invoke-GitHubJson -Arguments @(
-        'api',
-        'graphql',
-        '-f', "query=$query",
-        '-F', "owner=$RepoOwner",
-        '-F', "repo=$RepoName",
-        '-F', "pr=$PrNumber"
-    )
 
-    $threads = @($payload.data.repository.pullRequest.reviewThreads.nodes)
-    if (-not $threads) {
-        return @()
-    }
+    $copilotThreads = [System.Collections.Generic.List[object]]::new()
+    $threadCursor = $null
 
-    $copilotThreads = foreach ($thread in $threads) {
-        if ($thread.isResolved) {
-            continue
-        }
+    do {
+        $payload = Invoke-GitHubJson -Arguments @(
+            'api',
+            'graphql',
+            '-f', "query=$query",
+            '-F', "owner=$RepoOwner",
+            '-F', "repo=$RepoName",
+            '-F', "pr=$PrNumber",
+            '-F', "threadCursor=$threadCursor"
+        )
 
-        $comments = @($thread.comments.nodes)
-        if (-not $comments) {
-            continue
-        }
+        $reviewThreads = $payload.data.repository.pullRequest.reviewThreads
+        $threads = @($reviewThreads.nodes)
 
-        $hasCopilotComment = $false
-        foreach ($comment in $comments) {
-            $author = $comment.author.login
-            if ($author -match 'copilot') {
-                $hasCopilotComment = $true
-                break
+        foreach ($thread in $threads) {
+            if ($thread.isResolved) {
+                continue
+            }
+
+            $comments = @($thread.comments.nodes)
+            if (-not $comments) {
+                continue
+            }
+
+            $hasCopilotComment = $false
+            foreach ($comment in $comments) {
+                $author = $comment.author.login
+                if ($author -match 'copilot') {
+                    $hasCopilotComment = $true
+                    break
+                }
+            }
+
+            if ($hasCopilotComment) {
+                $latestComment = $comments | Sort-Object createdAt -Descending | Select-Object -First 1
+                $preview = if ($latestComment.body.Length -gt 120) {
+                    "$($latestComment.body.Substring(0, 120))..."
+                } else {
+                    $latestComment.body
+                }
+
+                $copilotThreads.Add([pscustomobject]@{
+                        Url       = $latestComment.url
+                        CreatedAt = $latestComment.createdAt
+                        Preview   = $preview
+                    })
             }
         }
 
-        if ($hasCopilotComment) {
-            $latestComment = $comments | Sort-Object createdAt -Descending | Select-Object -First 1
-            [pscustomobject]@{
-                Url       = $latestComment.url
-                CreatedAt = $latestComment.createdAt
-                Preview   = if ($latestComment.body.Length -gt 120) { "$($latestComment.body.Substring(0, 120))..." } else { $latestComment.body }
-            }
+        if ($reviewThreads.pageInfo.hasNextPage) {
+            $threadCursor = $reviewThreads.pageInfo.endCursor
+        } else {
+            $threadCursor = $null
         }
-    }
+    } while ($threadCursor)
 
-    return @($copilotThreads)
+    return @($copilotThreads.ToArray())
 }
 
 function Get-PullRequestSnapshot {

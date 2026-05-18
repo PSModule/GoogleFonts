@@ -194,18 +194,57 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
             $toDownload = @($pending | Where-Object { -not $_.FromCache })
             if ($toDownload.Count -gt 0) {
-                $downloadResults = @(
-                    $toDownload | ForEach-Object -Parallel {
-                        $item = $_
+                if ($PSVersionTable.PSVersion.Major -ge 7) {
+                    $downloadResults = @(
+                        $toDownload | ForEach-Object -Parallel {
+                            $item = $_
+                            $downloadSucceeded = $false
+                            $lastError = $null
+
+                            for ($attempt = 1; $attempt -le $using:maxRetryCount -and -not $downloadSucceeded; $attempt++) {
+                                try {
+                                    $currentProgressPreference = $ProgressPreference
+                                    $ProgressPreference = 'SilentlyContinue'
+                                    try {
+                                        Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
+                                    } finally {
+                                        $ProgressPreference = $currentProgressPreference
+                                    }
+
+                                    try {
+                                        Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
+                                    } catch {
+                                        Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
+                                    }
+
+                                    $downloadSucceeded = $true
+                                } catch {
+                                    $lastError = $_.Exception.Message
+                                    if ($attempt -lt $using:maxRetryCount) {
+                                        Start-Sleep -Seconds $using:retryDelaySeconds
+                                    }
+                                }
+                            }
+
+                            [pscustomobject]@{
+                                Name    = $item.Name
+                                URL     = $item.URL
+                                Success = $downloadSucceeded
+                                Error   = $lastError
+                            }
+                        } -ThrottleLimit $throttle
+                    )
+                } else {
+                    $downloadResults = foreach ($item in $toDownload) {
                         $downloadSucceeded = $false
                         $lastError = $null
 
-                        for ($attempt = 1; $attempt -le $using:maxRetryCount -and -not $downloadSucceeded; $attempt++) {
+                        for ($attempt = 1; $attempt -le $maxRetryCount -and -not $downloadSucceeded; $attempt++) {
                             try {
                                 $currentProgressPreference = $ProgressPreference
                                 $ProgressPreference = 'SilentlyContinue'
                                 try {
-                                    Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath -MaximumRetryCount 1 -RetryIntervalSec 1
+                                    Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
                                 } finally {
                                     $ProgressPreference = $currentProgressPreference
                                 }
@@ -219,8 +258,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                                 $downloadSucceeded = $true
                             } catch {
                                 $lastError = $_.Exception.Message
-                                if ($attempt -lt $using:maxRetryCount) {
-                                    Start-Sleep -Seconds $using:retryDelaySeconds
+                                if ($attempt -lt $maxRetryCount) {
+                                    Start-Sleep -Seconds $retryDelaySeconds
                                 }
                             }
                         }
@@ -231,8 +270,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                             Success = $downloadSucceeded
                             Error   = $lastError
                         }
-                    } -ThrottleLimit $throttle
-                )
+                    }
+                }
 
                 foreach ($result in $downloadResults) {
                     if (-not $result.Success) {
