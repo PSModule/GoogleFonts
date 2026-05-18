@@ -194,7 +194,16 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
             $toDownload = @($pending | Where-Object { -not $_.FromCache })
             if ($toDownload.Count -gt 0) {
-                if ($PSVersionTable.PSVersion.Major -ge 7) {
+                $disableParallelDownloads = (
+                    $script:DisableParallelDownloadsForTests -eq $true -or
+                    $env:PSMODULE_GOOGLEFONTS_DISABLE_PARALLEL -eq '1'
+                )
+                $useParallelDownloads = (
+                    $PSVersionTable.PSVersion.Major -ge 7 -and
+                    -not $disableParallelDownloads
+                )
+
+                if ($useParallelDownloads) {
                     $downloadResults = @(
                         $toDownload | ForEach-Object -Parallel {
                             $item = $_
