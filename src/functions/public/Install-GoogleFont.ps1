@@ -130,9 +130,11 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
         Write-Verbose "[$Scope] - Installing [$($googleFontsToInstall.Count)] fonts"
 
-        if ($IsWindows) {
+        $isWin = ($PSVersionTable.PSVersion.Major -lt 6) -or $IsWindows
+        $isMac = ($PSVersionTable.PSVersion.Major -ge 6) -and $IsMacOS
+        if ($isWin) {
             $cacheRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'PSModule/GoogleFonts/cache'
-        } elseif ($IsMacOS) {
+        } elseif ($isMac) {
             $cacheRoot = Join-Path $HOME 'Library/Caches/PSModule/GoogleFonts'
         } else {
             $linuxCacheBase = if ([string]::IsNullOrWhiteSpace($env:XDG_CACHE_HOME)) {
@@ -194,7 +196,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             if ($item.FromCache) {
                 try {
                     Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
-                    Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
+                    Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force -ErrorAction Stop
                 } catch {
                     Write-Verbose "[$($item.Name)] - Cache copy failed, will download instead: $($_.Exception.Message)"
                     $item.FromCache = $false
@@ -231,7 +233,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                                 }
 
                                 try {
-                                    Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
+                                    Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force -ErrorAction Stop
                                 } catch {
                                     Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
                                 }
@@ -269,7 +271,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                             }
 
                             try {
-                                Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
+                                Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force -ErrorAction Stop
                             } catch {
                                 Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
                             }
