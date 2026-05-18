@@ -159,7 +159,12 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 $fileExtension = $URL.Split('.')[-1]
                 $downloadFileName = "$fontName-$fontVariant.$fileExtension"
                 $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
-                $hashBytes = [System.Security.Cryptography.SHA256]::HashData([System.Text.Encoding]::UTF8.GetBytes($URL))
+                $sha256 = [System.Security.Cryptography.SHA256]::Create()
+                try {
+                    $hashBytes = $sha256.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL))
+                } finally {
+                    $sha256.Dispose()
+                }
                 $urlHash = ([System.BitConverter]::ToString($hashBytes)).Replace('-', '').ToLowerInvariant().Substring(0, 16)
                 $safeDownloadFileName = ($downloadFileName -replace '[^a-zA-Z0-9._-]', '_')
                 $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash-$safeDownloadFileName"
@@ -302,8 +307,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 throw "One or more font downloads failed: $failureSummary"
             }
         } finally {
+            Write-Verbose "Remove folder [$tempPath]"
         }
-        Write-Verbose "Remove folder [$tempPath]"
     }
 
     clean {

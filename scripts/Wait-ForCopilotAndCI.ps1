@@ -104,15 +104,19 @@ function Get-UnresolvedCopilotThread {
     $threadCursor = $null
 
     do {
-        $payload = Invoke-GitHubJson -Arguments @(
+        $arguments = @(
             'api',
             'graphql',
             '-f', "query=$query",
             '-F', "owner=$RepoOwner",
             '-F', "repo=$RepoName",
-            '-F', "pr=$PrNumber",
-            '-F', "threadCursor=$threadCursor"
+            '-F', "pr=$PrNumber"
         )
+        if (-not [string]::IsNullOrWhiteSpace($threadCursor)) {
+            $arguments += @('-F', "threadCursor=$threadCursor")
+        }
+
+        $payload = Invoke-GitHubJson -Arguments $arguments
 
         $reviewThreads = $payload.data.repository.pullRequest.reviewThreads
         $threads = @($reviewThreads.nodes)
