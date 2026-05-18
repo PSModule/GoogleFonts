@@ -169,7 +169,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                         URL          = $URL
                         DownloadPath = $downloadPath
                         CachePath    = $cachePath
-                    FromCache    = (-not $Force) -and (Test-Path -LiteralPath $cachePath)
+                        FromCache    = (-not $Force) -and (Test-Path -LiteralPath $cachePath)
                     })
             }
 

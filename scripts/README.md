@@ -91,3 +91,30 @@ To test changes to the update script:
 - **No updates available**: If the Google Fonts API returns the same data, no PR will be created
 - **Authentication errors**: Ensure the GitHub App credentials are correctly configured
 - **API rate limits**: The Google Fonts API key must have sufficient quota for daily requests
+
+## Wait-ForCopilotAndCI.ps1
+
+This script continuously polls a pull request and only exits when all of the following are true:
+
+- CI checks are green (no pending checks and no failures)
+- Copilot review has completed for the latest PR head commit
+- There are no unresolved review threads that contain Copilot comments
+
+The loop never exits just because it is waiting. It keeps polling until all gates are satisfied.
+
+### Usage
+
+```powershell
+pwsh ./scripts/Wait-ForCopilotAndCI.ps1 -PullRequestNumber 210
+```
+
+Optional parameters:
+
+- `-Owner` and `-Repository` to target another repo (defaults to `PSModule/GoogleFonts`)
+- `-PollIntervalSeconds` to adjust polling interval (default: `30`)
+
+Example with explicit repo and interval:
+
+```powershell
+pwsh ./scripts/Wait-ForCopilotAndCI.ps1 -Owner PSModule -Repository GoogleFonts -PullRequestNumber 210 -PollIntervalSeconds 45
+```
