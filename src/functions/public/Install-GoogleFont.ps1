@@ -147,118 +147,80 @@ Please run the command again with elevated rights (Run as Administrator) or prov
         $maxRetryCount = 5
         $retryDelaySeconds = 5
         $downloadFailures = [System.Collections.Generic.List[string]]::new()
-        try {
-            $pending = [System.Collections.Generic.List[object]]::new()
-            foreach ($googleFont in $googleFontsToInstall) {
-                $URL = $googleFont.URL
-                $fontName = $googleFont.Name
-                if (-not $PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
-                    continue
-                }
-                $fontVariant = $googleFont.Variant
-                $fileExtension = $URL.Split('.')[-1]
-                $downloadFileName = "$fontName-$fontVariant.$fileExtension"
-                $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
-                $sha256 = [System.Security.Cryptography.SHA256]::Create()
+
+        $pending = [System.Collections.Generic.List[object]]::new()
+        foreach ($googleFont in $googleFontsToInstall) {
+            $URL = $googleFont.URL
+            $fontName = $googleFont.Name
+            if (-not $PSCmdlet.ShouldProcess("[$fontName] to [$Scope]", 'Install font')) {
+                continue
+            }
+            $fontVariant = $googleFont.Variant
+            $fileExtension = $URL.Split('.')[-1]
+            $downloadFileName = "$fontName-$fontVariant.$fileExtension"
+            $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
+            $sha256 = [System.Security.Cryptography.SHA256]::Create()
+            try {
+                $hashBytes = $sha256.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL))
+            } finally {
+                $sha256.Dispose()
+            }
+            $urlHash = ([System.BitConverter]::ToString($hashBytes)).Replace('-', '').ToLowerInvariant().Substring(0, 16)
+            $safeDownloadFileName = ($downloadFileName -replace '[^a-zA-Z0-9._-]', '_')
+            $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash-$safeDownloadFileName"
+
+            $pending.Add([pscustomobject]@{
+                    Name         = $fontName
+                    URL          = $URL
+                    DownloadPath = $downloadPath
+                    CachePath    = $cachePath
+                    FromCache    = (-not $Force) -and (Test-Path -LiteralPath $cachePath)
+                })
+        }
+
+        if ($pending.Count -eq 0) {
+            return
+        }
+
+        if (-not (Test-Path -Path $tempPath -PathType Container)) {
+            Write-Verbose "Create folder [$tempPath]"
+            $null = New-Item -Path $tempPath -ItemType Directory
+        }
+        if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
+            $null = New-Item -Path $cacheRoot -ItemType Directory -Force
+        }
+
+        foreach ($item in $pending) {
+            if ($item.FromCache) {
                 try {
-                    $hashBytes = $sha256.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL))
-                } finally {
-                    $sha256.Dispose()
-                }
-                $urlHash = ([System.BitConverter]::ToString($hashBytes)).Replace('-', '').ToLowerInvariant().Substring(0, 16)
-                $safeDownloadFileName = ($downloadFileName -replace '[^a-zA-Z0-9._-]', '_')
-                $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash-$safeDownloadFileName"
-
-                $pending.Add([pscustomobject]@{
-                        Name         = $fontName
-                        URL          = $URL
-                        DownloadPath = $downloadPath
-                        CachePath    = $cachePath
-                        FromCache    = (-not $Force) -and (Test-Path -LiteralPath $cachePath)
-                    })
-            }
-
-            if ($pending.Count -eq 0) {
-                return
-            }
-
-            if (-not (Test-Path -Path $tempPath -PathType Container)) {
-                Write-Verbose "Create folder [$tempPath]"
-                $null = New-Item -Path $tempPath -ItemType Directory
-            }
-            if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
-                $null = New-Item -Path $cacheRoot -ItemType Directory -Force
-            }
-
-            foreach ($item in $pending) {
-                if ($item.FromCache) {
-                    try {
-                        Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
-                        Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
-                    } catch {
-                        Write-Verbose "[$($item.Name)] - Cache copy failed, will download instead: $($_.Exception.Message)"
-                        $item.FromCache = $false
-                    }
+                    Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
+                    Copy-Item -LiteralPath $item.CachePath -Destination $item.DownloadPath -Force
+                } catch {
+                    Write-Verbose "[$($item.Name)] - Cache copy failed, will download instead: $($_.Exception.Message)"
+                    $item.FromCache = $false
                 }
             }
+        }
 
-            $toDownload = @($pending | Where-Object { -not $_.FromCache })
-            if ($toDownload.Count -gt 0) {
-                $disableParallelDownloads = (
-                    $script:DisableParallelDownloadsForTests -eq $true -or
-                    $env:PSMODULE_GOOGLEFONTS_DISABLE_PARALLEL -eq '1'
-                )
-                $useParallelDownloads = (
-                    $PSVersionTable.PSVersion.Major -ge 7 -and
-                    -not $disableParallelDownloads
-                )
+        $toDownload = @($pending | Where-Object { -not $_.FromCache })
+        if ($toDownload.Count -gt 0) {
+            $disableParallelDownloads = (
+                $script:DisableParallelDownloadsForTests -eq $true -or
+                $env:PSMODULE_GOOGLEFONTS_DISABLE_PARALLEL -eq '1'
+            )
+            $useParallelDownloads = (
+                $PSVersionTable.PSVersion.Major -ge 7 -and
+                -not $disableParallelDownloads
+            )
 
-                if ($useParallelDownloads) {
-                    $downloadResults = @(
-                        $toDownload | ForEach-Object -Parallel {
-                            $item = $_
-                            $downloadSucceeded = $false
-                            $lastError = $null
-
-                            for ($attempt = 1; $attempt -le $using:maxRetryCount -and -not $downloadSucceeded; $attempt++) {
-                                try {
-                                    $currentProgressPreference = $ProgressPreference
-                                    $ProgressPreference = 'SilentlyContinue'
-                                    try {
-                                        Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
-                                    } finally {
-                                        $ProgressPreference = $currentProgressPreference
-                                    }
-
-                                    try {
-                                        Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
-                                    } catch {
-                                        Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
-                                    }
-
-                                    $downloadSucceeded = $true
-                                } catch {
-                                    $lastError = $_.Exception.Message
-                                    if ($attempt -lt $using:maxRetryCount) {
-                                        Start-Sleep -Seconds $using:retryDelaySeconds
-                                    }
-                                }
-                            }
-
-                            [pscustomobject]@{
-                                Name    = $item.Name
-                                URL     = $item.URL
-                                Success = $downloadSucceeded
-                                Error   = $lastError
-                            }
-                        } -ThrottleLimit $throttle
-                    )
-                } else {
-                    $downloadResults = foreach ($item in $toDownload) {
+            if ($useParallelDownloads) {
+                $downloadResults = @(
+                    $toDownload | ForEach-Object -Parallel {
+                        $item = $_
                         $downloadSucceeded = $false
                         $lastError = $null
 
-                        for ($attempt = 1; $attempt -le $maxRetryCount -and -not $downloadSucceeded; $attempt++) {
+                        for ($attempt = 1; $attempt -le $using:maxRetryCount -and -not $downloadSucceeded; $attempt++) {
                             try {
                                 $currentProgressPreference = $ProgressPreference
                                 $ProgressPreference = 'SilentlyContinue'
@@ -277,8 +239,8 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                                 $downloadSucceeded = $true
                             } catch {
                                 $lastError = $_.Exception.Message
-                                if ($attempt -lt $maxRetryCount) {
-                                    Start-Sleep -Seconds $retryDelaySeconds
+                                if ($attempt -lt $using:maxRetryCount) {
+                                    Start-Sleep -Seconds $using:retryDelaySeconds
                                 }
                             }
                         }
@@ -289,29 +251,65 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                             Success = $downloadSucceeded
                             Error   = $lastError
                         }
+                    } -ThrottleLimit $throttle
+                )
+            } else {
+                $downloadResults = foreach ($item in $toDownload) {
+                    $downloadSucceeded = $false
+                    $lastError = $null
+
+                    for ($attempt = 1; $attempt -le $maxRetryCount -and -not $downloadSucceeded; $attempt++) {
+                        try {
+                            $currentProgressPreference = $ProgressPreference
+                            $ProgressPreference = 'SilentlyContinue'
+                            try {
+                                Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath
+                            } finally {
+                                $ProgressPreference = $currentProgressPreference
+                            }
+
+                            try {
+                                Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
+                            } catch {
+                                Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
+                            }
+
+                            $downloadSucceeded = $true
+                        } catch {
+                            $lastError = $_.Exception.Message
+                            if ($attempt -lt $maxRetryCount) {
+                                Start-Sleep -Seconds $retryDelaySeconds
+                            }
+                        }
+                    }
+
+                    [pscustomobject]@{
+                        Name    = $item.Name
+                        URL     = $item.URL
+                        Success = $downloadSucceeded
+                        Error   = $lastError
                     }
                 }
+            }
 
-                foreach ($result in $downloadResults) {
-                    if (-not $result.Success) {
-                        $downloadFailures.Add("$($result.Name): $($result.Error)")
-                        Write-Warning "[$($result.Name)] - Download failed after $maxRetryCount attempts: $($result.Error)"
-                    }
+            foreach ($result in $downloadResults) {
+                if (-not $result.Success) {
+                    $downloadFailures.Add("$($result.Name): $($result.Error)")
+                    Write-Warning "[$($result.Name)] - Download failed after $maxRetryCount attempts: $($result.Error)"
                 }
             }
+        }
 
-            foreach ($item in $pending) {
-                if (-not (Test-Path -LiteralPath $item.DownloadPath)) { continue }
-                Write-Verbose "[$($item.Name)] - Install to [$Scope]"
-                Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
-                Remove-Item -Path $item.DownloadPath -Force -ErrorAction SilentlyContinue
-            }
+        foreach ($item in $pending) {
+            if (-not (Test-Path -LiteralPath $item.DownloadPath)) { continue }
+            Write-Verbose "[$($item.Name)] - Install to [$Scope]"
+            Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
+            Remove-Item -Path $item.DownloadPath -Force -ErrorAction SilentlyContinue
+        }
 
-            if ($downloadFailures.Count -gt 0) {
-                $failureSummary = $downloadFailures -join '; '
-                throw "One or more font downloads failed: $failureSummary"
-            }
-        } finally {
+        if ($downloadFailures.Count -gt 0) {
+            $failureSummary = $downloadFailures -join '; '
+            throw "One or more font downloads failed: $failureSummary"
         }
     }
 
