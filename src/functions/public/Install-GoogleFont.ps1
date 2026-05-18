@@ -112,12 +112,24 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             foreach ($n in $installedNames) {
                 if ($n) { [void]$installedFamilies.Add($n) }
             }
+            $knownFamilies = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+            foreach ($gf in $script:GoogleFonts) {
+                [void]$knownFamilies.Add($gf.Name)
+            }
             $toProcess = [System.Collections.Generic.List[object]]::new()
             foreach ($googleFont in $googleFontsToInstall) {
                 $fontName = $googleFont.Name
                 $skip = $false
-                foreach ($family in $installedFamilies) {
-                    if ($family.StartsWith($fontName, [System.StringComparison]::OrdinalIgnoreCase)) { $skip = $true; break }
+                if ($installedFamilies.Contains($fontName)) {
+                    $skip = $true
+                } else {
+                    $prefix = "$fontName "
+                    foreach ($family in $installedFamilies) {
+                        if ($family.StartsWith($prefix, [System.StringComparison]::OrdinalIgnoreCase) -and
+                            -not $knownFamilies.Contains($family)) {
+                            $skip = $true; break
+                        }
+                    }
                 }
                 if ($skip) {
                     Write-Verbose "[$fontName] - Already installed, skipping"
