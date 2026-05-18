@@ -83,10 +83,6 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
         $guid = (New-Guid).Guid
         $tempPath = Join-Path -Path $HOME -ChildPath "GoogleFonts-$guid"
-        if (-not (Test-Path -Path $tempPath -PathType Container)) {
-            Write-Verbose "Create folder [$tempPath]"
-            $null = New-Item -Path $tempPath -ItemType Directory
-        }
     }
 
     process {
@@ -136,19 +132,21 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
         if ($IsWindows) {
             $cacheRoot = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'PSModule/GoogleFonts/cache'
+        } elseif ($IsMacOS) {
+            $cacheRoot = Join-Path $HOME 'Library/Caches/PSModule/GoogleFonts'
         } else {
-            $cacheRoot = Join-Path $HOME '.cache/PSModule/GoogleFonts'
-        }
-        if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
-            $null = New-Item -Path $cacheRoot -ItemType Directory -Force
+            $linuxCacheBase = if ([string]::IsNullOrWhiteSpace($env:XDG_CACHE_HOME)) {
+                Join-Path $HOME '.cache'
+            } else {
+                $env:XDG_CACHE_HOME
+            }
+            $cacheRoot = Join-Path $linuxCacheBase 'PSModule/GoogleFonts'
         }
 
-        $sha = [System.Security.Cryptography.SHA1]::Create()
-        $httpClient = [System.Net.Http.HttpClient]::new()
-        $httpClient.Timeout = [TimeSpan]::FromMinutes(5)
         $throttle = [Environment]::ProcessorCount
         $maxRetryCount = 5
         $retryDelaySeconds = 5
+        $downloadFailures = [System.Collections.Generic.List[string]]::new()
         try {
             $pending = [System.Collections.Generic.List[object]]::new()
             foreach ($googleFont in $googleFontsToInstall) {
@@ -161,8 +159,10 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 $fileExtension = $URL.Split('.')[-1]
                 $downloadFileName = "$fontName-$fontVariant.$fileExtension"
                 $downloadPath = Join-Path -Path $tempPath -ChildPath $downloadFileName
-                $urlHash = ([System.BitConverter]::ToString($sha.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($URL)))).Replace('-', '')
-                $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash.$fileExtension"
+                $hashBytes = [System.Security.Cryptography.SHA256]::HashData([System.Text.Encoding]::UTF8.GetBytes($URL))
+                $urlHash = ([System.BitConverter]::ToString($hashBytes)).Replace('-', '').ToLowerInvariant().Substring(0, 16)
+                $safeDownloadFileName = ($downloadFileName -replace '[^a-zA-Z0-9._-]', '_')
+                $cachePath = Join-Path -Path $cacheRoot -ChildPath "$urlHash-$safeDownloadFileName"
 
                 $pending.Add([pscustomobject]@{
                         Name         = $fontName
@@ -173,6 +173,18 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                     })
             }
 
+            if ($pending.Count -eq 0) {
+                return
+            }
+
+            if (-not (Test-Path -Path $tempPath -PathType Container)) {
+                Write-Verbose "Create folder [$tempPath]"
+                $null = New-Item -Path $tempPath -ItemType Directory
+            }
+            if (-not (Test-Path -Path $cacheRoot -PathType Container)) {
+                $null = New-Item -Path $cacheRoot -ItemType Directory -Force
+            }
+
             foreach ($item in $pending) {
                 if ($item.FromCache) {
                     Write-Verbose "[$($item.Name)] - Cache hit, copying from [$($item.CachePath)]"
@@ -181,38 +193,51 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             }
 
             $toDownload = @($pending | Where-Object { -not $_.FromCache })
-            for ($i = 0; $i -lt $toDownload.Count; $i += $throttle) {
-                $chunk = $toDownload[$i..([math]::Min($i + $throttle - 1, $toDownload.Count - 1))]
-                $tasks = foreach ($item in $chunk) {
-                    [pscustomobject]@{ Item = $item }
-                }
-                foreach ($t in $tasks) {
-                    $downloadSucceeded = $false
-                    for ($attempt = 1; $attempt -le $maxRetryCount -and -not $downloadSucceeded; $attempt++) {
-                        try {
-                            Write-Verbose "[$($t.Item.Name)] - Downloading to [$($t.Item.DownloadPath)] (attempt $attempt/$maxRetryCount)"
-                            $currentProgressPreference = $ProgressPreference
-                            $ProgressPreference = 'SilentlyContinue'
+            if ($toDownload.Count -gt 0) {
+                $downloadResults = @(
+                    $toDownload | ForEach-Object -Parallel {
+                        $item = $_
+                        $downloadSucceeded = $false
+                        $lastError = $null
+
+                        for ($attempt = 1; $attempt -le $using:maxRetryCount -and -not $downloadSucceeded; $attempt++) {
                             try {
-                                $bytes = $httpClient.GetByteArrayAsync($t.Item.URL).GetAwaiter().GetResult()
-                            } finally {
-                                $ProgressPreference = $currentProgressPreference
-                            }
-                            [System.IO.File]::WriteAllBytes($t.Item.DownloadPath, $bytes)
-                            try {
-                                [System.IO.File]::WriteAllBytes($t.Item.CachePath, $bytes)
+                                $currentProgressPreference = $ProgressPreference
+                                $ProgressPreference = 'SilentlyContinue'
+                                try {
+                                    Invoke-WebRequest -Uri $item.URL -OutFile $item.DownloadPath -MaximumRetryCount 1 -RetryIntervalSec 1
+                                } finally {
+                                    $ProgressPreference = $currentProgressPreference
+                                }
+
+                                try {
+                                    Copy-Item -LiteralPath $item.DownloadPath -Destination $item.CachePath -Force
+                                } catch {
+                                    Write-Verbose "[$($item.Name)] - Cache write failed: $($_.Exception.Message)"
+                                }
+
+                                $downloadSucceeded = $true
                             } catch {
-                                Write-Verbose "Cache write failed: $($_.Exception.Message)"
+                                $lastError = $_.Exception.Message
+                                if ($attempt -lt $using:maxRetryCount) {
+                                    Start-Sleep -Seconds $using:retryDelaySeconds
+                                }
                             }
-                            $downloadSucceeded = $true
-                        } catch {
-                            if ($attempt -lt $maxRetryCount) {
-                                Write-Verbose "[$($t.Item.Name)] - Download attempt $attempt failed, retrying in $retryDelaySeconds seconds: $($_.Exception.Message)"
-                                Start-Sleep -Seconds $retryDelaySeconds
-                                continue
-                            }
-                            Write-Warning "[$($t.Item.Name)] - Download failed after $maxRetryCount attempts: $($_.Exception.Message)"
                         }
+
+                        [pscustomobject]@{
+                            Name    = $item.Name
+                            URL     = $item.URL
+                            Success = $downloadSucceeded
+                            Error   = $lastError
+                        }
+                    } -ThrottleLimit $throttle
+                )
+
+                foreach ($result in $downloadResults) {
+                    if (-not $result.Success) {
+                        $downloadFailures.Add("$($result.Name): $($result.Error)")
+                        Write-Warning "[$($result.Name)] - Download failed after $maxRetryCount attempts: $($result.Error)"
                     }
                 }
             }
@@ -223,9 +248,12 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 Install-Font -Path $item.DownloadPath -Scope $Scope -Force:$Force
                 Remove-Item -Path $item.DownloadPath -Force -ErrorAction SilentlyContinue
             }
+
+            if ($downloadFailures.Count -gt 0) {
+                $failureSummary = $downloadFailures -join '; '
+                throw "One or more font downloads failed: $failureSummary"
+            }
         } finally {
-            $httpClient.Dispose()
-            $sha.Dispose()
         }
         Write-Verbose "Remove folder [$tempPath]"
     }
