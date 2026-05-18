@@ -117,7 +117,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
                 $fontName = $googleFont.Name
                 $skip = $false
                 foreach ($family in $installedFamilies) {
-                    if ($family -like "$fontName*") { $skip = $true; break }
+                    if ($family.StartsWith($fontName, [System.StringComparison]::OrdinalIgnoreCase)) { $skip = $true; break }
                 }
                 if ($skip) {
                     Write-Verbose "[$fontName] - Already installed, skipping"
@@ -144,6 +144,7 @@ Please run the command again with elevated rights (Run as Administrator) or prov
             }
             $cacheRoot = Join-Path $linuxCacheBase 'PSModule/GoogleFonts'
         }
+        Write-Verbose "[$Scope] - Cache root: [$cacheRoot]"
 
         $throttle = [Environment]::ProcessorCount
         $maxRetryCount = 5
@@ -206,6 +207,9 @@ Please run the command again with elevated rights (Run as Administrator) or prov
 
         $toDownload = @($pending | Where-Object { -not $_.FromCache })
         if ($toDownload.Count -gt 0) {
+            foreach ($item in $toDownload) {
+                Write-Verbose "[$($item.Name)] - Cache miss, downloading from [$($item.URL)]"
+            }
             $disableParallelDownloads = (
                 $script:DisableParallelDownloadsForTests -eq $true -or
                 $env:PSMODULE_GOOGLEFONTS_DISABLE_PARALLEL -eq '1'
