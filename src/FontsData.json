@@ -970,6 +970,11 @@
         "URL": "https://fonts.gstatic.com/s/alice/v21/OpNCnoEEmtHa6FcJpA_chzJ0.ttf"
     },
     {
+        "Name": "Alien Block",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/alienblock/v2/JIA3UVFjdXpFsgA7S8BAOxOiPzUveSxy.ttf"
+    },
+    {
         "Name": "Alike",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/alike/v22/HI_EiYEYI6BIoEjBSZXAQ4-d.ttf"
@@ -11677,92 +11682,92 @@
     {
         "Name": "Geist Mono",
         "Variant": "100",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KZ5T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "200",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9KJ5T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "300",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeFjKJ5T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "500",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "600",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL55T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "700",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "800",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeG9L55T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "900",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55T7ihaO_CS.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55T7ihaO_CS.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "100italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YR5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YR5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "200italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a_YQ5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a_YQ5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "300italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1aygQ5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1aygQ5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YQ5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a3YQ5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "500italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a0QQ5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a0QQ5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "600italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a6gX5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a6gX5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "700italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a5EX5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a5EX5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "800italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a_YX5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a_YX5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Geist Mono",
         "Variant": "900italic",
-        "URL": "https://fonts.gstatic.com/s/geistmono/v5/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a98X5Cx4PuCSdNg.ttf"
+        "URL": "https://fonts.gstatic.com/s/geistmono/v6/or3wQ6H-1_WfwkMZI_qYFrIHlDMSVteuavT1a98X5Cx4PuCSdNg.ttf"
     },
     {
         "Name": "Gelasio",
@@ -18682,37 +18687,37 @@
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "100",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGCAYIAV6gnpUpoWwNkYvrugw9RuM3ixLsg6-av1x0.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGCAYIAV6gnpUpoWwNkYvrugw9RuM3ixLsg6-av1x0.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "300",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0q5psKxeqmzgRK.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0q5psKxeqmzgRK.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "regular",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWGzr8C7vav.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWGzr8C7vav.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "500",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM1y55sKxeqmzgRK.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM1y55sKxeqmzgRK.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "700",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM064ZsKxeqmzgRK.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM064ZsKxeqmzgRK.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "800",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0m4psKxeqmzgRK.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0m4psKxeqmzgRK.ttf"
     },
     {
         "Name": "M PLUS Rounded 1c",
         "Variant": "900",
-        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v20/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0C45sKxeqmzgRK.ttf"
+        "URL": "https://fonts.gstatic.com/s/mplusrounded1c/v22/VdGBAYIAV6gnpUpoWwNkYvrugw9RuM0C45sKxeqmzgRK.ttf"
     },
     {
         "Name": "M PLUS U",
@@ -29223,6 +29228,96 @@
         "Name": "Playwrite ZA Guides",
         "Variant": "regular",
         "URL": "https://fonts.gstatic.com/s/playwritezaguides/v1/O4ZOFHPsmxlhCg3-iycDyEwy0BT1ribk2HDoCLfQmgE.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "100",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZudo6NwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "200",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZsdoqNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "300",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZvDoqNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "regular",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZudoqNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "500",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZuvoqNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "600",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZtDpaNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "700",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZt6paNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "800",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZsdpaNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "900",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R70xjyYdl_WLNKb6P3NQcLsvUCb5T137p26TBozFA2e_cZs0paNwX3r8wdrB.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "100italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4UsyVX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "200italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4cszVX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "300italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4RUzVX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4UszVX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "500italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4XkzVX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "600italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4ZU0VX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "700italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4aw0VX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "800italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4cs0VX7exMrB8wQ.ttf"
+    },
+    {
+        "Name": "Pliant",
+        "Variant": "900italic",
+        "URL": "https://fonts.gstatic.com/s/pliant/v1/R703jyYdl_WLNKbQNkGzkMJ8xoj-WpW5VSeh-VSsaP0Rdo5V4eI0VX7exMrB8wQ.ttf"
     },
     {
         "Name": "Plus Jakarta Sans",
