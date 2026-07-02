@@ -21,8 +21,8 @@ jobs:
       - name: Update-FontsData
         uses: PSModule/GitHub-Script@1ee97bbc652d19c38ae12f6e1e47e9d9fbd12d0a # v1.8.0
         env:
-          GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }}
+          GOOGLE_DEVELOPER_API_KEY: ${{ secrets.GOOGLE_DEVELOPER_API_KEY }} # zizmor: ignore[secrets-outside-env]
         with:
-          ClientID: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_CLIENT_ID }}
-          PrivateKey: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_PRIVATE_KEY }}
+          ClientID: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_CLIENT_ID }} # zizmor: ignore[secrets-outside-env]
+          PrivateKey: ${{ secrets.GOOGLEFONTS_UPDATER_BOT_PRIVATE_KEY }} # zizmor: ignore[secrets-outside-env]
           Script: scripts/Update-FontsData.ps1
