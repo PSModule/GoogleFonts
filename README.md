@@ -4,7 +4,7 @@ GoogleFonts is a PowerShell module for downloading and installing fonts from Goo
 
 ## Prerequisites
 
-`Install-GoogleFont` requires the `Fonts` module version 1.1.21 or later and the `Admin` module version 1.1.6 or later.
+`Install-GoogleFont` requires the `Fonts` module version 1.1.21 and the `Admin` module version 1.1.6.
 
 ## Installation
 
@@ -23,7 +23,7 @@ Use PowerShell help and command discovery for module details:
 
 ```powershell
 Get-Command -Module GoogleFonts
-Get-Help <CommandName> -Examples
+Get-Help Install-GoogleFont -Examples
 ```
 
 ## Contributing
