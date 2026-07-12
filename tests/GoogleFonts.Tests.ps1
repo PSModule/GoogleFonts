@@ -1,7 +1,5 @@
 #Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '6.0.0'; MaximumVersion = '6.*' }
 
-﻿#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '6.0.0'; MaximumVersion = '6.*' }
-
 Describe 'Module' {
     Context 'Function: Get-GoogleFont' {
         It 'Returns all fonts' {
