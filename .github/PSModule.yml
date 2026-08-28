@@ -1,6 +1,14 @@
 # This file is used to configure the Process-PSModule workflow.
 # Reference:
-# - https://github.com/PSModule/Process-PSModule?tab=readme-ov-file#configuration
+# - https://github.com/PSModule/Process-PSModule/blob/main/docs/content/reference/settings.md
+
+ImportantFilePatterns:
+  - '^src/'
+  - '^README\.md$'
+  - '^tests/'
+  - '^\.github/PSModule\.yml$'
+  - '^\.github/zensical\.toml$'
+  - '^\.github/workflows/'
 
 Test:
   CodeCoverage:
@@ -24,6 +32,7 @@ Linter:
   env:
     VALIDATE_BIOME_FORMAT: false
     VALIDATE_BIOME_LINT: false
+    VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
     VALIDATE_JSCPD: false
     VALIDATE_JSON_PRETTIER: false
     VALIDATE_MARKDOWN_PRETTIER: false
